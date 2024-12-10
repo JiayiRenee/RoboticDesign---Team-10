@@ -1,0 +1,40 @@
+-- run_test.py: invoking following command in '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry':
+ - /home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/image_geometry-utest --gtest_output=xml:/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml
+
+[==========] Running 12 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 12 tests from PinholeTest
+[ RUN      ] PinholeTest.accessorsCorrect
+[       OK ] PinholeTest.accessorsCorrect (1 ms)
+[ RUN      ] PinholeTest.projectPoint
+[       OK ] PinholeTest.projectPoint (1 ms)
+[ RUN      ] PinholeTest.rectifyPoint
+[       OK ] PinholeTest.rectifyPoint (42 ms)
+[ RUN      ] PinholeTest.getDeltas
+[       OK ] PinholeTest.getDeltas (0 ms)
+[ RUN      ] PinholeTest.initialization
+[       OK ] PinholeTest.initialization (0 ms)
+[ RUN      ] PinholeTest.rectifyIfCalibrated
+[       OK ] PinholeTest.rectifyIfCalibrated (14 ms)
+[ RUN      ] PinholeTest.unrectifyImage
+[       OK ] PinholeTest.unrectifyImage (1788 ms)
+[ RUN      ] PinholeTest.unrectifyImageWithBinning
+[       OK ] PinholeTest.unrectifyImageWithBinning (665 ms)
+[ RUN      ] PinholeTest.unrectifyImageWithRoi
+[       OK ] PinholeTest.unrectifyImageWithRoi (909 ms)
+[ RUN      ] PinholeTest.unrectifyImageWithBinningAndRoi
+[       OK ] PinholeTest.unrectifyImageWithBinningAndRoi (229 ms)
+[ RUN      ] PinholeTest.rectifiedRoiSize
+[       OK ] PinholeTest.rectifiedRoiSize (0 ms)
+[ RUN      ] PinholeTest.rectifiedRoiCaching
+[       OK ] PinholeTest.rectifiedRoiCaching (0 ms)
+[----------] 12 tests from PinholeTest (3649 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 1 test suite ran. (3649 ms total)
+[  PASSED  ] 12 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml'
+-- run_test.py: verify result file '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml'

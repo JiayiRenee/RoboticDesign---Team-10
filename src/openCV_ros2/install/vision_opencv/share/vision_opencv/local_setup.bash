@@ -1,0 +1,1 @@
+/home/mscrobotics2425laptop7/openCV_ros2/build/vision_opencv/ament_cmake_environment_hooks/local_setup.bash

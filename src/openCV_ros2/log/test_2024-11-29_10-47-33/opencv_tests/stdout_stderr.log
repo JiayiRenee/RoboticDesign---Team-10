@@ -1,0 +1,10 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: /home/mscrobotics2425laptop7/openCV_ros2/build/opencv_tests/.pytest_cache
+rootdir: /home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv, configfile: pytest.ini
+plugins: launch-testing-1.0.6, ament-xmllint-0.12.11, ament-flake8-0.12.11, ament-copyright-0.12.11, launch-testing-ros-0.19.7, ament-pep257-0.12.11, ament-lint-0.12.11, cov-3.0.0, colcon-core-0.18.1
+[1mcollecting ... [0m[1m
+collected 0 items                                                              [0m
+
+- generated xml file: /home/mscrobotics2425laptop7/openCV_ros2/build/opencv_tests/pytest.xml -
+[33m============================ [33mno tests ran[0m[33m in 0.01s[0m[33m =============================[0m

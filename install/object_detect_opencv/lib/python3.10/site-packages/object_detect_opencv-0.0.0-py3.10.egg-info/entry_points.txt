@@ -1,0 +1,3 @@
+[console_scripts]
+image_sub = object_detect_opencv.image_sub:main
+

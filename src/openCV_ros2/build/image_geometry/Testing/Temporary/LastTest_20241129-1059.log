@@ -1,0 +1,58 @@
+Start testing: Nov 29 10:59 GMT
+----------------------------------------------------------
+1/1 Testing: image_geometry-utest
+1/1 Test: image_geometry-utest
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml" "--package-name" "image_geometry" "--output-file" "/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/ament_cmake_gtest/image_geometry-utest.txt" "--command" "/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/image_geometry-utest" "--gtest_output=xml:/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml"
+Directory: /home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry
+"image_geometry-utest" start time: Nov 29 10:59 GMT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry':
+ - /home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/image_geometry-utest --gtest_output=xml:/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml
+[==========] Running 12 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 12 tests from PinholeTest
+[ RUN      ] PinholeTest.accessorsCorrect
+[       OK ] PinholeTest.accessorsCorrect (1 ms)
+[ RUN      ] PinholeTest.projectPoint
+[       OK ] PinholeTest.projectPoint (1 ms)
+[ RUN      ] PinholeTest.rectifyPoint
+[       OK ] PinholeTest.rectifyPoint (42 ms)
+[ RUN      ] PinholeTest.getDeltas
+[       OK ] PinholeTest.getDeltas (0 ms)
+[ RUN      ] PinholeTest.initialization
+[       OK ] PinholeTest.initialization (0 ms)
+[ RUN      ] PinholeTest.rectifyIfCalibrated
+[       OK ] PinholeTest.rectifyIfCalibrated (14 ms)
+[ RUN      ] PinholeTest.unrectifyImage
+[       OK ] PinholeTest.unrectifyImage (1788 ms)
+[ RUN      ] PinholeTest.unrectifyImageWithBinning
+[       OK ] PinholeTest.unrectifyImageWithBinning (665 ms)
+[ RUN      ] PinholeTest.unrectifyImageWithRoi
+[       OK ] PinholeTest.unrectifyImageWithRoi (909 ms)
+[ RUN      ] PinholeTest.unrectifyImageWithBinningAndRoi
+[       OK ] PinholeTest.unrectifyImageWithBinningAndRoi (229 ms)
+[ RUN      ] PinholeTest.rectifiedRoiSize
+[       OK ] PinholeTest.rectifiedRoiSize (0 ms)
+[ RUN      ] PinholeTest.rectifiedRoiCaching
+[       OK ] PinholeTest.rectifiedRoiCaching (0 ms)
+[----------] 12 tests from PinholeTest (3649 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 1 test suite ran. (3649 ms total)
+[  PASSED  ] 12 tests.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml'
+-- run_test.py: verify result file '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml'
+<end of output>
+Test time =   3.75 sec
+----------------------------------------------------------
+Test Passed.
+"image_geometry-utest" end time: Nov 29 10:59 GMT
+"image_geometry-utest" time elapsed: 00:00:03
+----------------------------------------------------------
+
+End testing: Nov 29 10:59 GMT
+
+gtest =   3.75 sec*proc
+

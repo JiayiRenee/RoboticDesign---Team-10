@@ -1,0 +1,4 @@
+[console_scripts]
+EKF = navigation_demos.EKF:main
+main_node = navigation_demos.main_node:main
+

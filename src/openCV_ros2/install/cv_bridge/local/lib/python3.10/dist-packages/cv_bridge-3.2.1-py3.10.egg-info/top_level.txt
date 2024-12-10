@@ -1,0 +1,1 @@
+/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/ament_cmake_python/cv_bridge/cv_bridge.egg-info/top_level.txt

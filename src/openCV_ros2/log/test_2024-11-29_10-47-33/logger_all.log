@@ -1,0 +1,173 @@
+[0.174s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'test']
+[0.174s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='test', build_base='build', install_base='install', merge_install=False, test_result_base=None, retest_until_fail=0, retest_until_pass=0, abort_on_error=False, return_code_on_test_failure=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], ctest_args=None, python_testing=None, pytest_args=None, pytest_with_coverage=False, unittest_args=None, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x79fdcff47640>, verb_extension=<colcon_core.verb.test.TestVerb object at 0x79fdcff46290>, main=<bound method TestVerb.main of <colcon_core.verb.test.TestVerb object at 0x79fdcff46290>>, mixin_verb=('test',))
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.297s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mscrobotics2425laptop7/openCV_ros2'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'cmake'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['python_setup_py']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ros'
+[0.317s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/cv_bridge' with type 'ros.ament_cmake' and name 'cv_bridge'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/image_geometry' with type 'ros.ament_cmake' and name 'image_geometry'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ros'
+[0.319s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/opencv_tests' with type 'ros.ament_python' and name 'opencv_tests'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/vision_opencv' with type 'ros.ament_cmake' and name 'vision_opencv'
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' test argument 'ctest_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' test argument 'python_testing' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' test argument 'pytest_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' test argument 'pytest_with_coverage' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' test argument 'unittest_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' test argument 'retest_until_pass' from command line to '0'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' test argument 'retest_until_fail' from command line to '0'
+[0.325s] DEBUG:colcon.colcon_core.verb.test:Testing package 'cv_bridge' with the following arguments: {'build_base': '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge', 'ctest_args': None, 'install_base': '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge', 'path': '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' test argument 'ctest_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' test argument 'python_testing' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' test argument 'pytest_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' test argument 'pytest_with_coverage' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' test argument 'unittest_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' test argument 'retest_until_pass' from command line to '0'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' test argument 'retest_until_fail' from command line to '0'
+[0.325s] DEBUG:colcon.colcon_core.verb.test:Testing package 'image_geometry' with the following arguments: {'build_base': '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry', 'ctest_args': None, 'install_base': '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry', 'path': '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/image_geometry', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' test argument 'ctest_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' test argument 'python_testing' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' test argument 'pytest_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' test argument 'pytest_with_coverage' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' test argument 'unittest_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' test argument 'retest_until_pass' from command line to '0'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' test argument 'retest_until_fail' from command line to '0'
+[0.326s] DEBUG:colcon.colcon_core.verb.test:Testing package 'opencv_tests' with the following arguments: {'build_base': '/home/mscrobotics2425laptop7/openCV_ros2/build/opencv_tests', 'ctest_args': None, 'install_base': '/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests', 'path': '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/opencv_tests', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' test argument 'ctest_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' test argument 'python_testing' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' test argument 'pytest_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' test argument 'pytest_with_coverage' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' test argument 'unittest_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' test argument 'retest_until_pass' from command line to '0'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' test argument 'retest_until_fail' from command line to '0'
+[0.326s] DEBUG:colcon.colcon_core.verb.test:Testing package 'vision_opencv' with the following arguments: {'build_base': '/home/mscrobotics2425laptop7/openCV_ros2/build/vision_opencv', 'ctest_args': None, 'install_base': '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv', 'path': '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/vision_opencv', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.326s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.327s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.328s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge' with build type 'ament_cmake'
+[0.328s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge'
+[0.332s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.332s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.332s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.338s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/image_geometry' with build type 'ament_cmake'
+[0.339s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/image_geometry'
+[0.340s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.340s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry': CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry:/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge': CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge:/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv:/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry LD_LIBRARY_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/lib:/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[3.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry:/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[17.744s] INFO:colcon.colcon_ros.task.ament_python.test:Testing ROS package in '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/opencv_tests' with build type'ament_python'
+[17.745s] INFO:colcon.colcon_core.task.python.test:Testing Python package in '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/opencv_tests'
+[17.745s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.745s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge' returned '8': CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge:/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv:/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry LD_LIBRARY_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/lib:/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[17.762s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/vision_opencv' with build type 'ament_cmake'
+[17.762s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/vision_opencv'
+[17.763s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.763s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.965s] Level 1:colcon.colcon_core.task.python.test:test() by extension 'pytest'
+[17.966s] Level 1:colcon.colcon_core.task.python.test:test.step() by extension 'pytest'
+[17.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/opencv_tests': AMENT_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests:/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv:/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge:/opt/ros/humble CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge:/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv:/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry LD_LIBRARY_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/lib:/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTEST_ADDOPTS=--tb=short --junit-xml=/home/mscrobotics2425laptop7/openCV_ros2/build/opencv_tests/pytest.xml --junit-prefix=opencv_tests -o cache_dir=/home/mscrobotics2425laptop7/openCV_ros2/build/opencv_tests/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[17.984s] Level 5:colcon.colcon_cmake.task.cmake.test:No ctests found in '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/vision_opencv'
+[18.239s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.239s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.239s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[18.239s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/opencv_tests' returned '5': AMENT_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests:/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv:/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge:/opt/ros/humble CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge:/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv:/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry LD_LIBRARY_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/lib:/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTEST_ADDOPTS=--tb=short --junit-xml=/home/mscrobotics2425laptop7/openCV_ros2/build/opencv_tests/pytest.xml --junit-prefix=opencv_tests -o cache_dir=/home/mscrobotics2425laptop7/openCV_ros2/build/opencv_tests/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[18.253s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.253s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.253s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.269s] DEBUG:colcon.colcon_core.event_reactor:joined thread

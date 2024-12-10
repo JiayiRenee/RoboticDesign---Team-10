@@ -1,0 +1,40 @@
+[1.105s] Invoking command in '/home/mscrobotics2425laptop7/robotdesign - team10/src/object_detect/object_detect_opencv': PYTHONPATH=/home/mscrobotics2425laptop7/robotdesign - team10/build/object_detect_opencv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop7/robotdesign - team10/install/object_detect_opencv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/object_detect_opencv build --build-base /home/mscrobotics2425laptop7/robotdesign - team10/build/object_detect_opencv/build install --record /home/mscrobotics2425laptop7/robotdesign - team10/build/object_detect_opencv/install.log --single-version-externally-managed install_data
+[1.369s] running egg_info
+[1.369s] creating ../../../build/object_detect_opencv/object_detect_opencv.egg-info
+[1.369s] writing ../../../build/object_detect_opencv/object_detect_opencv.egg-info/PKG-INFO
+[1.369s] writing dependency_links to ../../../build/object_detect_opencv/object_detect_opencv.egg-info/dependency_links.txt
+[1.369s] writing entry points to ../../../build/object_detect_opencv/object_detect_opencv.egg-info/entry_points.txt
+[1.369s] writing requirements to ../../../build/object_detect_opencv/object_detect_opencv.egg-info/requires.txt
+[1.369s] writing top-level names to ../../../build/object_detect_opencv/object_detect_opencv.egg-info/top_level.txt
+[1.370s] writing manifest file '../../../build/object_detect_opencv/object_detect_opencv.egg-info/SOURCES.txt'
+[1.370s] reading manifest file '../../../build/object_detect_opencv/object_detect_opencv.egg-info/SOURCES.txt'
+[1.371s] writing manifest file '../../../build/object_detect_opencv/object_detect_opencv.egg-info/SOURCES.txt'
+[1.371s] running build
+[1.371s] running build_py
+[1.371s] creating /home/mscrobotics2425laptop7/robotdesign - team10/build/object_detect_opencv/build
+[1.371s] creating /home/mscrobotics2425laptop7/robotdesign - team10/build/object_detect_opencv/build/lib
+[1.371s] creating /home/mscrobotics2425laptop7/robotdesign - team10/build/object_detect_opencv/build/lib/object_detect_opencv
+[1.371s] copying object_detect_opencv/test.py -> /home/mscrobotics2425laptop7/robotdesign - team10/build/object_detect_opencv/build/lib/object_detect_opencv
+[1.371s] copying object_detect_opencv/__init__.py -> /home/mscrobotics2425laptop7/robotdesign - team10/build/object_detect_opencv/build/lib/object_detect_opencv
+[1.371s] copying object_detect_opencv/image_sub.py -> /home/mscrobotics2425laptop7/robotdesign - team10/build/object_detect_opencv/build/lib/object_detect_opencv
+[1.371s] running install
+[1.371s] running install_lib
+[1.372s] creating /home/mscrobotics2425laptop7/robotdesign - team10/install/object_detect_opencv/lib/python3.10/site-packages/object_detect_opencv
+[1.372s] copying /home/mscrobotics2425laptop7/robotdesign - team10/build/object_detect_opencv/build/lib/object_detect_opencv/test.py -> /home/mscrobotics2425laptop7/robotdesign - team10/install/object_detect_opencv/lib/python3.10/site-packages/object_detect_opencv
+[1.372s] copying /home/mscrobotics2425laptop7/robotdesign - team10/build/object_detect_opencv/build/lib/object_detect_opencv/__init__.py -> /home/mscrobotics2425laptop7/robotdesign - team10/install/object_detect_opencv/lib/python3.10/site-packages/object_detect_opencv
+[1.372s] copying /home/mscrobotics2425laptop7/robotdesign - team10/build/object_detect_opencv/build/lib/object_detect_opencv/image_sub.py -> /home/mscrobotics2425laptop7/robotdesign - team10/install/object_detect_opencv/lib/python3.10/site-packages/object_detect_opencv
+[1.372s] byte-compiling /home/mscrobotics2425laptop7/robotdesign - team10/install/object_detect_opencv/lib/python3.10/site-packages/object_detect_opencv/test.py to test.cpython-310.pyc
+[1.372s] byte-compiling /home/mscrobotics2425laptop7/robotdesign - team10/install/object_detect_opencv/lib/python3.10/site-packages/object_detect_opencv/__init__.py to __init__.cpython-310.pyc
+[1.372s] byte-compiling /home/mscrobotics2425laptop7/robotdesign - team10/install/object_detect_opencv/lib/python3.10/site-packages/object_detect_opencv/image_sub.py to image_sub.cpython-310.pyc
+[1.373s] running install_data
+[1.373s] creating /home/mscrobotics2425laptop7/robotdesign - team10/install/object_detect_opencv/share/ament_index
+[1.373s] creating /home/mscrobotics2425laptop7/robotdesign - team10/install/object_detect_opencv/share/ament_index/resource_index
+[1.373s] creating /home/mscrobotics2425laptop7/robotdesign - team10/install/object_detect_opencv/share/ament_index/resource_index/packages
+[1.373s] copying resource/object_detect_opencv -> /home/mscrobotics2425laptop7/robotdesign - team10/install/object_detect_opencv/share/ament_index/resource_index/packages
+[1.373s] copying package.xml -> /home/mscrobotics2425laptop7/robotdesign - team10/install/object_detect_opencv/share/object_detect_opencv
+[1.373s] running install_egg_info
+[1.374s] Copying ../../../build/object_detect_opencv/object_detect_opencv.egg-info to /home/mscrobotics2425laptop7/robotdesign - team10/install/object_detect_opencv/lib/python3.10/site-packages/object_detect_opencv-0.0.0-py3.10.egg-info
+[1.374s] running install_scripts
+[1.386s] Installing image_sub script to /home/mscrobotics2425laptop7/robotdesign - team10/install/object_detect_opencv/lib/object_detect_opencv
+[1.386s] writing list of installed files to '/home/mscrobotics2425laptop7/robotdesign - team10/build/object_detect_opencv/install.log'
+[1.403s] Invoked command in '/home/mscrobotics2425laptop7/robotdesign - team10/src/object_detect/object_detect_opencv' returned '0': PYTHONPATH=/home/mscrobotics2425laptop7/robotdesign - team10/build/object_detect_opencv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop7/robotdesign - team10/install/object_detect_opencv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/object_detect_opencv build --build-base /home/mscrobotics2425laptop7/robotdesign - team10/build/object_detect_opencv/build install --record /home/mscrobotics2425laptop7/robotdesign - team10/build/object_detect_opencv/install.log --single-version-externally-managed install_data

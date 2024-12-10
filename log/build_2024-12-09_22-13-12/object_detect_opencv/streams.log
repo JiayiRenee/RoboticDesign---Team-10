@@ -1,0 +1,21 @@
+[0.954s] Invoking command in '/home/mscrobotics2425laptop7/robotdesign - team10/src/object_detect/object_detect_opencv': PYTHONPATH=/home/mscrobotics2425laptop7/robotdesign - team10/build/object_detect_opencv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop7/robotdesign - team10/install/object_detect_opencv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/object_detect_opencv build --build-base /home/mscrobotics2425laptop7/robotdesign - team10/build/object_detect_opencv/build install --record /home/mscrobotics2425laptop7/robotdesign - team10/build/object_detect_opencv/install.log --single-version-externally-managed install_data
+[1.155s] running egg_info
+[1.155s] writing ../../../build/object_detect_opencv/object_detect_opencv.egg-info/PKG-INFO
+[1.155s] writing dependency_links to ../../../build/object_detect_opencv/object_detect_opencv.egg-info/dependency_links.txt
+[1.156s] writing entry points to ../../../build/object_detect_opencv/object_detect_opencv.egg-info/entry_points.txt
+[1.156s] writing requirements to ../../../build/object_detect_opencv/object_detect_opencv.egg-info/requires.txt
+[1.156s] writing top-level names to ../../../build/object_detect_opencv/object_detect_opencv.egg-info/top_level.txt
+[1.157s] reading manifest file '../../../build/object_detect_opencv/object_detect_opencv.egg-info/SOURCES.txt'
+[1.157s] writing manifest file '../../../build/object_detect_opencv/object_detect_opencv.egg-info/SOURCES.txt'
+[1.158s] running build
+[1.158s] running build_py
+[1.158s] running install
+[1.158s] running install_lib
+[1.159s] running install_data
+[1.159s] running install_egg_info
+[1.160s] removing '/home/mscrobotics2425laptop7/robotdesign - team10/install/object_detect_opencv/lib/python3.10/site-packages/object_detect_opencv-0.0.0-py3.10.egg-info' (and everything under it)
+[1.160s] Copying ../../../build/object_detect_opencv/object_detect_opencv.egg-info to /home/mscrobotics2425laptop7/robotdesign - team10/install/object_detect_opencv/lib/python3.10/site-packages/object_detect_opencv-0.0.0-py3.10.egg-info
+[1.161s] running install_scripts
+[1.174s] Installing image_sub script to /home/mscrobotics2425laptop7/robotdesign - team10/install/object_detect_opencv/lib/object_detect_opencv
+[1.175s] writing list of installed files to '/home/mscrobotics2425laptop7/robotdesign - team10/build/object_detect_opencv/install.log'
+[1.190s] Invoked command in '/home/mscrobotics2425laptop7/robotdesign - team10/src/object_detect/object_detect_opencv' returned '0': PYTHONPATH=/home/mscrobotics2425laptop7/robotdesign - team10/build/object_detect_opencv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop7/robotdesign - team10/install/object_detect_opencv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/object_detect_opencv build --build-base /home/mscrobotics2425laptop7/robotdesign - team10/build/object_detect_opencv/build install --record /home/mscrobotics2425laptop7/robotdesign - team10/build/object_detect_opencv/install.log --single-version-externally-managed install_data

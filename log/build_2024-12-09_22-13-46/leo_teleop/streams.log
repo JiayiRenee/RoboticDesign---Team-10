@@ -1,0 +1,25 @@
+[0.038s] Invoking command in '/home/mscrobotics2425laptop7/robotdesign - team10/build/leo_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mscrobotics2425laptop7/robotdesign - team10/install/object_detect_opencv:/home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos:/home/mscrobotics2425laptop7/robotdesign - team10/install/gz_example_robot_description:/opt/ros/humble /usr/bin/cmake --build /home/mscrobotics2425laptop7/robotdesign - team10/build/leo_teleop -- -j12 -l12
+[0.590s] Invoked command in '/home/mscrobotics2425laptop7/robotdesign - team10/build/leo_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mscrobotics2425laptop7/robotdesign - team10/install/object_detect_opencv:/home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos:/home/mscrobotics2425laptop7/robotdesign - team10/install/gz_example_robot_description:/opt/ros/humble /usr/bin/cmake --build /home/mscrobotics2425laptop7/robotdesign - team10/build/leo_teleop -- -j12 -l12
+[0.620s] Invoking command in '/home/mscrobotics2425laptop7/robotdesign - team10/build/leo_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mscrobotics2425laptop7/robotdesign - team10/install/object_detect_opencv:/home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos:/home/mscrobotics2425laptop7/robotdesign - team10/install/gz_example_robot_description:/opt/ros/humble /usr/bin/cmake --install /home/mscrobotics2425laptop7/robotdesign - team10/build/leo_teleop
+[0.630s] -- Install configuration: ""
+[0.631s] -- Up-to-date: /home/mscrobotics2425laptop7/robotdesign - team10/install/leo_teleop/share/leo_teleop/config
+[0.634s] -- Up-to-date: /home/mscrobotics2425laptop7/robotdesign - team10/install/leo_teleop/share/leo_teleop/config/joy_config.yaml
+[0.634s] -- Up-to-date: /home/mscrobotics2425laptop7/robotdesign - team10/install/leo_teleop/share/leo_teleop/launch
+[0.634s] -- Up-to-date: /home/mscrobotics2425laptop7/robotdesign - team10/install/leo_teleop/share/leo_teleop/launch/key_teleop.launch.xml
+[0.634s] -- Up-to-date: /home/mscrobotics2425laptop7/robotdesign - team10/install/leo_teleop/share/leo_teleop/launch/joy_teleop.launch.xml
+[0.635s] -- Up-to-date: /home/mscrobotics2425laptop7/robotdesign - team10/install/leo_teleop/share/ament_index/resource_index/package_run_dependencies/leo_teleop
+[0.635s] -- Up-to-date: /home/mscrobotics2425laptop7/robotdesign - team10/install/leo_teleop/share/ament_index/resource_index/parent_prefix_path/leo_teleop
+[0.635s] -- Up-to-date: /home/mscrobotics2425laptop7/robotdesign - team10/install/leo_teleop/share/leo_teleop/environment/ament_prefix_path.sh
+[0.635s] -- Up-to-date: /home/mscrobotics2425laptop7/robotdesign - team10/install/leo_teleop/share/leo_teleop/environment/ament_prefix_path.dsv
+[0.635s] -- Up-to-date: /home/mscrobotics2425laptop7/robotdesign - team10/install/leo_teleop/share/leo_teleop/environment/path.sh
+[0.635s] -- Up-to-date: /home/mscrobotics2425laptop7/robotdesign - team10/install/leo_teleop/share/leo_teleop/environment/path.dsv
+[0.635s] -- Up-to-date: /home/mscrobotics2425laptop7/robotdesign - team10/install/leo_teleop/share/leo_teleop/local_setup.bash
+[0.635s] -- Up-to-date: /home/mscrobotics2425laptop7/robotdesign - team10/install/leo_teleop/share/leo_teleop/local_setup.sh
+[0.635s] -- Up-to-date: /home/mscrobotics2425laptop7/robotdesign - team10/install/leo_teleop/share/leo_teleop/local_setup.zsh
+[0.636s] -- Up-to-date: /home/mscrobotics2425laptop7/robotdesign - team10/install/leo_teleop/share/leo_teleop/local_setup.dsv
+[0.636s] -- Installing: /home/mscrobotics2425laptop7/robotdesign - team10/install/leo_teleop/share/leo_teleop/package.dsv
+[0.636s] -- Up-to-date: /home/mscrobotics2425laptop7/robotdesign - team10/install/leo_teleop/share/ament_index/resource_index/packages/leo_teleop
+[0.636s] -- Up-to-date: /home/mscrobotics2425laptop7/robotdesign - team10/install/leo_teleop/share/leo_teleop/cmake/leo_teleopConfig.cmake
+[0.636s] -- Up-to-date: /home/mscrobotics2425laptop7/robotdesign - team10/install/leo_teleop/share/leo_teleop/cmake/leo_teleopConfig-version.cmake
+[0.636s] -- Up-to-date: /home/mscrobotics2425laptop7/robotdesign - team10/install/leo_teleop/share/leo_teleop/package.xml
+[0.648s] Invoked command in '/home/mscrobotics2425laptop7/robotdesign - team10/build/leo_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mscrobotics2425laptop7/robotdesign - team10/install/object_detect_opencv:/home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos:/home/mscrobotics2425laptop7/robotdesign - team10/install/gz_example_robot_description:/opt/ros/humble /usr/bin/cmake --install /home/mscrobotics2425laptop7/robotdesign - team10/build/leo_teleop

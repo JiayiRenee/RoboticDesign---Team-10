@@ -1,0 +1,2 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/share/image_geometry/package.sh"

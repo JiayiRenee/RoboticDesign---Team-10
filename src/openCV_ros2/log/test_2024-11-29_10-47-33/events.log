@@ -1,0 +1,828 @@
+[0.000000] (-) TimerEvent: {}
+[0.000869] (cv_bridge) JobQueued: {'identifier': 'cv_bridge', 'dependencies': OrderedDict([('cv_bridge', '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge')])}
+[0.001165] (image_geometry) JobQueued: {'identifier': 'image_geometry', 'dependencies': OrderedDict([('image_geometry', '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry')])}
+[0.001248] (opencv_tests) JobQueued: {'identifier': 'opencv_tests', 'dependencies': OrderedDict([('cv_bridge', '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge'), ('opencv_tests', '/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests')])}
+[0.001281] (vision_opencv) JobQueued: {'identifier': 'vision_opencv', 'dependencies': OrderedDict([('cv_bridge', '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge'), ('image_geometry', '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry'), ('vision_opencv', '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv')])}
+[0.001304] (cv_bridge) JobStarted: {'identifier': 'cv_bridge'}
+[0.011467] (image_geometry) JobStarted: {'identifier': 'image_geometry'}
+[0.058564] (image_geometry) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'mscrobotics2425laptop7'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/lib:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mscrobotics2425laptop7'), ('OLDPWD', '/home/mscrobotics2425laptop7/openCV_ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2565'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus,guid=6b39205601d3d8dbf3fc558567408e4f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mscrobotics2425laptop7/openCV_ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'mscrobotics2425laptop7'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mscrobotics2425laptop7'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mscrobotics2425laptop7/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/e-10lux4295w2r:@/tmp/.ICE-unix/2565,unix/e-10lux4295w2r:/tmp/.ICE-unix/2565'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/61273a1c_1f55_4023_b173_9bcca093fc68'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('ZEITGEIST_DATA_PATH', '/home/mscrobotics2425laptop7/.local/share/zeitgeist'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.OPJMX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.282'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv:/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests:/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1001/bus,guid=6b39205601d3d8dbf3fc558567408e4f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mscrobotics2425laptop7/openCV_ros2/build/opencv_tests:/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests/lib/python3.10/site-packages:/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/local/lib/python3.10/dist-packages:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry:/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge')]), 'shell': False}
+[0.064743] (cv_bridge) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'mscrobotics2425laptop7'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/lib:/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mscrobotics2425laptop7'), ('OLDPWD', '/home/mscrobotics2425laptop7/openCV_ros2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2565'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus,guid=6b39205601d3d8dbf3fc558567408e4f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mscrobotics2425laptop7/openCV_ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'mscrobotics2425laptop7'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mscrobotics2425laptop7'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mscrobotics2425laptop7/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/e-10lux4295w2r:@/tmp/.ICE-unix/2565,unix/e-10lux4295w2r:/tmp/.ICE-unix/2565'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/61273a1c_1f55_4023_b173_9bcca093fc68'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('ZEITGEIST_DATA_PATH', '/home/mscrobotics2425laptop7/.local/share/zeitgeist'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.OPJMX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.282'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv:/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests:/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1001/bus,guid=6b39205601d3d8dbf3fc558567408e4f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mscrobotics2425laptop7/openCV_ros2/build/opencv_tests:/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests/lib/python3.10/site-packages:/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/local/lib/python3.10/dist-packages:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge:/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv:/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry')]), 'shell': False}
+[0.070640] (image_geometry) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/CTestConfiguration.ini\n'}
+[0.070861] (image_geometry) StdoutLine: {'line': b'Parse Config file:/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/CTestConfiguration.ini\n'}
+[0.071101] (image_geometry) StdoutLine: {'line': b'   Site: e-10lux4295w2r\n'}
+[0.071336] (image_geometry) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.071481] (image_geometry) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.071672] (image_geometry) StdoutLine: {'line': b'Create new tag: 20241129-1047 - Experimental\n'}
+[0.071871] (image_geometry) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/CTestConfiguration.ini\n'}
+[0.072072] (image_geometry) StdoutLine: {'line': b'Parse Config file:/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/CTestConfiguration.ini\n'}
+[0.072217] (image_geometry) StdoutLine: {'line': b'Test project /home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry\n'}
+[0.072405] (image_geometry) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.072680] (image_geometry) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.072985] (image_geometry) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.073182] (image_geometry) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.073342] (image_geometry) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.073477] (image_geometry) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.073614] (image_geometry) StdoutLine: {'line': b'test 1\n'}
+[0.073752] (image_geometry) StdoutLine: {'line': b'    Start 1: image_geometry-utest\n'}
+[0.073888] (image_geometry) StdoutLine: {'line': b'\n'}
+[0.074076] (image_geometry) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml" "--package-name" "image_geometry" "--output-file" "/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/ament_cmake_gtest/image_geometry-utest.txt" "--command" "/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/image_geometry-utest" "--gtest_output=xml:/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml"\n'}
+[0.074261] (image_geometry) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.078301] (cv_bridge) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/CTestConfiguration.ini\n'}
+[0.078575] (cv_bridge) StdoutLine: {'line': b'Parse Config file:/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/CTestConfiguration.ini\n'}
+[0.078715] (cv_bridge) StdoutLine: {'line': b'   Site: e-10lux4295w2r\n'}
+[0.078857] (cv_bridge) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.079110] (cv_bridge) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.079283] (cv_bridge) StdoutLine: {'line': b'Create new tag: 20241129-1047 - Experimental\n'}
+[0.079569] (cv_bridge) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/CTestConfiguration.ini\n'}
+[0.079861] (cv_bridge) StdoutLine: {'line': b'Parse Config file:/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/CTestConfiguration.ini\n'}
+[0.080072] (cv_bridge) StdoutLine: {'line': b'Test project /home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge\n'}
+[0.080241] (cv_bridge) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.080525] (cv_bridge) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.080874] (cv_bridge) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.081241] (cv_bridge) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.081453] (cv_bridge) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.081843] (cv_bridge) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.082138] (cv_bridge) StdoutLine: {'line': b'test 1\n'}
+[0.082320] (cv_bridge) StdoutLine: {'line': b'    Start 1: cv_bridge-utest\n'}
+[0.082464] (cv_bridge) StdoutLine: {'line': b'\n'}
+[0.082605] (cv_bridge) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml" "--package-name" "cv_bridge" "--output-file" "/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/ament_cmake_gtest/cv_bridge-utest.txt" "--append-env" "LD_LIBRARY_PATH=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/src" "--command" "/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test/cv_bridge-utest" "--gtest_output=xml:/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml"\n'}
+[0.082768] (cv_bridge) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.099970] (-) TimerEvent: {}
+[0.138546] (image_geometry) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry':\n"}
+[0.138885] (image_geometry) StdoutLine: {'line': b'1:  - /home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/image_geometry-utest --gtest_output=xml:/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml\n'}
+[0.148841] (image_geometry) StdoutLine: {'line': b'1: [==========] Running 12 tests from 1 test suite.\n'}
+[0.149114] (image_geometry) StdoutLine: {'line': b'1: [----------] Global test environment set-up.\n'}
+[0.149241] (image_geometry) StdoutLine: {'line': b'1: [----------] 12 tests from PinholeTest\n'}
+[0.149367] (image_geometry) StdoutLine: {'line': b'1: [ RUN      ] PinholeTest.accessorsCorrect\n'}
+[0.149473] (image_geometry) StdoutLine: {'line': b'1: [       OK ] PinholeTest.accessorsCorrect (0 ms)\n'}
+[0.149596] (image_geometry) StdoutLine: {'line': b'1: [ RUN      ] PinholeTest.projectPoint\n'}
+[0.149943] (image_geometry) StdoutLine: {'line': b'1: [       OK ] PinholeTest.projectPoint (1 ms)\n'}
+[0.150138] (image_geometry) StdoutLine: {'line': b'1: [ RUN      ] PinholeTest.rectifyPoint\n'}
+[0.164638] (cv_bridge) StdoutLine: {'line': b'1: -- run_test.py: extra environment variables to append:\n'}
+[0.164962] (cv_bridge) StdoutLine: {'line': b'1:  - LD_LIBRARY_PATH+=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/src\n'}
+[0.165155] (cv_bridge) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test':\n"}
+[0.165327] (cv_bridge) StdoutLine: {'line': b'1:  - /home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test/cv_bridge-utest --gtest_output=xml:/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml\n'}
+[0.190743] (image_geometry) StdoutLine: {'line': b'1: [       OK ] PinholeTest.rectifyPoint (40 ms)\n'}
+[0.191232] (image_geometry) StdoutLine: {'line': b'1: [ RUN      ] PinholeTest.getDeltas\n'}
+[0.191352] (image_geometry) StdoutLine: {'line': b'1: [       OK ] PinholeTest.getDeltas (1 ms)\n'}
+[0.191422] (image_geometry) StdoutLine: {'line': b'1: [ RUN      ] PinholeTest.initialization\n'}
+[0.191476] (image_geometry) StdoutLine: {'line': b'1: [       OK ] PinholeTest.initialization (0 ms)\n'}
+[0.191530] (image_geometry) StdoutLine: {'line': b'1: [ RUN      ] PinholeTest.rectifyIfCalibrated\n'}
+[0.200173] (-) TimerEvent: {}
+[0.203354] (image_geometry) StdoutLine: {'line': b'1: [       OK ] PinholeTest.rectifyIfCalibrated (12 ms)\n'}
+[0.203553] (image_geometry) StdoutLine: {'line': b'1: [ RUN      ] PinholeTest.unrectifyImage\n'}
+[0.214512] (cv_bridge) StdoutLine: {'line': b'1: [==========] Running 9 tests from 3 test suites.\n'}
+[0.214776] (cv_bridge) StdoutLine: {'line': b'1: [----------] Global test environment set-up.\n'}
+[0.215075] (cv_bridge) StdoutLine: {'line': b'1: [----------] 7 tests from CvBridgeTest\n'}
+[0.215245] (cv_bridge) StdoutLine: {'line': b'1: [ RUN      ] CvBridgeTest.endianness\n'}
+[0.215753] (cv_bridge) StdoutLine: {'line': b'1: [       OK ] CvBridgeTest.endianness (1 ms)\n'}
+[0.216031] (cv_bridge) StdoutLine: {'line': b'1: [ RUN      ] CvBridgeTest.compression\n'}
+[0.244394] (cv_bridge) StdoutLine: {'line': b'1: [       OK ] CvBridgeTest.compression (29 ms)\n'}
+[0.244620] (cv_bridge) StdoutLine: {'line': b'1: [ RUN      ] CvBridgeTest.NonContinuous\n'}
+[0.244731] (cv_bridge) StdoutLine: {'line': b'1: [       OK ] CvBridgeTest.NonContinuous (0 ms)\n'}
+[0.244834] (cv_bridge) StdoutLine: {'line': b'1: [ RUN      ] CvBridgeTest.ChannelOrder\n'}
+[0.246013] (cv_bridge) StdoutLine: {'line': b'1: [       OK ] CvBridgeTest.ChannelOrder (2 ms)\n'}
+[0.246204] (cv_bridge) StdoutLine: {'line': b'1: [ RUN      ] CvBridgeTest.initialization\n'}
+[0.255091] (cv_bridge) StdoutLine: {'line': b'1: [       OK ] CvBridgeTest.initialization (9 ms)\n'}
+[0.255311] (cv_bridge) StdoutLine: {'line': b'1: [ RUN      ] CvBridgeTest.imageMessageStep\n'}
+[0.255420] (cv_bridge) StdoutLine: {'line': b'1: [       OK ] CvBridgeTest.imageMessageStep (0 ms)\n'}
+[0.255520] (cv_bridge) StdoutLine: {'line': b'1: [ RUN      ] CvBridgeTest.imageMessageConversion\n'}
+[0.257369] (cv_bridge) StdoutLine: {'line': b'1: [       OK ] CvBridgeTest.imageMessageConversion (2 ms)\n'}
+[0.257595] (cv_bridge) StdoutLine: {'line': b'1: [----------] 7 tests from CvBridgeTest (43 ms total)\n'}
+[0.257696] (cv_bridge) StdoutLine: {'line': b'1: \n'}
+[0.257789] (cv_bridge) StdoutLine: {'line': b'1: [----------] 1 test from OpencvTests\n'}
+[0.257878] (cv_bridge) StdoutLine: {'line': b'1: [ RUN      ] OpencvTests.testCase_encode_decode\n'}
+[0.300281] (-) TimerEvent: {}
+[0.400769] (-) TimerEvent: {}
+[0.501302] (-) TimerEvent: {}
+[0.601849] (-) TimerEvent: {}
+[0.651459] (cv_bridge) StdoutLine: {'line': b'1: [       OK ] OpencvTests.testCase_encode_decode (394 ms)\n'}
+[0.652006] (cv_bridge) StdoutLine: {'line': b'1: [----------] 1 test from OpencvTests (394 ms total)\n'}
+[0.652210] (cv_bridge) StdoutLine: {'line': b'1: \n'}
+[0.652352] (cv_bridge) StdoutLine: {'line': b'1: [----------] 1 test from RGBColors\n'}
+[0.652488] (cv_bridge) StdoutLine: {'line': b'1: [ RUN      ] RGBColors.testGetRGBColor\n'}
+[0.652635] (cv_bridge) StdoutLine: {'line': b'1: [       OK ] RGBColors.testGetRGBColor (0 ms)\n'}
+[0.652771] (cv_bridge) StdoutLine: {'line': b'1: [----------] 1 test from RGBColors (0 ms total)\n'}
+[0.653259] (cv_bridge) StdoutLine: {'line': b'1: \n'}
+[0.653461] (cv_bridge) StdoutLine: {'line': b'1: [----------] Global test environment tear-down\n'}
+[0.653602] (cv_bridge) StdoutLine: {'line': b'1: [==========] 9 tests from 3 test suites ran. (437 ms total)\n'}
+[0.653731] (cv_bridge) StdoutLine: {'line': b'1: [  PASSED  ] 9 tests.\n'}
+[0.661248] (cv_bridge) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.661736] (cv_bridge) StdoutLine: {'line': b"1: -- run_test.py: inject classname prefix into gtest result file '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml'\n"}
+[0.661969] (cv_bridge) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml'\n"}
+[0.675308] (cv_bridge) StdoutLine: {'line': b'1/4 Test #1: cv_bridge-utest ..................   Passed    0.59 sec\n'}
+[0.675657] (cv_bridge) StdoutLine: {'line': b'test 2\n'}
+[0.675857] (cv_bridge) StdoutLine: {'line': b'    Start 2: enumerants.py\n'}
+[0.676056] (cv_bridge) StdoutLine: {'line': b'\n'}
+[0.676189] (cv_bridge) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/enumerants.py.xunit.xml" "--package-name" "cv_bridge" "--output-file" "/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/ament_cmake_pytest/enumerants.py.txt" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/enumerants.py" "-o" "cache_dir=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test/ament_cmake_pytest/enumerants.py/.cache" "--junit-xml=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/enumerants.py.xunit.xml" "--junit-prefix=cv_bridge"\n'}
+[0.676371] (cv_bridge) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[0.702144] (-) TimerEvent: {}
+[0.735560] (cv_bridge) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test':\n"}
+[0.736535] (cv_bridge) StdoutLine: {'line': b'2:  - /usr/bin/python3 -u -m pytest /home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/enumerants.py -o cache_dir=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test/ament_cmake_pytest/enumerants.py/.cache --junit-xml=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/enumerants.py.xunit.xml --junit-prefix=cv_bridge\n'}
+[0.802443] (-) TimerEvent: {}
+[0.902963] (-) TimerEvent: {}
+[0.987208] (cv_bridge) StdoutLine: {'line': b'2: ============================= test session starts ==============================\n'}
+[0.987411] (cv_bridge) StdoutLine: {'line': b'2: platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[0.991698] (cv_bridge) StdoutLine: {'line': b'2: cachedir: /home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test/ament_cmake_pytest/enumerants.py/.cache\n'}
+[0.992017] (cv_bridge) StdoutLine: {'line': b'2: rootdir: /home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv, configfile: pytest.ini\n'}
+[0.992156] (cv_bridge) StdoutLine: {'line': b'2: plugins: launch-testing-1.0.6, ament-xmllint-0.12.11, ament-flake8-0.12.11, ament-copyright-0.12.11, launch-testing-ros-0.19.7, ament-pep257-0.12.11, ament-lint-0.12.11, cov-3.0.0, colcon-core-0.18.1\n'}
+[1.003122] (-) TimerEvent: {}
+[1.104983] (-) TimerEvent: {}
+[1.205535] (-) TimerEvent: {}
+[1.274447] (cv_bridge) StdoutLine: {'line': b'2: \n'}
+[1.274897] (cv_bridge) StdoutLine: {'line': b'2: A module that was compiled using NumPy 1.x cannot be run in\n'}
+[1.275965] (cv_bridge) StdoutLine: {'line': b'2: NumPy 2.1.3 as it may crash. To support both 1.x and 2.x\n'}
+[1.276167] (cv_bridge) StdoutLine: {'line': b'2: versions of NumPy, modules must be compiled with NumPy 2.0.\n'}
+[1.276316] (cv_bridge) StdoutLine: {'line': b"2: Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.\n"}
+[1.276444] (cv_bridge) StdoutLine: {'line': b'2: \n'}
+[1.276584] (cv_bridge) StdoutLine: {'line': b'2: If you are a user of the module, the easiest solution will be to\n'}
+[1.276741] (cv_bridge) StdoutLine: {'line': b"2: downgrade to 'numpy<2' or try to upgrade the affected module.\n"}
+[1.276885] (cv_bridge) StdoutLine: {'line': b'2: We expect that some modules will need time to support NumPy 2.\n'}
+[1.277038] (cv_bridge) StdoutLine: {'line': b'2: \n'}
+[1.277193] (cv_bridge) StdoutLine: {'line': b'2: Traceback (most recent call last):  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[1.277329] (cv_bridge) StdoutLine: {'line': b'2:     return _run_code(code, main_globals, None,\n'}
+[1.277451] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[1.277573] (cv_bridge) StdoutLine: {'line': b'2:     exec(code, run_globals)\n'}
+[1.277695] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pytest/__main__.py", line 5, in <module>\n'}
+[1.277823] (cv_bridge) StdoutLine: {'line': b'2:     raise SystemExit(pytest.console_main())\n'}
+[1.277960] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 185, in console_main\n'}
+[1.278142] (cv_bridge) StdoutLine: {'line': b'2:     code = main()\n'}
+[1.278291] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 162, in main\n'}
+[1.278432] (cv_bridge) StdoutLine: {'line': b'2:     ret: Union[ExitCode, int] = config.hook.pytest_cmdline_main(\n'}
+[1.278557] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__\n'}
+[1.278687] (cv_bridge) StdoutLine: {'line': b'2:     return self._hookexec(self, self.get_hookimpls(), kwargs)\n'}
+[1.278809] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec\n'}
+[1.278937] (cv_bridge) StdoutLine: {'line': b'2:     return self._inner_hookexec(hook, methods, kwargs)\n'}
+[1.279112] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>\n'}
+[1.279264] (cv_bridge) StdoutLine: {'line': b'2:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(\n'}
+[1.279403] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall\n'}
+[1.279524] (cv_bridge) StdoutLine: {'line': b'2:     res = hook_impl.function(*args)\n'}
+[1.279646] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 316, in pytest_cmdline_main\n'}
+[1.279767] (cv_bridge) StdoutLine: {'line': b'2:     return wrap_session(config, _main)\n'}
+[1.279889] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 269, in wrap_session\n'}
+[1.280045] (cv_bridge) StdoutLine: {'line': b'2:     session.exitstatus = doit(config, session) or 0\n'}
+[1.280171] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 322, in _main\n'}
+[1.280293] (cv_bridge) StdoutLine: {'line': b'2:     config.hook.pytest_collection(session=session)\n'}
+[1.280414] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__\n'}
+[1.280535] (cv_bridge) StdoutLine: {'line': b'2:     return self._hookexec(self, self.get_hookimpls(), kwargs)\n'}
+[1.280656] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec\n'}
+[1.280777] (cv_bridge) StdoutLine: {'line': b'2:     return self._inner_hookexec(hook, methods, kwargs)\n'}
+[1.280898] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>\n'}
+[1.281068] (cv_bridge) StdoutLine: {'line': b'2:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(\n'}
+[1.281194] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall\n'}
+[1.281317] (cv_bridge) StdoutLine: {'line': b'2:     res = hook_impl.function(*args)\n'}
+[1.281439] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 333, in pytest_collection\n'}
+[1.281577] (cv_bridge) StdoutLine: {'line': b'2:     session.perform_collect()\n'}
+[1.281707] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 620, in perform_collect\n'}
+[1.281836] (cv_bridge) StdoutLine: {'line': b'2:     rep = collect_one_node(self)\n'}
+[1.281970] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 458, in collect_one_node\n'}
+[1.282120] (cv_bridge) StdoutLine: {'line': b'2:     rep: CollectReport = ihook.pytest_make_collect_report(collector=collector)\n'}
+[1.282242] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__\n'}
+[1.282364] (cv_bridge) StdoutLine: {'line': b'2:     return self._hookexec(self, self.get_hookimpls(), kwargs)\n'}
+[1.282484] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec\n'}
+[1.282605] (cv_bridge) StdoutLine: {'line': b'2:     return self._inner_hookexec(hook, methods, kwargs)\n'}
+[1.282725] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>\n'}
+[1.282846] (cv_bridge) StdoutLine: {'line': b'2:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(\n'}
+[1.283001] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall\n'}
+[1.283139] (cv_bridge) StdoutLine: {'line': b'2:     res = hook_impl.function(*args)\n'}
+[1.283261] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 341, in pytest_make_collect_report\n'}
+[1.283383] (cv_bridge) StdoutLine: {'line': b'2:     call = CallInfo.from_call(lambda: list(collector.collect()), "collect")\n'}
+[1.283504] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 311, in from_call\n'}
+[1.283625] (cv_bridge) StdoutLine: {'line': b'2:     result: Optional[TResult] = func()\n'}
+[1.283748] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 341, in <lambda>\n'}
+[1.283870] (cv_bridge) StdoutLine: {'line': b'2:     call = CallInfo.from_call(lambda: list(collector.collect()), "collect")\n'}
+[1.284025] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 724, in collect\n'}
+[1.284154] (cv_bridge) StdoutLine: {'line': b'2:     col = collect_root._collectfile(argpath, handle_dupes=False)\n'}
+[1.284267] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 565, in _collectfile\n'}
+[1.284381] (cv_bridge) StdoutLine: {'line': b'2:     return ihook.pytest_collect_file(path=path, parent=self)  # type: ignore[no-any-return]\n'}
+[1.284469] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__\n'}
+[1.284556] (cv_bridge) StdoutLine: {'line': b'2:     return self._hookexec(self, self.get_hookimpls(), kwargs)\n'}
+[1.284642] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec\n'}
+[1.284733] (cv_bridge) StdoutLine: {'line': b'2:     return self._inner_hookexec(hook, methods, kwargs)\n'}
+[1.284821] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>\n'}
+[1.284907] (cv_bridge) StdoutLine: {'line': b'2:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(\n'}
+[1.285035] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall\n'}
+[1.285127] (cv_bridge) StdoutLine: {'line': b'2:     res = hook_impl.function(*args)\n'}
+[1.285214] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/python.py", line 200, in pytest_collect_file\n'}
+[1.285301] (cv_bridge) StdoutLine: {'line': b'2:     module: Module = ihook.pytest_pycollect_makemodule(path=path, parent=parent)\n'}
+[1.285388] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__\n'}
+[1.285474] (cv_bridge) StdoutLine: {'line': b'2:     return self._hookexec(self, self.get_hookimpls(), kwargs)\n'}
+[1.285561] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec\n'}
+[1.285647] (cv_bridge) StdoutLine: {'line': b'2:     return self._inner_hookexec(hook, methods, kwargs)\n'}
+[1.285732] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>\n'}
+[1.285818] (cv_bridge) StdoutLine: {'line': b'2:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(\n'}
+[1.285904] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall\n'}
+[1.286008] (cv_bridge) StdoutLine: {'line': b'2:     res = hook_impl.function(*args)\n'}
+[1.286101] (cv_bridge) StdoutLine: {'line': b'2:   File "/opt/ros/humble/lib/python3.10/site-packages/launch_testing/pytest/hooks.py", line 193, in pytest_pycollect_makemodule\n'}
+[1.286188] (cv_bridge) StdoutLine: {'line': b'2:     entrypoint = find_launch_test_entrypoint(path)\n'}
+[1.286274] (cv_bridge) StdoutLine: {'line': b'2:   File "/opt/ros/humble/lib/python3.10/site-packages/launch_testing/pytest/hooks.py", line 186, in find_launch_test_entrypoint\n'}
+[1.286367] (cv_bridge) StdoutLine: {'line': b'2:     module = path.pyimport()\n'}
+[1.286452] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/py/_path/local.py", line 704, in pyimport\n'}
+[1.286541] (cv_bridge) StdoutLine: {'line': b'2:     __import__(modname)\n'}
+[1.286640] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/assertion/rewrite.py", line 170, in exec_module\n'}
+[1.286735] (cv_bridge) StdoutLine: {'line': b'2:     exec(co, module.__dict__)\n'}
+[1.286823] (cv_bridge) StdoutLine: {'line': b'2:   File "/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/enumerants.py", line 4, in <module>\n'}
+[1.286911] (cv_bridge) StdoutLine: {'line': b'2:     from cv_bridge import CvBridge, CvBridgeError, getCvType\n'}
+[1.287024] (cv_bridge) StdoutLine: {'line': b'2:   File "/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/__init__.py", line 6, in <module>\n'}
+[1.287124] (cv_bridge) StdoutLine: {'line': b'2:     from cv_bridge.boost.cv_bridge_boost import cvtColorForDisplay, getCvType\n'}
+[1.293977] (cv_bridge) StdoutLine: {'line': b'2: AttributeError: _ARRAY_API not found\n'}
+[1.296187] (cv_bridge) StdoutLine: {'line': b'2: collected 2 items\n'}
+[1.296778] (cv_bridge) StdoutLine: {'line': b'2: \n'}
+[1.305802] (-) TimerEvent: {}
+[1.406308] (-) TimerEvent: {}
+[1.424831] (cv_bridge) StdoutLine: {'line': b'2: ../../../src/vision_opencv/cv_bridge/test/enumerants.py Fatal Python error: Segmentation fault\n'}
+[1.425148] (cv_bridge) StdoutLine: {'line': b'2: \n'}
+[1.425274] (cv_bridge) StdoutLine: {'line': b'2: Current thread 0x00007c524538f1c0 (most recent call first):\n'}
+[1.425376] (cv_bridge) StdoutLine: {'line': b'2:   File "/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/core.py", line 194 in imgmsg_to_cv2\n'}
+[1.425476] (cv_bridge) StdoutLine: {'line': b'2:   File "/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/enumerants.py", line 19 in test_enumerants_cv2\n'}
+[1.425576] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3.10/unittest/case.py", line 549 in _callTestMethod\n'}
+[1.425673] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3.10/unittest/case.py", line 591 in run\n'}
+[1.425769] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3.10/unittest/case.py", line 650 in __call__\n'}
+[1.425857] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/unittest.py", line 321 in runtest\n'}
+[1.425956] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 162 in pytest_runtest_call\n'}
+[1.426085] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall\n'}
+[1.426172] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>\n'}
+[1.426255] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec\n'}
+[1.426338] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__\n'}
+[1.426421] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 255 in <lambda>\n'}
+[1.426504] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 311 in from_call\n'}
+[1.426587] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 254 in call_runtest_hook\n'}
+[1.426669] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 215 in call_and_report\n'}
+[1.426762] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 126 in runtestprotocol\n'}
+[1.426852] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 109 in pytest_runtest_protocol\n'}
+[1.426945] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall\n'}
+[1.427065] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>\n'}
+[1.427166] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec\n'}
+[1.427249] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__\n'}
+[1.427333] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 348 in pytest_runtestloop\n'}
+[1.427416] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall\n'}
+[1.427502] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>\n'}
+[1.427594] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec\n'}
+[1.427678] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__\n'}
+[1.427760] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 323 in _main\n'}
+[1.427843] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 269 in wrap_session\n'}
+[1.427932] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 316 in pytest_cmdline_main\n'}
+[1.428049] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall\n'}
+[1.428148] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>\n'}
+[1.428232] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec\n'}
+[1.428315] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__\n'}
+[1.428398] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 162 in main\n'}
+[1.428480] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 185 in console_main\n'}
+[1.428563] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3/dist-packages/pytest/__main__.py", line 5 in <module>\n'}
+[1.428645] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3.10/runpy.py", line 86 in _run_code\n'}
+[1.428728] (cv_bridge) StdoutLine: {'line': b'2:   File "/usr/lib/python3.10/runpy.py", line 196 in _run_module_as_main\n'}
+[1.428810] (cv_bridge) StdoutLine: {'line': b'2: \n'}
+[1.428892] (cv_bridge) StdoutLine: {'line': b'2: Extension modules: yaml._yaml, numpy._core._multiarray_umath, numpy.linalg._umath_linalg, apt_pkg, cv_bridge.boost.cv_bridge_boost (total: 5)\n'}
+[1.506584] (-) TimerEvent: {}
+[1.607005] (-) TimerEvent: {}
+[1.707522] (-) TimerEvent: {}
+[1.794197] (image_geometry) StdoutLine: {'line': b'1: [       OK ] PinholeTest.unrectifyImage (1591 ms)\n'}
+[1.794427] (image_geometry) StdoutLine: {'line': b'1: [ RUN      ] PinholeTest.unrectifyImageWithBinning\n'}
+[1.807782] (-) TimerEvent: {}
+[1.908268] (-) TimerEvent: {}
+[2.008753] (-) TimerEvent: {}
+[2.109250] (-) TimerEvent: {}
+[2.133737] (image_geometry) StdoutLine: {'line': b'1: [       OK ] PinholeTest.unrectifyImageWithBinning (339 ms)\n'}
+[2.133989] (image_geometry) StdoutLine: {'line': b'1: [ RUN      ] PinholeTest.unrectifyImageWithRoi\n'}
+[2.209566] (-) TimerEvent: {}
+[2.310091] (-) TimerEvent: {}
+[2.410560] (-) TimerEvent: {}
+[2.511089] (-) TimerEvent: {}
+[2.611647] (-) TimerEvent: {}
+[2.712122] (-) TimerEvent: {}
+[2.812593] (-) TimerEvent: {}
+[2.897874] (image_geometry) StdoutLine: {'line': b'1: [       OK ] PinholeTest.unrectifyImageWithRoi (764 ms)\n'}
+[2.898178] (image_geometry) StdoutLine: {'line': b'1: [ RUN      ] PinholeTest.unrectifyImageWithBinningAndRoi\n'}
+[2.912871] (-) TimerEvent: {}
+[3.013307] (-) TimerEvent: {}
+[3.086223] (image_geometry) StdoutLine: {'line': b'1: [       OK ] PinholeTest.unrectifyImageWithBinningAndRoi (188 ms)\n'}
+[3.086618] (image_geometry) StdoutLine: {'line': b'1: [ RUN      ] PinholeTest.rectifiedRoiSize\n'}
+[3.086848] (image_geometry) StdoutLine: {'line': b'1: [       OK ] PinholeTest.rectifiedRoiSize (0 ms)\n'}
+[3.087124] (image_geometry) StdoutLine: {'line': b'1: [ RUN      ] PinholeTest.rectifiedRoiCaching\n'}
+[3.087246] (image_geometry) StdoutLine: {'line': b'1: [       OK ] PinholeTest.rectifiedRoiCaching (0 ms)\n'}
+[3.087343] (image_geometry) StdoutLine: {'line': b'1: [----------] 12 tests from PinholeTest (2937 ms total)\n'}
+[3.087485] (image_geometry) StdoutLine: {'line': b'1: \n'}
+[3.087608] (image_geometry) StdoutLine: {'line': b'1: [----------] Global test environment tear-down\n'}
+[3.087719] (image_geometry) StdoutLine: {'line': b'1: [==========] 12 tests from 1 test suite ran. (2937 ms total)\n'}
+[3.087833] (image_geometry) StdoutLine: {'line': b'1: [  PASSED  ] 12 tests.\n'}
+[3.088449] (image_geometry) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[3.088689] (image_geometry) StdoutLine: {'line': b"1: -- run_test.py: inject classname prefix into gtest result file '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml'\n"}
+[3.092815] (image_geometry) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml'\n"}
+[3.104689] (image_geometry) StdoutLine: {'line': b'1/1 Test #1: image_geometry-utest .............   Passed    3.03 sec\n'}
+[3.105168] (image_geometry) StdoutLine: {'line': b'\n'}
+[3.105369] (image_geometry) StdoutLine: {'line': b'\x1b[0;32m100% tests passed\x1b[0;0m, 0 tests failed\x1b[0;0m out of 1\n'}
+[3.105538] (image_geometry) StdoutLine: {'line': b'\n'}
+[3.105673] (image_geometry) StdoutLine: {'line': b'Label Time Summary:\n'}
+[3.105802] (image_geometry) StdoutLine: {'line': b'gtest    =   3.03 sec*proc (1 test)\n'}
+[3.105962] (image_geometry) StdoutLine: {'line': b'\n'}
+[3.106140] (image_geometry) StdoutLine: {'line': b'Total Test time (real) =   3.03 sec\n'}
+[3.112450] (image_geometry) CommandEnded: {'returncode': 0}
+[3.113163] (image_geometry) JobEnded: {'identifier': 'image_geometry', 'rc': 0}
+[3.114028] (-) TimerEvent: {}
+[3.214316] (-) TimerEvent: {}
+[3.314714] (-) TimerEvent: {}
+[3.415194] (-) TimerEvent: {}
+[3.515655] (-) TimerEvent: {}
+[3.616206] (-) TimerEvent: {}
+[3.716656] (-) TimerEvent: {}
+[3.813523] (cv_bridge) StdoutLine: {'line': b'2: -- run_test.py: return code -11\n'}
+[3.813877] (cv_bridge) StdoutLine: {'line': b"2: -- run_test.py: generate result file '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/enumerants.py.xunit.xml' with failed test\n"}
+[3.814256] (cv_bridge) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/enumerants.py.xunit.xml'\n"}
+[3.816791] (-) TimerEvent: {}
+[3.840365] (cv_bridge) StdoutLine: {'line': b'2/4 Test #2: enumerants.py ....................***Failed    3.16 sec\n'}
+[3.841006] (cv_bridge) StdoutLine: {'line': b'test 3\n'}
+[3.841455] (cv_bridge) StdoutLine: {'line': b'    Start 3: conversions.py\n'}
+[3.841682] (cv_bridge) StdoutLine: {'line': b'\n'}
+[3.842045] (cv_bridge) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml" "--package-name" "cv_bridge" "--output-file" "/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/ament_cmake_pytest/conversions.py.txt" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/conversions.py" "-o" "cache_dir=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test/ament_cmake_pytest/conversions.py/.cache" "--junit-xml=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml" "--junit-prefix=cv_bridge"\n'}
+[3.842271] (cv_bridge) StdoutLine: {'line': b'3: Test timeout computed to be: 600\n'}
+[3.899510] (cv_bridge) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test':\n"}
+[3.899984] (cv_bridge) StdoutLine: {'line': b'3:  - /usr/bin/python3 -u -m pytest /home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/conversions.py -o cache_dir=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test/ament_cmake_pytest/conversions.py/.cache --junit-xml=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml --junit-prefix=cv_bridge\n'}
+[3.916951] (-) TimerEvent: {}
+[4.017318] (-) TimerEvent: {}
+[4.117616] (-) TimerEvent: {}
+[4.130372] (cv_bridge) StdoutLine: {'line': b'3: ============================= test session starts ==============================\n'}
+[4.130584] (cv_bridge) StdoutLine: {'line': b'3: platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[4.133849] (cv_bridge) StdoutLine: {'line': b'3: cachedir: /home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test/ament_cmake_pytest/conversions.py/.cache\n'}
+[4.134019] (cv_bridge) StdoutLine: {'line': b'3: rootdir: /home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv, configfile: pytest.ini\n'}
+[4.134128] (cv_bridge) StdoutLine: {'line': b'3: plugins: launch-testing-1.0.6, ament-xmllint-0.12.11, ament-flake8-0.12.11, ament-copyright-0.12.11, launch-testing-ros-0.19.7, ament-pep257-0.12.11, ament-lint-0.12.11, cov-3.0.0, colcon-core-0.18.1\n'}
+[4.217741] (-) TimerEvent: {}
+[4.318216] (-) TimerEvent: {}
+[4.326415] (cv_bridge) StdoutLine: {'line': b'3: \n'}
+[4.326651] (cv_bridge) StdoutLine: {'line': b'3: A module that was compiled using NumPy 1.x cannot be run in\n'}
+[4.326777] (cv_bridge) StdoutLine: {'line': b'3: NumPy 2.1.3 as it may crash. To support both 1.x and 2.x\n'}
+[4.326893] (cv_bridge) StdoutLine: {'line': b'3: versions of NumPy, modules must be compiled with NumPy 2.0.\n'}
+[4.327034] (cv_bridge) StdoutLine: {'line': b"3: Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.\n"}
+[4.327148] (cv_bridge) StdoutLine: {'line': b'3: \n'}
+[4.327316] (cv_bridge) StdoutLine: {'line': b'3: If you are a user of the module, the easiest solution will be to\n'}
+[4.327424] (cv_bridge) StdoutLine: {'line': b"3: downgrade to 'numpy<2' or try to upgrade the affected module.\n"}
+[4.327532] (cv_bridge) StdoutLine: {'line': b'3: We expect that some modules will need time to support NumPy 2.\n'}
+[4.327638] (cv_bridge) StdoutLine: {'line': b'3: \n'}
+[4.327746] (cv_bridge) StdoutLine: {'line': b'3: Traceback (most recent call last):  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[4.327862] (cv_bridge) StdoutLine: {'line': b'3:     return _run_code(code, main_globals, None,\n'}
+[4.328005] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[4.328124] (cv_bridge) StdoutLine: {'line': b'3:     exec(code, run_globals)\n'}
+[4.328230] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pytest/__main__.py", line 5, in <module>\n'}
+[4.328341] (cv_bridge) StdoutLine: {'line': b'3:     raise SystemExit(pytest.console_main())\n'}
+[4.328448] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 185, in console_main\n'}
+[4.328556] (cv_bridge) StdoutLine: {'line': b'3:     code = main()\n'}
+[4.328663] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 162, in main\n'}
+[4.328782] (cv_bridge) StdoutLine: {'line': b'3:     ret: Union[ExitCode, int] = config.hook.pytest_cmdline_main(\n'}
+[4.328937] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__\n'}
+[4.329068] (cv_bridge) StdoutLine: {'line': b'3:     return self._hookexec(self, self.get_hookimpls(), kwargs)\n'}
+[4.329176] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec\n'}
+[4.329281] (cv_bridge) StdoutLine: {'line': b'3:     return self._inner_hookexec(hook, methods, kwargs)\n'}
+[4.329387] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>\n'}
+[4.329494] (cv_bridge) StdoutLine: {'line': b'3:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(\n'}
+[4.329600] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall\n'}
+[4.329735] (cv_bridge) StdoutLine: {'line': b'3:     res = hook_impl.function(*args)\n'}
+[4.329842] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 316, in pytest_cmdline_main\n'}
+[4.329960] (cv_bridge) StdoutLine: {'line': b'3:     return wrap_session(config, _main)\n'}
+[4.330082] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 269, in wrap_session\n'}
+[4.330189] (cv_bridge) StdoutLine: {'line': b'3:     session.exitstatus = doit(config, session) or 0\n'}
+[4.330310] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 322, in _main\n'}
+[4.330417] (cv_bridge) StdoutLine: {'line': b'3:     config.hook.pytest_collection(session=session)\n'}
+[4.330523] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__\n'}
+[4.330629] (cv_bridge) StdoutLine: {'line': b'3:     return self._hookexec(self, self.get_hookimpls(), kwargs)\n'}
+[4.330735] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec\n'}
+[4.330842] (cv_bridge) StdoutLine: {'line': b'3:     return self._inner_hookexec(hook, methods, kwargs)\n'}
+[4.330963] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>\n'}
+[4.331083] (cv_bridge) StdoutLine: {'line': b'3:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(\n'}
+[4.331188] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall\n'}
+[4.331294] (cv_bridge) StdoutLine: {'line': b'3:     res = hook_impl.function(*args)\n'}
+[4.331399] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 333, in pytest_collection\n'}
+[4.331503] (cv_bridge) StdoutLine: {'line': b'3:     session.perform_collect()\n'}
+[4.331607] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 620, in perform_collect\n'}
+[4.331712] (cv_bridge) StdoutLine: {'line': b'3:     rep = collect_one_node(self)\n'}
+[4.331816] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 458, in collect_one_node\n'}
+[4.331933] (cv_bridge) StdoutLine: {'line': b'3:     rep: CollectReport = ihook.pytest_make_collect_report(collector=collector)\n'}
+[4.332065] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__\n'}
+[4.332173] (cv_bridge) StdoutLine: {'line': b'3:     return self._hookexec(self, self.get_hookimpls(), kwargs)\n'}
+[4.332307] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec\n'}
+[4.332412] (cv_bridge) StdoutLine: {'line': b'3:     return self._inner_hookexec(hook, methods, kwargs)\n'}
+[4.332520] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>\n'}
+[4.332625] (cv_bridge) StdoutLine: {'line': b'3:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(\n'}
+[4.332736] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall\n'}
+[4.332841] (cv_bridge) StdoutLine: {'line': b'3:     res = hook_impl.function(*args)\n'}
+[4.333192] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 341, in pytest_make_collect_report\n'}
+[4.333348] (cv_bridge) StdoutLine: {'line': b'3:     call = CallInfo.from_call(lambda: list(collector.collect()), "collect")\n'}
+[4.333403] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 311, in from_call\n'}
+[4.333451] (cv_bridge) StdoutLine: {'line': b'3:     result: Optional[TResult] = func()\n'}
+[4.333496] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 341, in <lambda>\n'}
+[4.333540] (cv_bridge) StdoutLine: {'line': b'3:     call = CallInfo.from_call(lambda: list(collector.collect()), "collect")\n'}
+[4.333585] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 724, in collect\n'}
+[4.333626] (cv_bridge) StdoutLine: {'line': b'3:     col = collect_root._collectfile(argpath, handle_dupes=False)\n'}
+[4.333668] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 565, in _collectfile\n'}
+[4.333709] (cv_bridge) StdoutLine: {'line': b'3:     return ihook.pytest_collect_file(path=path, parent=self)  # type: ignore[no-any-return]\n'}
+[4.333751] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__\n'}
+[4.333791] (cv_bridge) StdoutLine: {'line': b'3:     return self._hookexec(self, self.get_hookimpls(), kwargs)\n'}
+[4.333830] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec\n'}
+[4.333871] (cv_bridge) StdoutLine: {'line': b'3:     return self._inner_hookexec(hook, methods, kwargs)\n'}
+[4.333910] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>\n'}
+[4.333980] (cv_bridge) StdoutLine: {'line': b'3:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(\n'}
+[4.334025] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall\n'}
+[4.334069] (cv_bridge) StdoutLine: {'line': b'3:     res = hook_impl.function(*args)\n'}
+[4.334119] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/python.py", line 200, in pytest_collect_file\n'}
+[4.334164] (cv_bridge) StdoutLine: {'line': b'3:     module: Module = ihook.pytest_pycollect_makemodule(path=path, parent=parent)\n'}
+[4.334208] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__\n'}
+[4.334247] (cv_bridge) StdoutLine: {'line': b'3:     return self._hookexec(self, self.get_hookimpls(), kwargs)\n'}
+[4.334287] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec\n'}
+[4.334326] (cv_bridge) StdoutLine: {'line': b'3:     return self._inner_hookexec(hook, methods, kwargs)\n'}
+[4.334365] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>\n'}
+[4.334404] (cv_bridge) StdoutLine: {'line': b'3:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(\n'}
+[4.334444] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall\n'}
+[4.334485] (cv_bridge) StdoutLine: {'line': b'3:     res = hook_impl.function(*args)\n'}
+[4.334524] (cv_bridge) StdoutLine: {'line': b'3:   File "/opt/ros/humble/lib/python3.10/site-packages/launch_testing/pytest/hooks.py", line 193, in pytest_pycollect_makemodule\n'}
+[4.334564] (cv_bridge) StdoutLine: {'line': b'3:     entrypoint = find_launch_test_entrypoint(path)\n'}
+[4.334615] (cv_bridge) StdoutLine: {'line': b'3:   File "/opt/ros/humble/lib/python3.10/site-packages/launch_testing/pytest/hooks.py", line 186, in find_launch_test_entrypoint\n'}
+[4.334661] (cv_bridge) StdoutLine: {'line': b'3:     module = path.pyimport()\n'}
+[4.334701] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/py/_path/local.py", line 704, in pyimport\n'}
+[4.334743] (cv_bridge) StdoutLine: {'line': b'3:     __import__(modname)\n'}
+[4.334785] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/assertion/rewrite.py", line 170, in exec_module\n'}
+[4.334828] (cv_bridge) StdoutLine: {'line': b'3:     exec(co, module.__dict__)\n'}
+[4.334876] (cv_bridge) StdoutLine: {'line': b'3:   File "/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/conversions.py", line 1, in <module>\n'}
+[4.334933] (cv_bridge) StdoutLine: {'line': b'3:     from cv_bridge import CvBridge, CvBridgeError\n'}
+[4.334983] (cv_bridge) StdoutLine: {'line': b'3:   File "/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/__init__.py", line 6, in <module>\n'}
+[4.335029] (cv_bridge) StdoutLine: {'line': b'3:     from cv_bridge.boost.cv_bridge_boost import cvtColorForDisplay, getCvType\n'}
+[4.343222] (cv_bridge) StdoutLine: {'line': b'3: AttributeError: _ARRAY_API not found\n'}
+[4.345472] (cv_bridge) StdoutLine: {'line': b'3: collected 4 items\n'}
+[4.345980] (cv_bridge) StdoutLine: {'line': b'3: \n'}
+[4.418314] (-) TimerEvent: {}
+[4.518768] (-) TimerEvent: {}
+[4.619101] (-) TimerEvent: {}
+[4.719546] (-) TimerEvent: {}
+[4.819984] (-) TimerEvent: {}
+[4.920425] (-) TimerEvent: {}
+[5.020939] (-) TimerEvent: {}
+[5.121416] (-) TimerEvent: {}
+[5.221866] (-) TimerEvent: {}
+[5.322354] (-) TimerEvent: {}
+[5.422832] (-) TimerEvent: {}
+[5.523334] (-) TimerEvent: {}
+[5.623819] (-) TimerEvent: {}
+[5.724280] (-) TimerEvent: {}
+[5.824735] (-) TimerEvent: {}
+[5.925182] (-) TimerEvent: {}
+[6.025641] (-) TimerEvent: {}
+[6.126105] (-) TimerEvent: {}
+[6.226533] (-) TimerEvent: {}
+[6.327043] (-) TimerEvent: {}
+[6.427442] (-) TimerEvent: {}
+[6.527898] (-) TimerEvent: {}
+[6.628379] (-) TimerEvent: {}
+[6.728837] (-) TimerEvent: {}
+[6.829165] (-) TimerEvent: {}
+[6.929694] (-) TimerEvent: {}
+[7.030161] (-) TimerEvent: {}
+[7.130667] (-) TimerEvent: {}
+[7.231171] (-) TimerEvent: {}
+[7.331685] (-) TimerEvent: {}
+[7.432153] (-) TimerEvent: {}
+[7.532584] (-) TimerEvent: {}
+[7.633013] (-) TimerEvent: {}
+[7.733395] (-) TimerEvent: {}
+[7.833850] (-) TimerEvent: {}
+[7.934311] (-) TimerEvent: {}
+[8.034747] (-) TimerEvent: {}
+[8.135343] (-) TimerEvent: {}
+[8.235847] (-) TimerEvent: {}
+[8.336349] (-) TimerEvent: {}
+[8.436680] (-) TimerEvent: {}
+[8.537161] (-) TimerEvent: {}
+[8.637637] (-) TimerEvent: {}
+[8.737964] (-) TimerEvent: {}
+[8.838248] (-) TimerEvent: {}
+[8.940835] (-) TimerEvent: {}
+[9.041279] (-) TimerEvent: {}
+[9.141663] (-) TimerEvent: {}
+[9.242134] (-) TimerEvent: {}
+[9.342427] (-) TimerEvent: {}
+[9.442894] (-) TimerEvent: {}
+[9.543303] (-) TimerEvent: {}
+[9.644083] (-) TimerEvent: {}
+[9.744581] (-) TimerEvent: {}
+[9.844898] (-) TimerEvent: {}
+[9.945449] (-) TimerEvent: {}
+[10.045781] (-) TimerEvent: {}
+[10.146303] (-) TimerEvent: {}
+[10.246773] (-) TimerEvent: {}
+[10.347271] (-) TimerEvent: {}
+[10.447789] (-) TimerEvent: {}
+[10.548240] (-) TimerEvent: {}
+[10.648581] (-) TimerEvent: {}
+[10.748904] (-) TimerEvent: {}
+[10.849216] (-) TimerEvent: {}
+[10.949730] (-) TimerEvent: {}
+[11.050099] (-) TimerEvent: {}
+[11.150569] (-) TimerEvent: {}
+[11.251042] (-) TimerEvent: {}
+[11.351553] (-) TimerEvent: {}
+[11.451993] (-) TimerEvent: {}
+[11.552517] (-) TimerEvent: {}
+[11.653242] (-) TimerEvent: {}
+[11.753721] (-) TimerEvent: {}
+[11.854019] (-) TimerEvent: {}
+[11.954487] (-) TimerEvent: {}
+[12.054944] (-) TimerEvent: {}
+[12.155315] (-) TimerEvent: {}
+[12.255870] (-) TimerEvent: {}
+[12.356372] (-) TimerEvent: {}
+[12.456845] (-) TimerEvent: {}
+[12.557181] (-) TimerEvent: {}
+[12.575683] (cv_bridge) StdoutLine: {'line': b'3: ../../../src/vision_opencv/cv_bridge/test/conversions.py ..FFatal Python error: Segmentation fault\n'}
+[12.576223] (cv_bridge) StdoutLine: {'line': b'3: \n'}
+[12.576348] (cv_bridge) StdoutLine: {'line': b'3: Current thread 0x000071c0ee9fc1c0 (most recent call first):\n'}
+[12.576446] (cv_bridge) StdoutLine: {'line': b'3:   File "/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/core.py", line 194 in imgmsg_to_cv2\n'}
+[12.576537] (cv_bridge) StdoutLine: {'line': b'3:   File "/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/conversions.py", line 10 in <lambda>\n'}
+[12.576604] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3.10/unittest/case.py", line 201 in handle\n'}
+[12.576668] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3.10/unittest/case.py", line 738 in assertRaises\n'}
+[12.576731] (cv_bridge) StdoutLine: {'line': b'3:   File "/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/conversions.py", line 10 in test_mono16_cv2\n'}
+[12.576795] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3.10/unittest/case.py", line 549 in _callTestMethod\n'}
+[12.576858] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3.10/unittest/case.py", line 591 in run\n'}
+[12.576926] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3.10/unittest/case.py", line 650 in __call__\n'}
+[12.577010] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/unittest.py", line 321 in runtest\n'}
+[12.577096] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 162 in pytest_runtest_call\n'}
+[12.577183] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall\n'}
+[12.577248] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>\n'}
+[12.577312] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec\n'}
+[12.577375] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__\n'}
+[12.577438] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 255 in <lambda>\n'}
+[12.577501] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 311 in from_call\n'}
+[12.577565] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 254 in call_runtest_hook\n'}
+[12.577628] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 215 in call_and_report\n'}
+[12.577691] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 126 in runtestprotocol\n'}
+[12.577754] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 109 in pytest_runtest_protocol\n'}
+[12.577817] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall\n'}
+[12.577880] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>\n'}
+[12.577949] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec\n'}
+[12.578050] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__\n'}
+[12.578134] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 348 in pytest_runtestloop\n'}
+[12.578201] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall\n'}
+[12.578264] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>\n'}
+[12.578326] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec\n'}
+[12.578397] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__\n'}
+[12.578460] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 323 in _main\n'}
+[12.578523] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 269 in wrap_session\n'}
+[12.578585] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 316 in pytest_cmdline_main\n'}
+[12.578649] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall\n'}
+[12.578719] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>\n'}
+[12.578794] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec\n'}
+[12.578869] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__\n'}
+[12.578958] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 162 in main\n'}
+[12.579048] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 185 in console_main\n'}
+[12.579116] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3/dist-packages/pytest/__main__.py", line 5 in <module>\n'}
+[12.579195] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3.10/runpy.py", line 86 in _run_code\n'}
+[12.579254] (cv_bridge) StdoutLine: {'line': b'3:   File "/usr/lib/python3.10/runpy.py", line 196 in _run_module_as_main\n'}
+[12.579313] (cv_bridge) StdoutLine: {'line': b'3: \n'}
+[12.579373] (cv_bridge) StdoutLine: {'line': b'3: Extension modules: yaml._yaml, numpy._core._multiarray_umath, numpy.linalg._umath_linalg, apt_pkg, cv_bridge.boost.cv_bridge_boost, numpy.random._common, numpy.random.bit_generator, numpy.random._bounded_integers, numpy.random._mt19937, numpy.random.mtrand, numpy.random._philox, numpy.random._pcg64, numpy.random._sfc64, numpy.random._generator (total: 14)\n'}
+[12.657418] (-) TimerEvent: {}
+[12.757868] (-) TimerEvent: {}
+[12.858388] (-) TimerEvent: {}
+[12.958914] (-) TimerEvent: {}
+[13.059220] (-) TimerEvent: {}
+[13.159689] (-) TimerEvent: {}
+[13.260135] (-) TimerEvent: {}
+[13.360565] (-) TimerEvent: {}
+[13.461026] (-) TimerEvent: {}
+[13.561322] (-) TimerEvent: {}
+[13.661814] (-) TimerEvent: {}
+[13.762314] (-) TimerEvent: {}
+[13.862792] (-) TimerEvent: {}
+[13.963248] (-) TimerEvent: {}
+[14.063656] (-) TimerEvent: {}
+[14.164128] (-) TimerEvent: {}
+[14.264506] (-) TimerEvent: {}
+[14.364981] (-) TimerEvent: {}
+[14.465465] (-) TimerEvent: {}
+[14.565968] (-) TimerEvent: {}
+[14.666580] (-) TimerEvent: {}
+[14.767012] (-) TimerEvent: {}
+[14.867496] (-) TimerEvent: {}
+[14.968016] (-) TimerEvent: {}
+[15.068324] (-) TimerEvent: {}
+[15.168774] (-) TimerEvent: {}
+[15.269227] (-) TimerEvent: {}
+[15.369665] (-) TimerEvent: {}
+[15.470123] (-) TimerEvent: {}
+[15.570441] (-) TimerEvent: {}
+[15.670914] (-) TimerEvent: {}
+[15.771387] (-) TimerEvent: {}
+[15.871902] (-) TimerEvent: {}
+[15.972243] (-) TimerEvent: {}
+[16.072496] (-) TimerEvent: {}
+[16.172879] (-) TimerEvent: {}
+[16.273317] (-) TimerEvent: {}
+[16.373735] (-) TimerEvent: {}
+[16.474122] (-) TimerEvent: {}
+[16.574501] (-) TimerEvent: {}
+[16.674896] (-) TimerEvent: {}
+[16.775203] (-) TimerEvent: {}
+[16.785202] (cv_bridge) StdoutLine: {'line': b'3: -- run_test.py: return code -11\n'}
+[16.785679] (cv_bridge) StdoutLine: {'line': b"3: -- run_test.py: generate result file '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml' with failed test\n"}
+[16.786368] (cv_bridge) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml'\n"}
+[16.807193] (cv_bridge) StdoutLine: {'line': b'3/4 Test #3: conversions.py ...................***Failed   12.97 sec\n'}
+[16.807722] (cv_bridge) StdoutLine: {'line': b'test 4\n'}
+[16.808068] (cv_bridge) StdoutLine: {'line': b'    Start 4: python_bindings.py\n'}
+[16.808279] (cv_bridge) StdoutLine: {'line': b'\n'}
+[16.808436] (cv_bridge) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/python_bindings.py.xunit.xml" "--package-name" "cv_bridge" "--output-file" "/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/ament_cmake_pytest/python_bindings.py.txt" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/python_bindings.py" "-o" "cache_dir=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test/ament_cmake_pytest/python_bindings.py/.cache" "--junit-xml=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/python_bindings.py.xunit.xml" "--junit-prefix=cv_bridge"\n'}
+[16.808604] (cv_bridge) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[16.875514] (-) TimerEvent: {}
+[16.876943] (cv_bridge) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test':\n"}
+[16.877511] (cv_bridge) StdoutLine: {'line': b'4:  - /usr/bin/python3 -u -m pytest /home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/python_bindings.py -o cache_dir=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test/ament_cmake_pytest/python_bindings.py/.cache --junit-xml=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/python_bindings.py.xunit.xml --junit-prefix=cv_bridge\n'}
+[16.975740] (-) TimerEvent: {}
+[17.076062] (-) TimerEvent: {}
+[17.118683] (cv_bridge) StdoutLine: {'line': b'4: ============================= test session starts ==============================\n'}
+[17.118890] (cv_bridge) StdoutLine: {'line': b'4: platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[17.122752] (cv_bridge) StdoutLine: {'line': b'4: cachedir: /home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test/ament_cmake_pytest/python_bindings.py/.cache\n'}
+[17.123213] (cv_bridge) StdoutLine: {'line': b'4: rootdir: /home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv, configfile: pytest.ini\n'}
+[17.123421] (cv_bridge) StdoutLine: {'line': b'4: plugins: launch-testing-1.0.6, ament-xmllint-0.12.11, ament-flake8-0.12.11, ament-copyright-0.12.11, launch-testing-ros-0.19.7, ament-pep257-0.12.11, ament-lint-0.12.11, cov-3.0.0, colcon-core-0.18.1\n'}
+[17.180013] (-) TimerEvent: {}
+[17.280468] (-) TimerEvent: {}
+[17.298742] (cv_bridge) StdoutLine: {'line': b'4: \n'}
+[17.299048] (cv_bridge) StdoutLine: {'line': b'4: A module that was compiled using NumPy 1.x cannot be run in\n'}
+[17.299200] (cv_bridge) StdoutLine: {'line': b'4: NumPy 2.1.3 as it may crash. To support both 1.x and 2.x\n'}
+[17.299326] (cv_bridge) StdoutLine: {'line': b'4: versions of NumPy, modules must be compiled with NumPy 2.0.\n'}
+[17.299445] (cv_bridge) StdoutLine: {'line': b"4: Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.\n"}
+[17.299570] (cv_bridge) StdoutLine: {'line': b'4: \n'}
+[17.299686] (cv_bridge) StdoutLine: {'line': b'4: If you are a user of the module, the easiest solution will be to\n'}
+[17.299789] (cv_bridge) StdoutLine: {'line': b"4: downgrade to 'numpy<2' or try to upgrade the affected module.\n"}
+[17.299891] (cv_bridge) StdoutLine: {'line': b'4: We expect that some modules will need time to support NumPy 2.\n'}
+[17.300020] (cv_bridge) StdoutLine: {'line': b'4: \n'}
+[17.300148] (cv_bridge) StdoutLine: {'line': b'4: Traceback (most recent call last):  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[17.300271] (cv_bridge) StdoutLine: {'line': b'4:     return _run_code(code, main_globals, None,\n'}
+[17.300373] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[17.300492] (cv_bridge) StdoutLine: {'line': b'4:     exec(code, run_globals)\n'}
+[17.300600] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pytest/__main__.py", line 5, in <module>\n'}
+[17.300706] (cv_bridge) StdoutLine: {'line': b'4:     raise SystemExit(pytest.console_main())\n'}
+[17.300807] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 185, in console_main\n'}
+[17.300910] (cv_bridge) StdoutLine: {'line': b'4:     code = main()\n'}
+[17.301068] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 162, in main\n'}
+[17.301183] (cv_bridge) StdoutLine: {'line': b'4:     ret: Union[ExitCode, int] = config.hook.pytest_cmdline_main(\n'}
+[17.301293] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__\n'}
+[17.301389] (cv_bridge) StdoutLine: {'line': b'4:     return self._hookexec(self, self.get_hookimpls(), kwargs)\n'}
+[17.301484] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec\n'}
+[17.301579] (cv_bridge) StdoutLine: {'line': b'4:     return self._inner_hookexec(hook, methods, kwargs)\n'}
+[17.301675] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>\n'}
+[17.301771] (cv_bridge) StdoutLine: {'line': b'4:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(\n'}
+[17.301866] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall\n'}
+[17.301977] (cv_bridge) StdoutLine: {'line': b'4:     res = hook_impl.function(*args)\n'}
+[17.302103] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 316, in pytest_cmdline_main\n'}
+[17.302217] (cv_bridge) StdoutLine: {'line': b'4:     return wrap_session(config, _main)\n'}
+[17.302319] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 269, in wrap_session\n'}
+[17.302414] (cv_bridge) StdoutLine: {'line': b'4:     session.exitstatus = doit(config, session) or 0\n'}
+[17.302510] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 322, in _main\n'}
+[17.302606] (cv_bridge) StdoutLine: {'line': b'4:     config.hook.pytest_collection(session=session)\n'}
+[17.302702] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__\n'}
+[17.302797] (cv_bridge) StdoutLine: {'line': b'4:     return self._hookexec(self, self.get_hookimpls(), kwargs)\n'}
+[17.302893] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec\n'}
+[17.303014] (cv_bridge) StdoutLine: {'line': b'4:     return self._inner_hookexec(hook, methods, kwargs)\n'}
+[17.303141] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>\n'}
+[17.303271] (cv_bridge) StdoutLine: {'line': b'4:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(\n'}
+[17.303385] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall\n'}
+[17.303493] (cv_bridge) StdoutLine: {'line': b'4:     res = hook_impl.function(*args)\n'}
+[17.303596] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 333, in pytest_collection\n'}
+[17.303692] (cv_bridge) StdoutLine: {'line': b'4:     session.perform_collect()\n'}
+[17.303787] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 620, in perform_collect\n'}
+[17.303882] (cv_bridge) StdoutLine: {'line': b'4:     rep = collect_one_node(self)\n'}
+[17.304002] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 458, in collect_one_node\n'}
+[17.304132] (cv_bridge) StdoutLine: {'line': b'4:     rep: CollectReport = ihook.pytest_make_collect_report(collector=collector)\n'}
+[17.304245] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__\n'}
+[17.304346] (cv_bridge) StdoutLine: {'line': b'4:     return self._hookexec(self, self.get_hookimpls(), kwargs)\n'}
+[17.304442] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec\n'}
+[17.304538] (cv_bridge) StdoutLine: {'line': b'4:     return self._inner_hookexec(hook, methods, kwargs)\n'}
+[17.304634] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>\n'}
+[17.304729] (cv_bridge) StdoutLine: {'line': b'4:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(\n'}
+[17.304824] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall\n'}
+[17.304928] (cv_bridge) StdoutLine: {'line': b'4:     res = hook_impl.function(*args)\n'}
+[17.305057] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 341, in pytest_make_collect_report\n'}
+[17.305172] (cv_bridge) StdoutLine: {'line': b'4:     call = CallInfo.from_call(lambda: list(collector.collect()), "collect")\n'}
+[17.305282] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 311, in from_call\n'}
+[17.305378] (cv_bridge) StdoutLine: {'line': b'4:     result: Optional[TResult] = func()\n'}
+[17.305474] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 341, in <lambda>\n'}
+[17.305569] (cv_bridge) StdoutLine: {'line': b'4:     call = CallInfo.from_call(lambda: list(collector.collect()), "collect")\n'}
+[17.305665] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 724, in collect\n'}
+[17.305760] (cv_bridge) StdoutLine: {'line': b'4:     col = collect_root._collectfile(argpath, handle_dupes=False)\n'}
+[17.305861] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 565, in _collectfile\n'}
+[17.305986] (cv_bridge) StdoutLine: {'line': b'4:     return ihook.pytest_collect_file(path=path, parent=self)  # type: ignore[no-any-return]\n'}
+[17.306110] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__\n'}
+[17.306224] (cv_bridge) StdoutLine: {'line': b'4:     return self._hookexec(self, self.get_hookimpls(), kwargs)\n'}
+[17.306331] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec\n'}
+[17.306435] (cv_bridge) StdoutLine: {'line': b'4:     return self._inner_hookexec(hook, methods, kwargs)\n'}
+[17.306551] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>\n'}
+[17.306675] (cv_bridge) StdoutLine: {'line': b'4:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(\n'}
+[17.306795] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall\n'}
+[17.306927] (cv_bridge) StdoutLine: {'line': b'4:     res = hook_impl.function(*args)\n'}
+[17.307107] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/python.py", line 200, in pytest_collect_file\n'}
+[17.307257] (cv_bridge) StdoutLine: {'line': b'4:     module: Module = ihook.pytest_pycollect_makemodule(path=path, parent=parent)\n'}
+[17.307373] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__\n'}
+[17.307489] (cv_bridge) StdoutLine: {'line': b'4:     return self._hookexec(self, self.get_hookimpls(), kwargs)\n'}
+[17.307603] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec\n'}
+[17.307725] (cv_bridge) StdoutLine: {'line': b'4:     return self._inner_hookexec(hook, methods, kwargs)\n'}
+[17.307840] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>\n'}
+[17.307973] (cv_bridge) StdoutLine: {'line': b'4:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(\n'}
+[17.308139] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall\n'}
+[17.308278] (cv_bridge) StdoutLine: {'line': b'4:     res = hook_impl.function(*args)\n'}
+[17.308406] (cv_bridge) StdoutLine: {'line': b'4:   File "/opt/ros/humble/lib/python3.10/site-packages/launch_testing/pytest/hooks.py", line 193, in pytest_pycollect_makemodule\n'}
+[17.308543] (cv_bridge) StdoutLine: {'line': b'4:     entrypoint = find_launch_test_entrypoint(path)\n'}
+[17.308673] (cv_bridge) StdoutLine: {'line': b'4:   File "/opt/ros/humble/lib/python3.10/site-packages/launch_testing/pytest/hooks.py", line 186, in find_launch_test_entrypoint\n'}
+[17.308802] (cv_bridge) StdoutLine: {'line': b'4:     module = path.pyimport()\n'}
+[17.308944] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/py/_path/local.py", line 704, in pyimport\n'}
+[17.309071] (cv_bridge) StdoutLine: {'line': b'4:     __import__(modname)\n'}
+[17.309186] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/assertion/rewrite.py", line 170, in exec_module\n'}
+[17.309295] (cv_bridge) StdoutLine: {'line': b'4:     exec(co, module.__dict__)\n'}
+[17.309391] (cv_bridge) StdoutLine: {'line': b'4:   File "/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/python_bindings.py", line 1, in <module>\n'}
+[17.309490] (cv_bridge) StdoutLine: {'line': b'4:     import cv_bridge\n'}
+[17.309578] (cv_bridge) StdoutLine: {'line': b'4:   File "/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/__init__.py", line 6, in <module>\n'}
+[17.309654] (cv_bridge) StdoutLine: {'line': b'4:     from cv_bridge.boost.cv_bridge_boost import cvtColorForDisplay, getCvType\n'}
+[17.315830] (cv_bridge) StdoutLine: {'line': b'4: AttributeError: _ARRAY_API not found\n'}
+[17.316805] (cv_bridge) StdoutLine: {'line': b'4: collected 1 item\n'}
+[17.317091] (cv_bridge) StdoutLine: {'line': b'4: \n'}
+[17.318526] (cv_bridge) StdoutLine: {'line': b'4: ../../../src/vision_opencv/cv_bridge/test/python_bindings.py Fatal Python error: Segmentation fault\n'}
+[17.318703] (cv_bridge) StdoutLine: {'line': b'4: \n'}
+[17.318827] (cv_bridge) StdoutLine: {'line': b'4: Current thread 0x000078fee45ff1c0 (most recent call first):\n'}
+[17.318941] (cv_bridge) StdoutLine: {'line': b'4:   File "/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/python_bindings.py", line 21 in test_cvtColorForDisplay\n'}
+[17.319063] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/python.py", line 183 in pytest_pyfunc_call\n'}
+[17.319174] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall\n'}
+[17.319269] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>\n'}
+[17.319361] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec\n'}
+[17.319448] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__\n'}
+[17.319532] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/python.py", line 1641 in runtest\n'}
+[17.319706] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 162 in pytest_runtest_call\n'}
+[17.319863] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall\n'}
+[17.319995] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>\n'}
+[17.320140] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec\n'}
+[17.320248] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__\n'}
+[17.320339] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 255 in <lambda>\n'}
+[17.320429] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 311 in from_call\n'}
+[17.320518] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 254 in call_runtest_hook\n'}
+[17.320608] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 215 in call_and_report\n'}
+[17.320697] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 126 in runtestprotocol\n'}
+[17.320786] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 109 in pytest_runtest_protocol\n'}
+[17.320884] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall\n'}
+[17.321030] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>\n'}
+[17.321178] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec\n'}
+[17.321289] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__\n'}
+[17.321391] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 348 in pytest_runtestloop\n'}
+[17.321476] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall\n'}
+[17.321561] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>\n'}
+[17.321656] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec\n'}
+[17.321741] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__\n'}
+[17.321827] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 323 in _main\n'}
+[17.321924] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 269 in wrap_session\n'}
+[17.322061] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 316 in pytest_cmdline_main\n'}
+[17.322178] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall\n'}
+[17.322267] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>\n'}
+[17.322378] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec\n'}
+[17.322592] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__\n'}
+[17.322802] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 162 in main\n'}
+[17.322978] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 185 in console_main\n'}
+[17.323163] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3/dist-packages/pytest/__main__.py", line 5 in <module>\n'}
+[17.323292] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3.10/runpy.py", line 86 in _run_code\n'}
+[17.323407] (cv_bridge) StdoutLine: {'line': b'4:   File "/usr/lib/python3.10/runpy.py", line 196 in _run_module_as_main\n'}
+[17.323509] (cv_bridge) StdoutLine: {'line': b'4: \n'}
+[17.323605] (cv_bridge) StdoutLine: {'line': b'4: Extension modules: yaml._yaml, numpy._core._multiarray_umath, numpy.linalg._umath_linalg, apt_pkg, cv_bridge.boost.cv_bridge_boost (total: 5)\n'}
+[17.380568] (-) TimerEvent: {}
+[17.394593] (cv_bridge) StdoutLine: {'line': b'4: -- run_test.py: return code -11\n'}
+[17.395010] (cv_bridge) StdoutLine: {'line': b"4: -- run_test.py: generate result file '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/python_bindings.py.xunit.xml' with failed test\n"}
+[17.395170] (cv_bridge) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/python_bindings.py.xunit.xml'\n"}
+[17.404579] (cv_bridge) StdoutLine: {'line': b'4/4 Test #4: python_bindings.py ...............***Failed    0.60 sec\n'}
+[17.405469] (cv_bridge) StdoutLine: {'line': b'\n'}
+[17.405809] (cv_bridge) StdoutLine: {'line': b'25% tests passed\x1b[0;0m, \x1b[0;31m3 tests failed\x1b[0;0m out of 4\n'}
+[17.405955] (cv_bridge) StdoutLine: {'line': b'\n'}
+[17.406078] (cv_bridge) StdoutLine: {'line': b'Label Time Summary:\n'}
+[17.406156] (cv_bridge) StdoutLine: {'line': b'gtest     =   0.59 sec*proc (1 test)\n'}
+[17.406227] (cv_bridge) StdoutLine: {'line': b'pytest    =  16.73 sec*proc (3 tests)\n'}
+[17.406293] (cv_bridge) StdoutLine: {'line': b'\n'}
+[17.406356] (cv_bridge) StdoutLine: {'line': b'Total Test time (real) =  17.33 sec\n'}
+[17.406413] (cv_bridge) StdoutLine: {'line': b'\n'}
+[17.406471] (cv_bridge) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[17.406531] (cv_bridge) StdoutLine: {'line': b'\t\x1b[0;31m  2 - enumerants.py (Failed)\x1b[0;0m\n'}
+[17.406590] (cv_bridge) StdoutLine: {'line': b'\t\x1b[0;31m  3 - conversions.py (Failed)\x1b[0;0m\n'}
+[17.406650] (cv_bridge) StdoutLine: {'line': b'\t\x1b[0;31m  4 - python_bindings.py (Failed)\x1b[0;0m\n'}
+[17.412867] (cv_bridge) StderrLine: {'line': b'Errors while running CTest\n'}
+[17.413145] (cv_bridge) StderrLine: {'line': b'Output from these tests are in: /home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/Testing/Temporary/LastTest.log\n'}
+[17.413225] (cv_bridge) StderrLine: {'line': b'Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.\n'}
+[17.418418] (cv_bridge) CommandEnded: {'returncode': 8}
+[17.419482] (cv_bridge) TestFailure: {'identifier': 'cv_bridge'}
+[17.419689] (cv_bridge) JobEnded: {'identifier': 'cv_bridge', 'rc': 0}
+[17.422130] (opencv_tests) JobStarted: {'identifier': 'opencv_tests'}
+[17.434675] (vision_opencv) JobStarted: {'identifier': 'vision_opencv'}
+[17.480848] (-) TimerEvent: {}
+[17.581186] (-) TimerEvent: {}
+[17.639902] (opencv_tests) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/opencv_tests', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'mscrobotics2425laptop7', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/lib:/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mscrobotics2425laptop7', 'OLDPWD': '/home/mscrobotics2425laptop7/openCV_ros2/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2565', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus,guid=6b39205601d3d8dbf3fc558567408e4f', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mscrobotics2425laptop7/openCV_ros2/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'mscrobotics2425laptop7', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mscrobotics2425laptop7', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/mscrobotics2425laptop7/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/e-10lux4295w2r:@/tmp/.ICE-unix/2565,unix/e-10lux4295w2r:/tmp/.ICE-unix/2565', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/61273a1c_1f55_4023_b173_9bcca093fc68', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1001', 'ZEITGEIST_DATA_PATH': '/home/mscrobotics2425laptop7/.local/share/zeitgeist', 'DISPLAY': ':0', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/.mutter-Xwaylandauth.OPJMX2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.282', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests:/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv:/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/mscrobotics2425laptop7/openCV_ros2/build/opencv_tests', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1001/bus,guid=6b39205601d3d8dbf3fc558567408e4f', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mscrobotics2425laptop7/openCV_ros2/build/opencv_tests:/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests/lib/python3.10/site-packages:/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/local/lib/python3.10/dist-packages:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge:/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv:/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry', 'PYTHONDONTWRITEBYTECODE': '1', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/mscrobotics2425laptop7/openCV_ros2/build/opencv_tests/pytest.xml --junit-prefix=opencv_tests -o cache_dir=/home/mscrobotics2425laptop7/openCV_ros2/build/opencv_tests/.pytest_cache'}, 'shell': False}
+[17.656935] (vision_opencv) JobEnded: {'identifier': 'vision_opencv', 'rc': 0}
+[17.681493] (-) TimerEvent: {}
+[17.781930] (-) TimerEvent: {}
+[17.864539] (opencv_tests) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[17.864738] (opencv_tests) StdoutLine: {'line': b'platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[17.867417] (opencv_tests) StdoutLine: {'line': b'cachedir: /home/mscrobotics2425laptop7/openCV_ros2/build/opencv_tests/.pytest_cache\n'}
+[17.867586] (opencv_tests) StdoutLine: {'line': b'rootdir: /home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv, configfile: pytest.ini\n'}
+[17.867665] (opencv_tests) StdoutLine: {'line': b'plugins: launch-testing-1.0.6, ament-xmllint-0.12.11, ament-flake8-0.12.11, ament-copyright-0.12.11, launch-testing-ros-0.19.7, ament-pep257-0.12.11, ament-lint-0.12.11, cov-3.0.0, colcon-core-0.18.1\n'}
+[17.871712] (opencv_tests) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[17.871894] (opencv_tests) StdoutLine: {'line': b'collected 0 items                                                              \x1b[0m\n'}
+[17.872683] (opencv_tests) StdoutLine: {'line': b'\n'}
+[17.873504] (opencv_tests) StdoutLine: {'line': b'- generated xml file: /home/mscrobotics2425laptop7/openCV_ros2/build/opencv_tests/pytest.xml -\n'}
+[17.874080] (opencv_tests) StdoutLine: {'line': b'\x1b[33m============================ \x1b[33mno tests ran\x1b[0m\x1b[33m in 0.01s\x1b[0m\x1b[33m =============================\x1b[0m\n'}
+[17.882091] (-) TimerEvent: {}
+[17.912208] (opencv_tests) CommandEnded: {'returncode': 5}
+[17.912650] (opencv_tests) JobEnded: {'identifier': 'opencv_tests', 'rc': 0}
+[17.913187] (-) EventReactorShutdown: {}

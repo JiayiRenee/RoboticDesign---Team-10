@@ -1,0 +1,1 @@
+/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/ament_cmake_python/image_geometry/image_geometry.egg-info/SOURCES.txt

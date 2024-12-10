@@ -1,0 +1,366 @@
+[0.080s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.081s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e16b02c6890>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e16b02c63e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e16b02c63e0>>, mixin_verb=('build',))
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.206s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mscrobotics2425laptop7/openCV_ros2'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/cv_bridge' with type 'ros.ament_cmake' and name 'cv_bridge'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/image_geometry' with type 'ros.ament_cmake' and name 'image_geometry'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/opencv_tests' with type 'ros.ament_python' and name 'opencv_tests'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/vision_opencv' with type 'ros.ament_cmake' and name 'vision_opencv'
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.251s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 334 installed packages in /opt/ros/humble
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.277s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'cv_bridge' is in: /opt/ros/humble
+	'image_geometry' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding cv_bridge image_geometry
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.278s] DEBUG:colcon.colcon_core.verb:Building package 'cv_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge', 'merge_install': False, 'path': '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge', 'symlink_install': True, 'test_result_base': None}
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_target' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.278s] DEBUG:colcon.colcon_core.verb:Building package 'image_geometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry', 'merge_install': False, 'path': '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/image_geometry', 'symlink_install': True, 'test_result_base': None}
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_target' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_clean_cache' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_clean_first' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_force_configure' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'ament_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'catkin_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.279s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_tests' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mscrobotics2425laptop7/openCV_ros2/build/opencv_tests', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests', 'merge_install': False, 'path': '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/opencv_tests', 'symlink_install': True, 'test_result_base': None}
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_target' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_clean_cache' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_clean_first' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_force_configure' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'ament_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'catkin_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.279s] DEBUG:colcon.colcon_core.verb:Building package 'vision_opencv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mscrobotics2425laptop7/openCV_ros2/build/vision_opencv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv', 'merge_install': False, 'path': '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/vision_opencv', 'symlink_install': True, 'test_result_base': None}
+[0.279s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.281s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.281s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge' with build type 'ament_cmake'
+[0.281s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge'
+[0.283s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.283s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.283s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.286s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/image_geometry' with build type 'ament_cmake'
+[0.286s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/image_geometry'
+[0.287s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.287s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge
+[0.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/image_geometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry
+[2.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/image_geometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry
+[2.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry -- -j12 -l12
+[5.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge
+[5.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge -- -j12 -l12
+[8.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry -- -j12 -l12
+[9.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry
+[9.458s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_geometry)
+[9.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry
+[9.465s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry' for CMake module files
+[9.465s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry' for CMake config files
+[9.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'cmake_prefix_path')
+[9.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.ps1'
+[9.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.dsv'
+[9.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.sh'
+[9.471s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/lib'
+[9.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'ld_library_path_lib')
+[9.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.ps1'
+[9.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.dsv'
+[9.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.sh'
+[9.479s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/bin'
+[9.479s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/lib/pkgconfig/image_geometry.pc'
+[9.480s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/lib/python3.10/site-packages'
+[9.481s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/bin'
+[9.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/share/image_geometry/package.ps1'
+[9.484s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/share/image_geometry/package.dsv'
+[9.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/share/image_geometry/package.sh'
+[9.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/share/image_geometry/package.bash'
+[9.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/share/image_geometry/package.zsh'
+[9.493s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/share/colcon-core/packages/image_geometry)
+[9.550s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_geometry)
+[9.551s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry' for CMake module files
+[9.553s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry' for CMake config files
+[9.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'cmake_prefix_path')
+[9.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.ps1'
+[9.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.dsv'
+[9.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.sh'
+[9.558s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/lib'
+[9.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'ld_library_path_lib')
+[9.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.ps1'
+[9.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.dsv'
+[9.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.sh'
+[9.563s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/bin'
+[9.563s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/lib/pkgconfig/image_geometry.pc'
+[9.564s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/lib/python3.10/site-packages'
+[9.564s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/bin'
+[9.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/share/image_geometry/package.ps1'
+[9.566s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/share/image_geometry/package.dsv'
+[9.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/share/image_geometry/package.sh'
+[9.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/share/image_geometry/package.bash'
+[9.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/share/image_geometry/package.zsh'
+[9.571s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/share/colcon-core/packages/image_geometry)
+[15.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge -- -j12 -l12
+[15.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge
+[15.726s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv_bridge)
+[15.727s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge' for CMake module files
+[15.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge
+[15.728s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge' for CMake config files
+[15.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'cmake_prefix_path')
+[15.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.ps1'
+[15.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.dsv'
+[15.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.sh'
+[15.730s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/lib'
+[15.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'ld_library_path_lib')
+[15.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.ps1'
+[15.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.dsv'
+[15.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.sh'
+[15.731s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/bin'
+[15.731s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/lib/pkgconfig/cv_bridge.pc'
+[15.731s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/lib/python3.10/site-packages'
+[15.731s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/bin'
+[15.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/share/cv_bridge/package.ps1'
+[15.732s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/share/cv_bridge/package.dsv'
+[15.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/share/cv_bridge/package.sh'
+[15.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/share/cv_bridge/package.bash'
+[15.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/share/cv_bridge/package.zsh'
+[15.735s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/share/colcon-core/packages/cv_bridge)
+[15.778s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv_bridge)
+[15.779s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge' for CMake module files
+[15.780s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge' for CMake config files
+[15.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'cmake_prefix_path')
+[15.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.ps1'
+[15.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.dsv'
+[15.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.sh'
+[15.783s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/lib'
+[15.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'ld_library_path_lib')
+[15.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.ps1'
+[15.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.dsv'
+[15.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.sh'
+[15.790s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/bin'
+[15.790s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/lib/pkgconfig/cv_bridge.pc'
+[15.790s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/lib/python3.10/site-packages'
+[15.791s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/bin'
+[15.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/share/cv_bridge/package.ps1'
+[15.792s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/share/cv_bridge/package.dsv'
+[15.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/share/cv_bridge/package.sh'
+[15.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/share/cv_bridge/package.bash'
+[15.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/share/cv_bridge/package.zsh'
+[15.796s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/share/colcon-core/packages/cv_bridge)
+[15.797s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/opencv_tests' with build type 'ament_python'
+[15.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tests', 'ament_prefix_path')
+[15.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests/share/opencv_tests/hook/ament_prefix_path.ps1'
+[15.801s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests/share/opencv_tests/hook/ament_prefix_path.dsv'
+[15.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests/share/opencv_tests/hook/ament_prefix_path.sh'
+[15.803s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.804s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.808s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/vision_opencv' with build type 'ament_cmake'
+[15.808s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/vision_opencv'
+[15.808s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.809s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.041s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/opencv_tests'
+[16.042s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.042s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mscrobotics2425laptop7/openCV_ros2/build/vision_opencv': AMENT_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/lib:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/local/lib/python3.10/dist-packages:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/vision_opencv -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv
+[16.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mscrobotics2425laptop7/openCV_ros2/build/opencv_tests': AMENT_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge LD_LIBRARY_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mscrobotics2425laptop7/openCV_ros2/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests/lib/python3.10/site-packages:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mscrobotics2425laptop7/openCV_ros2/build/opencv_tests/build --no-deps symlink_data
+[16.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mscrobotics2425laptop7/openCV_ros2/build/vision_opencv' returned '0': AMENT_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/lib:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/local/lib/python3.10/dist-packages:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/vision_opencv -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv
+[16.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mscrobotics2425laptop7/openCV_ros2/build/vision_opencv': AMENT_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/lib:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/local/lib/python3.10/dist-packages:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mscrobotics2425laptop7/openCV_ros2/build/vision_opencv -- -j12 -l12
+[16.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mscrobotics2425laptop7/openCV_ros2/build/vision_opencv' returned '0': AMENT_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/lib:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/local/lib/python3.10/dist-packages:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mscrobotics2425laptop7/openCV_ros2/build/vision_opencv -- -j12 -l12
+[17.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mscrobotics2425laptop7/openCV_ros2/build/vision_opencv': AMENT_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/lib:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/local/lib/python3.10/dist-packages:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mscrobotics2425laptop7/openCV_ros2/build/vision_opencv
+[17.207s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_opencv)
+[17.207s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv' for CMake module files
+[17.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mscrobotics2425laptop7/openCV_ros2/build/vision_opencv' returned '0': AMENT_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/lib:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry/local/lib/python3.10/dist-packages:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mscrobotics2425laptop7/openCV_ros2/build/vision_opencv
+[17.209s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv' for CMake config files
+[17.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_opencv', 'cmake_prefix_path')
+[17.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.ps1'
+[17.212s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.dsv'
+[17.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.sh'
+[17.214s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/bin'
+[17.215s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/lib/pkgconfig/vision_opencv.pc'
+[17.215s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/lib/python3.10/site-packages'
+[17.216s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/bin'
+[17.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/share/vision_opencv/package.ps1'
+[17.218s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/share/vision_opencv/package.dsv'
+[17.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/share/vision_opencv/package.sh'
+[17.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/share/vision_opencv/package.bash'
+[17.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/share/vision_opencv/package.zsh'
+[17.222s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/share/colcon-core/packages/vision_opencv)
+[17.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tests', 'pythonpath_develop')
+[17.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/build/opencv_tests/share/opencv_tests/hook/pythonpath_develop.ps1'
+[17.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mscrobotics2425laptop7/openCV_ros2/build/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge LD_LIBRARY_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mscrobotics2425laptop7/openCV_ros2/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests/lib/python3.10/site-packages:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mscrobotics2425laptop7/openCV_ros2/build/opencv_tests/build --no-deps symlink_data
+[17.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mscrobotics2425laptop7/openCV_ros2/build/opencv_tests/share/opencv_tests/hook/pythonpath_develop.dsv'
+[17.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/build/opencv_tests/share/opencv_tests/hook/pythonpath_develop.sh'
+[17.263s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests' for CMake module files
+[17.263s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests' for CMake config files
+[17.264s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests/lib'
+[17.264s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests/bin'
+[17.264s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests/lib/pkgconfig/opencv_tests.pc'
+[17.265s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests/lib/python3.10/site-packages'
+[17.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tests', 'pythonpath')
+[17.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests/share/opencv_tests/hook/pythonpath.ps1'
+[17.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests/share/opencv_tests/hook/pythonpath.dsv'
+[17.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests/share/opencv_tests/hook/pythonpath.sh'
+[17.267s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests/bin'
+[17.268s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_tests)
+[17.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests/share/opencv_tests/package.ps1'
+[17.270s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests/share/opencv_tests/package.dsv'
+[17.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests/share/opencv_tests/package.sh'
+[17.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests/share/opencv_tests/package.bash'
+[17.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests/share/opencv_tests/package.zsh'
+[17.277s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mscrobotics2425laptop7/openCV_ros2/install/opencv_tests/share/colcon-core/packages/opencv_tests)
+[17.281s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_opencv)
+[17.282s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv' for CMake module files
+[17.284s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv' for CMake config files
+[17.284s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_opencv', 'cmake_prefix_path')
+[17.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.ps1'
+[17.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.dsv'
+[17.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.sh'
+[17.287s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/bin'
+[17.287s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/lib/pkgconfig/vision_opencv.pc'
+[17.287s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/lib/python3.10/site-packages'
+[17.287s] Level 1:colcon.colcon_core.environment:checking '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/bin'
+[17.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/share/vision_opencv/package.ps1'
+[17.288s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/share/vision_opencv/package.dsv'
+[17.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/share/vision_opencv/package.sh'
+[17.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/share/vision_opencv/package.bash'
+[17.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/share/vision_opencv/package.zsh'
+[17.290s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv/share/colcon-core/packages/vision_opencv)
+[17.290s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.290s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.290s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.290s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.298s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.298s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.298s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.318s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.318s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mscrobotics2425laptop7/openCV_ros2/install/local_setup.ps1'
+[17.320s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mscrobotics2425laptop7/openCV_ros2/install/_local_setup_util_ps1.py'
+[17.322s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mscrobotics2425laptop7/openCV_ros2/install/setup.ps1'
+[17.324s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mscrobotics2425laptop7/openCV_ros2/install/local_setup.sh'
+[17.325s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mscrobotics2425laptop7/openCV_ros2/install/_local_setup_util_sh.py'
+[17.325s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mscrobotics2425laptop7/openCV_ros2/install/setup.sh'
+[17.327s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mscrobotics2425laptop7/openCV_ros2/install/local_setup.bash'
+[17.328s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mscrobotics2425laptop7/openCV_ros2/install/setup.bash'
+[17.329s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mscrobotics2425laptop7/openCV_ros2/install/local_setup.zsh'
+[17.330s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mscrobotics2425laptop7/openCV_ros2/install/setup.zsh'

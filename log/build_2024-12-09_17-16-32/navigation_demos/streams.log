@@ -1,0 +1,47 @@
+[0.994s] Invoking command in '/home/mscrobotics2425laptop7/robotdesign - team10/src/navigation_demos': PYTHONPATH=/home/mscrobotics2425laptop7/robotdesign - team10/build/navigation_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation_demos build --build-base /home/mscrobotics2425laptop7/robotdesign - team10/build/navigation_demos/build install --record /home/mscrobotics2425laptop7/robotdesign - team10/build/navigation_demos/install.log --single-version-externally-managed install_data
+[1.177s] running egg_info
+[1.178s] creating ../../build/navigation_demos/navigation_demos.egg-info
+[1.178s] writing ../../build/navigation_demos/navigation_demos.egg-info/PKG-INFO
+[1.178s] writing dependency_links to ../../build/navigation_demos/navigation_demos.egg-info/dependency_links.txt
+[1.179s] writing entry points to ../../build/navigation_demos/navigation_demos.egg-info/entry_points.txt
+[1.179s] writing requirements to ../../build/navigation_demos/navigation_demos.egg-info/requires.txt
+[1.179s] writing top-level names to ../../build/navigation_demos/navigation_demos.egg-info/top_level.txt
+[1.179s] writing manifest file '../../build/navigation_demos/navigation_demos.egg-info/SOURCES.txt'
+[1.181s] reading manifest file '../../build/navigation_demos/navigation_demos.egg-info/SOURCES.txt'
+[1.181s] writing manifest file '../../build/navigation_demos/navigation_demos.egg-info/SOURCES.txt'
+[1.181s] running build
+[1.182s] running build_py
+[1.182s] creating /home/mscrobotics2425laptop7/robotdesign - team10/build/navigation_demos/build
+[1.182s] creating /home/mscrobotics2425laptop7/robotdesign - team10/build/navigation_demos/build/lib
+[1.182s] creating /home/mscrobotics2425laptop7/robotdesign - team10/build/navigation_demos/build/lib/navigation_demos
+[1.182s] copying navigation_demos/main_node.py -> /home/mscrobotics2425laptop7/robotdesign - team10/build/navigation_demos/build/lib/navigation_demos
+[1.182s] copying navigation_demos/__init__.py -> /home/mscrobotics2425laptop7/robotdesign - team10/build/navigation_demos/build/lib/navigation_demos
+[1.182s] copying navigation_demos/EKF.py -> /home/mscrobotics2425laptop7/robotdesign - team10/build/navigation_demos/build/lib/navigation_demos
+[1.182s] running install
+[1.182s] running install_lib
+[1.183s] creating /home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos/lib/python3.10/site-packages/navigation_demos
+[1.183s] copying /home/mscrobotics2425laptop7/robotdesign - team10/build/navigation_demos/build/lib/navigation_demos/main_node.py -> /home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos/lib/python3.10/site-packages/navigation_demos
+[1.183s] copying /home/mscrobotics2425laptop7/robotdesign - team10/build/navigation_demos/build/lib/navigation_demos/__init__.py -> /home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos/lib/python3.10/site-packages/navigation_demos
+[1.184s] copying /home/mscrobotics2425laptop7/robotdesign - team10/build/navigation_demos/build/lib/navigation_demos/EKF.py -> /home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos/lib/python3.10/site-packages/navigation_demos
+[1.184s] byte-compiling /home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos/lib/python3.10/site-packages/navigation_demos/main_node.py to main_node.cpython-310.pyc
+[1.186s] byte-compiling /home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos/lib/python3.10/site-packages/navigation_demos/__init__.py to __init__.cpython-310.pyc
+[1.186s] byte-compiling /home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos/lib/python3.10/site-packages/navigation_demos/EKF.py to EKF.cpython-310.pyc
+[1.187s] running install_data
+[1.187s] creating /home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos/share/ament_index
+[1.187s] creating /home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos/share/ament_index/resource_index
+[1.187s] creating /home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos/share/ament_index/resource_index/packages
+[1.187s] copying resource/navigation_demos -> /home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos/share/ament_index/resource_index/packages
+[1.187s] copying package.xml -> /home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos/share/navigation_demos
+[1.187s] creating /home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos/share/navigation_demos/launch
+[1.188s] copying launch/nav_demo.launch.py -> /home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos/share/navigation_demos/launch
+[1.188s] creating /home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos/share/navigation_demos/config
+[1.188s] copying config/planner.yaml -> /home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos/share/navigation_demos/config
+[1.188s] copying config/bt_nav.yaml -> /home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos/share/navigation_demos/config
+[1.188s] copying config/controller.yaml -> /home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos/share/navigation_demos/config
+[1.188s] running install_egg_info
+[1.190s] Copying ../../build/navigation_demos/navigation_demos.egg-info to /home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos/lib/python3.10/site-packages/navigation_demos-0.0.0-py3.10.egg-info
+[1.191s] running install_scripts
+[1.211s] Installing EKF script to /home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos/lib/navigation_demos
+[1.211s] Installing main_node script to /home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos/lib/navigation_demos
+[1.211s] writing list of installed files to '/home/mscrobotics2425laptop7/robotdesign - team10/build/navigation_demos/install.log'
+[1.245s] Invoked command in '/home/mscrobotics2425laptop7/robotdesign - team10/src/navigation_demos' returned '0': PYTHONPATH=/home/mscrobotics2425laptop7/robotdesign - team10/build/navigation_demos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop7/robotdesign - team10/install/navigation_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation_demos build --build-base /home/mscrobotics2425laptop7/robotdesign - team10/build/navigation_demos/build install --record /home/mscrobotics2425laptop7/robotdesign - team10/build/navigation_demos/install.log --single-version-externally-managed install_data

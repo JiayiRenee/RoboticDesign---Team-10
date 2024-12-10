@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20241129-1059-Experimental"
+	Name="e-10lux4295w2r"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="e-10lux4295w2r"
+	OSRelease="6.8.0-49-generic"
+	OSVersion="#49~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Nov  6 17:42:15 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="186"
+	ProcessorCacheSize="12288"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="10"
+	TotalVirtualMemory="1955"
+	TotalPhysicalMemory="15625"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2868.23"
+	>
+	<Testing>
+		<StartDateTime>Nov 29 10:59 GMT</StartDateTime>
+		<StartTestTime>1732877957</StartTestTime>
+		<TestList>
+			<Test>./image_geometry-utest</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>image_geometry-utest</Name>
+			<Path>.</Path>
+			<FullName>./image_geometry-utest</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml" "--package-name" "image_geometry" "--output-file" "/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/ament_cmake_gtest/image_geometry-utest.txt" "--command" "/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/image_geometry-utest" "--gtest_output=xml:/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>3.75001</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml" "--package-name" "image_geometry" "--output-file" "/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/ament_cmake_gtest/image_geometry-utest.txt" "--command" "/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/image_geometry-utest" "--gtest_output=xml:/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry':
+ - /home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/image_geometry-utest --gtest_output=xml:/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml
+[==========] Running 12 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 12 tests from PinholeTest
+[ RUN      ] PinholeTest.accessorsCorrect
+[       OK ] PinholeTest.accessorsCorrect (1 ms)
+[ RUN      ] PinholeTest.projectPoint
+[       OK ] PinholeTest.projectPoint (1 ms)
+[ RUN      ] PinholeTest.rectifyPoint
+[       OK ] PinholeTest.rectifyPoint (42 ms)
+[ RUN      ] PinholeTest.getDeltas
+[       OK ] PinholeTest.getDeltas (0 ms)
+[ RUN      ] PinholeTest.initialization
+[       OK ] PinholeTest.initialization (0 ms)
+[ RUN      ] PinholeTest.rectifyIfCalibrated
+[       OK ] PinholeTest.rectifyIfCalibrated (14 ms)
+[ RUN      ] PinholeTest.unrectifyImage
+[       OK ] PinholeTest.unrectifyImage (1788 ms)
+[ RUN      ] PinholeTest.unrectifyImageWithBinning
+[       OK ] PinholeTest.unrectifyImageWithBinning (665 ms)
+[ RUN      ] PinholeTest.unrectifyImageWithRoi
+[       OK ] PinholeTest.unrectifyImageWithRoi (909 ms)
+[ RUN      ] PinholeTest.unrectifyImageWithBinningAndRoi
+[       OK ] PinholeTest.unrectifyImageWithBinningAndRoi (229 ms)
+[ RUN      ] PinholeTest.rectifiedRoiSize
+[       OK ] PinholeTest.rectifiedRoiSize (0 ms)
+[ RUN      ] PinholeTest.rectifiedRoiCaching
+[       OK ] PinholeTest.rectifiedRoiCaching (0 ms)
+[----------] 12 tests from PinholeTest (3649 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 1 test suite ran. (3649 ms total)
+[  PASSED  ] 12 tests.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml'
+-- run_test.py: verify result file '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>gtest</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Nov 29 10:59 GMT</EndDateTime>
+		<EndTestTime>1732877961</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

@@ -1,0 +1,1 @@
+/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/ament_cmake_environment_hooks/pythonpath.sh

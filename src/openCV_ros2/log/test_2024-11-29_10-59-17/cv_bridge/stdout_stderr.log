@@ -1,0 +1,554 @@
+UpdateCTestConfiguration  from :/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/CTestConfiguration.ini
+Parse Config file:/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/CTestConfiguration.ini
+   Site: e-10lux4295w2r
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20241129-1059 - Experimental
+UpdateCTestConfiguration  from :/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/CTestConfiguration.ini
+Parse Config file:/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/CTestConfiguration.ini
+Test project /home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: cv_bridge-utest
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml" "--package-name" "cv_bridge" "--output-file" "/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/ament_cmake_gtest/cv_bridge-utest.txt" "--append-env" "LD_LIBRARY_PATH=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/src" "--command" "/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test/cv_bridge-utest" "--gtest_output=xml:/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml"
+1: Test timeout computed to be: 60
+1: -- run_test.py: extra environment variables to append:
+1:  - LD_LIBRARY_PATH+=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/src
+1: -- run_test.py: invoking following command in '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test':
+1:  - /home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test/cv_bridge-utest --gtest_output=xml:/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml
+1: [==========] Running 9 tests from 3 test suites.
+1: [----------] Global test environment set-up.
+1: [----------] 7 tests from CvBridgeTest
+1: [ RUN      ] CvBridgeTest.endianness
+1: [       OK ] CvBridgeTest.endianness (1 ms)
+1: [ RUN      ] CvBridgeTest.compression
+1: [       OK ] CvBridgeTest.compression (3 ms)
+1: [ RUN      ] CvBridgeTest.NonContinuous
+1: [       OK ] CvBridgeTest.NonContinuous (0 ms)
+1: [ RUN      ] CvBridgeTest.ChannelOrder
+1: [       OK ] CvBridgeTest.ChannelOrder (1 ms)
+1: [ RUN      ] CvBridgeTest.initialization
+1: [       OK ] CvBridgeTest.initialization (7 ms)
+1: [ RUN      ] CvBridgeTest.imageMessageStep
+1: [       OK ] CvBridgeTest.imageMessageStep (0 ms)
+1: [ RUN      ] CvBridgeTest.imageMessageConversion
+1: [       OK ] CvBridgeTest.imageMessageConversion (5 ms)
+1: [----------] 7 tests from CvBridgeTest (17 ms total)
+1: 
+1: [----------] 1 test from OpencvTests
+1: [ RUN      ] OpencvTests.testCase_encode_decode
+1: [       OK ] OpencvTests.testCase_encode_decode (492 ms)
+1: [----------] 1 test from OpencvTests (492 ms total)
+1: 
+1: [----------] 1 test from RGBColors
+1: [ RUN      ] RGBColors.testGetRGBColor
+1: [       OK ] RGBColors.testGetRGBColor (0 ms)
+1: [----------] 1 test from RGBColors (0 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 9 tests from 3 test suites ran. (509 ms total)
+1: [  PASSED  ] 9 tests.
+1: -- run_test.py: return code 0
+1: -- run_test.py: inject classname prefix into gtest result file '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml'
+1: -- run_test.py: verify result file '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml'
+1/4 Test #1: cv_bridge-utest ..................   Passed    0.66 sec
+test 2
+    Start 2: enumerants.py
+
+2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/enumerants.py.xunit.xml" "--package-name" "cv_bridge" "--output-file" "/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/ament_cmake_pytest/enumerants.py.txt" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/enumerants.py" "-o" "cache_dir=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test/ament_cmake_pytest/enumerants.py/.cache" "--junit-xml=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/enumerants.py.xunit.xml" "--junit-prefix=cv_bridge"
+2: Test timeout computed to be: 60
+2: -- run_test.py: invoking following command in '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test':
+2:  - /usr/bin/python3 -u -m pytest /home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/enumerants.py -o cache_dir=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test/ament_cmake_pytest/enumerants.py/.cache --junit-xml=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/enumerants.py.xunit.xml --junit-prefix=cv_bridge
+2: ============================= test session starts ==============================
+2: platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+2: cachedir: /home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test/ament_cmake_pytest/enumerants.py/.cache
+2: rootdir: /home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv, configfile: pytest.ini
+2: plugins: launch-testing-1.0.6, ament-xmllint-0.12.11, ament-flake8-0.12.11, ament-copyright-0.12.11, launch-testing-ros-0.19.7, ament-pep257-0.12.11, ament-lint-0.12.11, cov-3.0.0, colcon-core-0.18.1
+2: 
+2: A module that was compiled using NumPy 1.x cannot be run in
+2: NumPy 2.1.3 as it may crash. To support both 1.x and 2.x
+2: versions of NumPy, modules must be compiled with NumPy 2.0.
+2: Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+2: 
+2: If you are a user of the module, the easiest solution will be to
+2: downgrade to 'numpy<2' or try to upgrade the affected module.
+2: We expect that some modules will need time to support NumPy 2.
+2: 
+2: Traceback (most recent call last):  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+2:     return _run_code(code, main_globals, None,
+2:   File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+2:     exec(code, run_globals)
+2:   File "/usr/lib/python3/dist-packages/pytest/__main__.py", line 5, in <module>
+2:     raise SystemExit(pytest.console_main())
+2:   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 185, in console_main
+2:     code = main()
+2:   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 162, in main
+2:     ret: Union[ExitCode, int] = config.hook.pytest_cmdline_main(
+2:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__
+2:     return self._hookexec(self, self.get_hookimpls(), kwargs)
+2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec
+2:     return self._inner_hookexec(hook, methods, kwargs)
+2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>
+2:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+2:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall
+2:     res = hook_impl.function(*args)
+2:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 316, in pytest_cmdline_main
+2:     return wrap_session(config, _main)
+2:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 269, in wrap_session
+2:     session.exitstatus = doit(config, session) or 0
+2:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 322, in _main
+2:     config.hook.pytest_collection(session=session)
+2:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__
+2:     return self._hookexec(self, self.get_hookimpls(), kwargs)
+2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec
+2:     return self._inner_hookexec(hook, methods, kwargs)
+2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>
+2:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+2:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall
+2:     res = hook_impl.function(*args)
+2:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 333, in pytest_collection
+2:     session.perform_collect()
+2:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 620, in perform_collect
+2:     rep = collect_one_node(self)
+2:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 458, in collect_one_node
+2:     rep: CollectReport = ihook.pytest_make_collect_report(collector=collector)
+2:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__
+2:     return self._hookexec(self, self.get_hookimpls(), kwargs)
+2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec
+2:     return self._inner_hookexec(hook, methods, kwargs)
+2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>
+2:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+2:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall
+2:     res = hook_impl.function(*args)
+2:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 341, in pytest_make_collect_report
+2:     call = CallInfo.from_call(lambda: list(collector.collect()), "collect")
+2:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 311, in from_call
+2:     result: Optional[TResult] = func()
+2:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 341, in <lambda>
+2:     call = CallInfo.from_call(lambda: list(collector.collect()), "collect")
+2:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 724, in collect
+2:     col = collect_root._collectfile(argpath, handle_dupes=False)
+2:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 565, in _collectfile
+2:     return ihook.pytest_collect_file(path=path, parent=self)  # type: ignore[no-any-return]
+2:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__
+2:     return self._hookexec(self, self.get_hookimpls(), kwargs)
+2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec
+2:     return self._inner_hookexec(hook, methods, kwargs)
+2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>
+2:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+2:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall
+2:     res = hook_impl.function(*args)
+2:   File "/usr/lib/python3/dist-packages/_pytest/python.py", line 200, in pytest_collect_file
+2:     module: Module = ihook.pytest_pycollect_makemodule(path=path, parent=parent)
+2:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__
+2:     return self._hookexec(self, self.get_hookimpls(), kwargs)
+2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec
+2:     return self._inner_hookexec(hook, methods, kwargs)
+2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>
+2:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+2:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall
+2:     res = hook_impl.function(*args)
+2:   File "/opt/ros/humble/lib/python3.10/site-packages/launch_testing/pytest/hooks.py", line 193, in pytest_pycollect_makemodule
+2:     entrypoint = find_launch_test_entrypoint(path)
+2:   File "/opt/ros/humble/lib/python3.10/site-packages/launch_testing/pytest/hooks.py", line 186, in find_launch_test_entrypoint
+2:     module = path.pyimport()
+2:   File "/usr/lib/python3/dist-packages/py/_path/local.py", line 704, in pyimport
+2:     __import__(modname)
+2:   File "/usr/lib/python3/dist-packages/_pytest/assertion/rewrite.py", line 170, in exec_module
+2:     exec(co, module.__dict__)
+2:   File "/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/enumerants.py", line 4, in <module>
+2:     from cv_bridge import CvBridge, CvBridgeError, getCvType
+2:   File "/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/__init__.py", line 6, in <module>
+2:     from cv_bridge.boost.cv_bridge_boost import cvtColorForDisplay, getCvType
+2: AttributeError: _ARRAY_API not found
+2: collected 2 items
+2: 
+2: ../../../src/vision_opencv/cv_bridge/test/enumerants.py Fatal Python error: Segmentation fault
+2: 
+2: Current thread 0x0000759c5fbf91c0 (most recent call first):
+2:   File "/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/core.py", line 194 in imgmsg_to_cv2
+2:   File "/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/enumerants.py", line 19 in test_enumerants_cv2
+2:   File "/usr/lib/python3.10/unittest/case.py", line 549 in _callTestMethod
+2:   File "/usr/lib/python3.10/unittest/case.py", line 591 in run
+2:   File "/usr/lib/python3.10/unittest/case.py", line 650 in __call__
+2:   File "/usr/lib/python3/dist-packages/_pytest/unittest.py", line 321 in runtest
+2:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 162 in pytest_runtest_call
+2:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall
+2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>
+2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec
+2:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__
+2:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 255 in <lambda>
+2:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 311 in from_call
+2:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 254 in call_runtest_hook
+2:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 215 in call_and_report
+2:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 126 in runtestprotocol
+2:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 109 in pytest_runtest_protocol
+2:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall
+2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>
+2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec
+2:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__
+2:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 348 in pytest_runtestloop
+2:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall
+2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>
+2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec
+2:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__
+2:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 323 in _main
+2:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 269 in wrap_session
+2:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 316 in pytest_cmdline_main
+2:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall
+2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>
+2:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec
+2:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__
+2:   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 162 in main
+2:   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 185 in console_main
+2:   File "/usr/lib/python3/dist-packages/pytest/__main__.py", line 5 in <module>
+2:   File "/usr/lib/python3.10/runpy.py", line 86 in _run_code
+2:   File "/usr/lib/python3.10/runpy.py", line 196 in _run_module_as_main
+2: 
+2: Extension modules: yaml._yaml, numpy._core._multiarray_umath, numpy.linalg._umath_linalg, apt_pkg, cv_bridge.boost.cv_bridge_boost (total: 5)
+2: -- run_test.py: return code -11
+2: -- run_test.py: generate result file '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/enumerants.py.xunit.xml' with failed test
+2: -- run_test.py: verify result file '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/enumerants.py.xunit.xml'
+2/4 Test #2: enumerants.py ....................***Failed    0.94 sec
+test 3
+    Start 3: conversions.py
+
+3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml" "--package-name" "cv_bridge" "--output-file" "/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/ament_cmake_pytest/conversions.py.txt" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/conversions.py" "-o" "cache_dir=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test/ament_cmake_pytest/conversions.py/.cache" "--junit-xml=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml" "--junit-prefix=cv_bridge"
+3: Test timeout computed to be: 600
+3: -- run_test.py: invoking following command in '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test':
+3:  - /usr/bin/python3 -u -m pytest /home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/conversions.py -o cache_dir=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test/ament_cmake_pytest/conversions.py/.cache --junit-xml=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml --junit-prefix=cv_bridge
+3: ============================= test session starts ==============================
+3: platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+3: cachedir: /home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test/ament_cmake_pytest/conversions.py/.cache
+3: rootdir: /home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv, configfile: pytest.ini
+3: plugins: launch-testing-1.0.6, ament-xmllint-0.12.11, ament-flake8-0.12.11, ament-copyright-0.12.11, launch-testing-ros-0.19.7, ament-pep257-0.12.11, ament-lint-0.12.11, cov-3.0.0, colcon-core-0.18.1
+3: 
+3: A module that was compiled using NumPy 1.x cannot be run in
+3: NumPy 2.1.3 as it may crash. To support both 1.x and 2.x
+3: versions of NumPy, modules must be compiled with NumPy 2.0.
+3: Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+3: 
+3: If you are a user of the module, the easiest solution will be to
+3: downgrade to 'numpy<2' or try to upgrade the affected module.
+3: We expect that some modules will need time to support NumPy 2.
+3: 
+3: Traceback (most recent call last):  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+3:     return _run_code(code, main_globals, None,
+3:   File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+3:     exec(code, run_globals)
+3:   File "/usr/lib/python3/dist-packages/pytest/__main__.py", line 5, in <module>
+3:     raise SystemExit(pytest.console_main())
+3:   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 185, in console_main
+3:     code = main()
+3:   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 162, in main
+3:     ret: Union[ExitCode, int] = config.hook.pytest_cmdline_main(
+3:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__
+3:     return self._hookexec(self, self.get_hookimpls(), kwargs)
+3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec
+3:     return self._inner_hookexec(hook, methods, kwargs)
+3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>
+3:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+3:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall
+3:     res = hook_impl.function(*args)
+3:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 316, in pytest_cmdline_main
+3:     return wrap_session(config, _main)
+3:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 269, in wrap_session
+3:     session.exitstatus = doit(config, session) or 0
+3:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 322, in _main
+3:     config.hook.pytest_collection(session=session)
+3:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__
+3:     return self._hookexec(self, self.get_hookimpls(), kwargs)
+3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec
+3:     return self._inner_hookexec(hook, methods, kwargs)
+3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>
+3:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+3:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall
+3:     res = hook_impl.function(*args)
+3:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 333, in pytest_collection
+3:     session.perform_collect()
+3:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 620, in perform_collect
+3:     rep = collect_one_node(self)
+3:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 458, in collect_one_node
+3:     rep: CollectReport = ihook.pytest_make_collect_report(collector=collector)
+3:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__
+3:     return self._hookexec(self, self.get_hookimpls(), kwargs)
+3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec
+3:     return self._inner_hookexec(hook, methods, kwargs)
+3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>
+3:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+3:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall
+3:     res = hook_impl.function(*args)
+3:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 341, in pytest_make_collect_report
+3:     call = CallInfo.from_call(lambda: list(collector.collect()), "collect")
+3:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 311, in from_call
+3:     result: Optional[TResult] = func()
+3:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 341, in <lambda>
+3:     call = CallInfo.from_call(lambda: list(collector.collect()), "collect")
+3:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 724, in collect
+3:     col = collect_root._collectfile(argpath, handle_dupes=False)
+3:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 565, in _collectfile
+3:     return ihook.pytest_collect_file(path=path, parent=self)  # type: ignore[no-any-return]
+3:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__
+3:     return self._hookexec(self, self.get_hookimpls(), kwargs)
+3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec
+3:     return self._inner_hookexec(hook, methods, kwargs)
+3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>
+3:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+3:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall
+3:     res = hook_impl.function(*args)
+3:   File "/usr/lib/python3/dist-packages/_pytest/python.py", line 200, in pytest_collect_file
+3:     module: Module = ihook.pytest_pycollect_makemodule(path=path, parent=parent)
+3:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__
+3:     return self._hookexec(self, self.get_hookimpls(), kwargs)
+3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec
+3:     return self._inner_hookexec(hook, methods, kwargs)
+3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>
+3:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+3:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall
+3:     res = hook_impl.function(*args)
+3:   File "/opt/ros/humble/lib/python3.10/site-packages/launch_testing/pytest/hooks.py", line 193, in pytest_pycollect_makemodule
+3:     entrypoint = find_launch_test_entrypoint(path)
+3:   File "/opt/ros/humble/lib/python3.10/site-packages/launch_testing/pytest/hooks.py", line 186, in find_launch_test_entrypoint
+3:     module = path.pyimport()
+3:   File "/usr/lib/python3/dist-packages/py/_path/local.py", line 704, in pyimport
+3:     __import__(modname)
+3:   File "/usr/lib/python3/dist-packages/_pytest/assertion/rewrite.py", line 170, in exec_module
+3:     exec(co, module.__dict__)
+3:   File "/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/conversions.py", line 1, in <module>
+3:     from cv_bridge import CvBridge, CvBridgeError
+3:   File "/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/__init__.py", line 6, in <module>
+3:     from cv_bridge.boost.cv_bridge_boost import cvtColorForDisplay, getCvType
+3: AttributeError: _ARRAY_API not found
+3: collected 4 items
+3: 
+3: ../../../src/vision_opencv/cv_bridge/test/conversions.py ..FFatal Python error: Segmentation fault
+3: 
+3: Current thread 0x000076f7c07f51c0 (most recent call first):
+3:   File "/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/core.py", line 194 in imgmsg_to_cv2
+3:   File "/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/conversions.py", line 10 in <lambda>
+3:   File "/usr/lib/python3.10/unittest/case.py", line 201 in handle
+3:   File "/usr/lib/python3.10/unittest/case.py", line 738 in assertRaises
+3:   File "/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/conversions.py", line 10 in test_mono16_cv2
+3:   File "/usr/lib/python3.10/unittest/case.py", line 549 in _callTestMethod
+3:   File "/usr/lib/python3.10/unittest/case.py", line 591 in run
+3:   File "/usr/lib/python3.10/unittest/case.py", line 650 in __call__
+3:   File "/usr/lib/python3/dist-packages/_pytest/unittest.py", line 321 in runtest
+3:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 162 in pytest_runtest_call
+3:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall
+3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>
+3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec
+3:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__
+3:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 255 in <lambda>
+3:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 311 in from_call
+3:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 254 in call_runtest_hook
+3:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 215 in call_and_report
+3:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 126 in runtestprotocol
+3:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 109 in pytest_runtest_protocol
+3:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall
+3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>
+3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec
+3:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__
+3:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 348 in pytest_runtestloop
+3:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall
+3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>
+3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec
+3:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__
+3:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 323 in _main
+3:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 269 in wrap_session
+3:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 316 in pytest_cmdline_main
+3:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall
+3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>
+3:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec
+3:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__
+3:   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 162 in main
+3:   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 185 in console_main
+3:   File "/usr/lib/python3/dist-packages/pytest/__main__.py", line 5 in <module>
+3:   File "/usr/lib/python3.10/runpy.py", line 86 in _run_code
+3:   File "/usr/lib/python3.10/runpy.py", line 196 in _run_module_as_main
+3: 
+3: Extension modules: yaml._yaml, numpy._core._multiarray_umath, numpy.linalg._umath_linalg, apt_pkg, cv_bridge.boost.cv_bridge_boost, numpy.random._common, numpy.random.bit_generator, numpy.random._bounded_integers, numpy.random._mt19937, numpy.random.mtrand, numpy.random._philox, numpy.random._pcg64, numpy.random._sfc64, numpy.random._generator (total: 14)
+3: -- run_test.py: return code -11
+3: -- run_test.py: generate result file '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml' with failed test
+3: -- run_test.py: verify result file '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml'
+3/4 Test #3: conversions.py ...................***Failed   10.72 sec
+test 4
+    Start 4: python_bindings.py
+
+4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/python_bindings.py.xunit.xml" "--package-name" "cv_bridge" "--output-file" "/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/ament_cmake_pytest/python_bindings.py.txt" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/python_bindings.py" "-o" "cache_dir=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test/ament_cmake_pytest/python_bindings.py/.cache" "--junit-xml=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/python_bindings.py.xunit.xml" "--junit-prefix=cv_bridge"
+4: Test timeout computed to be: 60
+4: -- run_test.py: invoking following command in '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test':
+4:  - /usr/bin/python3 -u -m pytest /home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/python_bindings.py -o cache_dir=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test/ament_cmake_pytest/python_bindings.py/.cache --junit-xml=/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/python_bindings.py.xunit.xml --junit-prefix=cv_bridge
+4: ============================= test session starts ==============================
+4: platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+4: cachedir: /home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test/ament_cmake_pytest/python_bindings.py/.cache
+4: rootdir: /home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv, configfile: pytest.ini
+4: plugins: launch-testing-1.0.6, ament-xmllint-0.12.11, ament-flake8-0.12.11, ament-copyright-0.12.11, launch-testing-ros-0.19.7, ament-pep257-0.12.11, ament-lint-0.12.11, cov-3.0.0, colcon-core-0.18.1
+4: 
+4: A module that was compiled using NumPy 1.x cannot be run in
+4: NumPy 2.1.3 as it may crash. To support both 1.x and 2.x
+4: versions of NumPy, modules must be compiled with NumPy 2.0.
+4: Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+4: 
+4: If you are a user of the module, the easiest solution will be to
+4: downgrade to 'numpy<2' or try to upgrade the affected module.
+4: We expect that some modules will need time to support NumPy 2.
+4: 
+4: Traceback (most recent call last):  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+4:     return _run_code(code, main_globals, None,
+4:   File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+4:     exec(code, run_globals)
+4:   File "/usr/lib/python3/dist-packages/pytest/__main__.py", line 5, in <module>
+4:     raise SystemExit(pytest.console_main())
+4:   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 185, in console_main
+4:     code = main()
+4:   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 162, in main
+4:     ret: Union[ExitCode, int] = config.hook.pytest_cmdline_main(
+4:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__
+4:     return self._hookexec(self, self.get_hookimpls(), kwargs)
+4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec
+4:     return self._inner_hookexec(hook, methods, kwargs)
+4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>
+4:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+4:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall
+4:     res = hook_impl.function(*args)
+4:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 316, in pytest_cmdline_main
+4:     return wrap_session(config, _main)
+4:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 269, in wrap_session
+4:     session.exitstatus = doit(config, session) or 0
+4:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 322, in _main
+4:     config.hook.pytest_collection(session=session)
+4:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__
+4:     return self._hookexec(self, self.get_hookimpls(), kwargs)
+4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec
+4:     return self._inner_hookexec(hook, methods, kwargs)
+4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>
+4:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+4:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall
+4:     res = hook_impl.function(*args)
+4:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 333, in pytest_collection
+4:     session.perform_collect()
+4:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 620, in perform_collect
+4:     rep = collect_one_node(self)
+4:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 458, in collect_one_node
+4:     rep: CollectReport = ihook.pytest_make_collect_report(collector=collector)
+4:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__
+4:     return self._hookexec(self, self.get_hookimpls(), kwargs)
+4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec
+4:     return self._inner_hookexec(hook, methods, kwargs)
+4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>
+4:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+4:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall
+4:     res = hook_impl.function(*args)
+4:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 341, in pytest_make_collect_report
+4:     call = CallInfo.from_call(lambda: list(collector.collect()), "collect")
+4:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 311, in from_call
+4:     result: Optional[TResult] = func()
+4:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 341, in <lambda>
+4:     call = CallInfo.from_call(lambda: list(collector.collect()), "collect")
+4:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 724, in collect
+4:     col = collect_root._collectfile(argpath, handle_dupes=False)
+4:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 565, in _collectfile
+4:     return ihook.pytest_collect_file(path=path, parent=self)  # type: ignore[no-any-return]
+4:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__
+4:     return self._hookexec(self, self.get_hookimpls(), kwargs)
+4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec
+4:     return self._inner_hookexec(hook, methods, kwargs)
+4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>
+4:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+4:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall
+4:     res = hook_impl.function(*args)
+4:   File "/usr/lib/python3/dist-packages/_pytest/python.py", line 200, in pytest_collect_file
+4:     module: Module = ihook.pytest_pycollect_makemodule(path=path, parent=parent)
+4:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286, in __call__
+4:     return self._hookexec(self, self.get_hookimpls(), kwargs)
+4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92, in _hookexec
+4:     return self._inner_hookexec(hook, methods, kwargs)
+4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83, in <lambda>
+4:     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+4:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187, in _multicall
+4:     res = hook_impl.function(*args)
+4:   File "/opt/ros/humble/lib/python3.10/site-packages/launch_testing/pytest/hooks.py", line 193, in pytest_pycollect_makemodule
+4:     entrypoint = find_launch_test_entrypoint(path)
+4:   File "/opt/ros/humble/lib/python3.10/site-packages/launch_testing/pytest/hooks.py", line 186, in find_launch_test_entrypoint
+4:     module = path.pyimport()
+4:   File "/usr/lib/python3/dist-packages/py/_path/local.py", line 704, in pyimport
+4:     __import__(modname)
+4:   File "/usr/lib/python3/dist-packages/_pytest/assertion/rewrite.py", line 170, in exec_module
+4:     exec(co, module.__dict__)
+4:   File "/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/python_bindings.py", line 1, in <module>
+4:     import cv_bridge
+4:   File "/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/__init__.py", line 6, in <module>
+4:     from cv_bridge.boost.cv_bridge_boost import cvtColorForDisplay, getCvType
+4: AttributeError: _ARRAY_API not found
+4: collected 1 item
+4: 
+4: ../../../src/vision_opencv/cv_bridge/test/python_bindings.py Fatal Python error: Segmentation fault
+4: 
+4: Current thread 0x000076121be711c0 (most recent call first):
+4:   File "/home/mscrobotics2425laptop7/openCV_ros2/src/vision_opencv/cv_bridge/test/python_bindings.py", line 21 in test_cvtColorForDisplay
+4:   File "/usr/lib/python3/dist-packages/_pytest/python.py", line 183 in pytest_pyfunc_call
+4:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall
+4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>
+4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec
+4:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__
+4:   File "/usr/lib/python3/dist-packages/_pytest/python.py", line 1641 in runtest
+4:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 162 in pytest_runtest_call
+4:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall
+4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>
+4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec
+4:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__
+4:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 255 in <lambda>
+4:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 311 in from_call
+4:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 254 in call_runtest_hook
+4:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 215 in call_and_report
+4:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 126 in runtestprotocol
+4:   File "/usr/lib/python3/dist-packages/_pytest/runner.py", line 109 in pytest_runtest_protocol
+4:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall
+4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>
+4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec
+4:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__
+4:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 348 in pytest_runtestloop
+4:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall
+4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>
+4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec
+4:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__
+4:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 323 in _main
+4:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 269 in wrap_session
+4:   File "/usr/lib/python3/dist-packages/_pytest/main.py", line 316 in pytest_cmdline_main
+4:   File "/usr/lib/python3/dist-packages/pluggy/callers.py", line 187 in _multicall
+4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 83 in <lambda>
+4:   File "/usr/lib/python3/dist-packages/pluggy/manager.py", line 92 in _hookexec
+4:   File "/usr/lib/python3/dist-packages/pluggy/hooks.py", line 286 in __call__
+4:   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 162 in main
+4:   File "/usr/lib/python3/dist-packages/_pytest/config/__init__.py", line 185 in console_main
+4:   File "/usr/lib/python3/dist-packages/pytest/__main__.py", line 5 in <module>
+4:   File "/usr/lib/python3.10/runpy.py", line 86 in _run_code
+4:   File "/usr/lib/python3.10/runpy.py", line 196 in _run_module_as_main
+4: 
+4: Extension modules: yaml._yaml, numpy._core._multiarray_umath, numpy.linalg._umath_linalg, apt_pkg, cv_bridge.boost.cv_bridge_boost (total: 5)
+4: -- run_test.py: return code -11
+4: -- run_test.py: generate result file '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/python_bindings.py.xunit.xml' with failed test
+4: -- run_test.py: verify result file '/home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/test_results/cv_bridge/python_bindings.py.xunit.xml'
+4/4 Test #4: python_bindings.py ...............***Failed    0.64 sec
+
+25% tests passed[0;0m, [0;31m3 tests failed[0;0m out of 4
+
+Label Time Summary:
+gtest     =   0.66 sec*proc (1 test)
+pytest    =  12.30 sec*proc (3 tests)
+
+Total Test time (real) =  12.96 sec
+
+The following tests FAILED:
+	[0;31m  2 - enumerants.py (Failed)[0;0m
+	[0;31m  3 - conversions.py (Failed)[0;0m
+	[0;31m  4 - python_bindings.py (Failed)[0;0m
+Errors while running CTest
+Output from these tests are in: /home/mscrobotics2425laptop7/openCV_ros2/build/cv_bridge/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.

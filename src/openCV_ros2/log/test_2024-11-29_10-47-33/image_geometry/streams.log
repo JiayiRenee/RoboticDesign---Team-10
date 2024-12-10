@@ -1,0 +1,67 @@
+[0.049s] Invoking command in '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry': CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry:/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.057s] UpdateCTestConfiguration  from :/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/CTestConfiguration.ini
+[0.057s] Parse Config file:/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/CTestConfiguration.ini
+[0.057s]    Site: e-10lux4295w2r
+[0.058s]    Build name: (empty)
+[0.058s]  Add coverage exclude regular expressions.
+[0.058s] Create new tag: 20241129-1047 - Experimental
+[0.058s] UpdateCTestConfiguration  from :/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/CTestConfiguration.ini
+[0.058s] Parse Config file:/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/CTestConfiguration.ini
+[0.059s] Test project /home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry
+[0.059s] Constructing a list of tests
+[0.059s] Done constructing a list of tests
+[0.059s] Updating test list for fixtures
+[0.059s] Added 0 tests to meet fixture requirements
+[0.060s] Checking test dependency graph...
+[0.060s] Checking test dependency graph end
+[0.060s] test 1
+[0.060s]     Start 1: image_geometry-utest
+[0.060s] 
+[0.060s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml" "--package-name" "image_geometry" "--output-file" "/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/ament_cmake_gtest/image_geometry-utest.txt" "--command" "/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/image_geometry-utest" "--gtest_output=xml:/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml"
+[0.061s] 1: Test timeout computed to be: 60
+[0.125s] 1: -- run_test.py: invoking following command in '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry':
+[0.125s] 1:  - /home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/image_geometry-utest --gtest_output=xml:/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml
+[0.135s] 1: [==========] Running 12 tests from 1 test suite.
+[0.135s] 1: [----------] Global test environment set-up.
+[0.136s] 1: [----------] 12 tests from PinholeTest
+[0.136s] 1: [ RUN      ] PinholeTest.accessorsCorrect
+[0.136s] 1: [       OK ] PinholeTest.accessorsCorrect (0 ms)
+[0.136s] 1: [ RUN      ] PinholeTest.projectPoint
+[0.136s] 1: [       OK ] PinholeTest.projectPoint (1 ms)
+[0.136s] 1: [ RUN      ] PinholeTest.rectifyPoint
+[0.177s] 1: [       OK ] PinholeTest.rectifyPoint (40 ms)
+[0.177s] 1: [ RUN      ] PinholeTest.getDeltas
+[0.178s] 1: [       OK ] PinholeTest.getDeltas (1 ms)
+[0.178s] 1: [ RUN      ] PinholeTest.initialization
+[0.178s] 1: [       OK ] PinholeTest.initialization (0 ms)
+[0.178s] 1: [ RUN      ] PinholeTest.rectifyIfCalibrated
+[0.190s] 1: [       OK ] PinholeTest.rectifyIfCalibrated (12 ms)
+[0.190s] 1: [ RUN      ] PinholeTest.unrectifyImage
+[1.781s] 1: [       OK ] PinholeTest.unrectifyImage (1591 ms)
+[1.781s] 1: [ RUN      ] PinholeTest.unrectifyImageWithBinning
+[2.120s] 1: [       OK ] PinholeTest.unrectifyImageWithBinning (339 ms)
+[2.120s] 1: [ RUN      ] PinholeTest.unrectifyImageWithRoi
+[2.884s] 1: [       OK ] PinholeTest.unrectifyImageWithRoi (764 ms)
+[2.884s] 1: [ RUN      ] PinholeTest.unrectifyImageWithBinningAndRoi
+[3.073s] 1: [       OK ] PinholeTest.unrectifyImageWithBinningAndRoi (188 ms)
+[3.073s] 1: [ RUN      ] PinholeTest.rectifiedRoiSize
+[3.073s] 1: [       OK ] PinholeTest.rectifiedRoiSize (0 ms)
+[3.073s] 1: [ RUN      ] PinholeTest.rectifiedRoiCaching
+[3.073s] 1: [       OK ] PinholeTest.rectifiedRoiCaching (0 ms)
+[3.074s] 1: [----------] 12 tests from PinholeTest (2937 ms total)
+[3.074s] 1: 
+[3.074s] 1: [----------] Global test environment tear-down
+[3.074s] 1: [==========] 12 tests from 1 test suite ran. (2937 ms total)
+[3.074s] 1: [  PASSED  ] 12 tests.
+[3.075s] 1: -- run_test.py: return code 0
+[3.075s] 1: -- run_test.py: inject classname prefix into gtest result file '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml'
+[3.079s] 1: -- run_test.py: verify result file '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml'
+[3.091s] 1/1 Test #1: image_geometry-utest .............   Passed    3.03 sec
+[3.091s] 
+[3.092s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 1
+[3.092s] 
+[3.092s] Label Time Summary:
+[3.092s] gtest    =   3.03 sec*proc (1 test)
+[3.092s] 
+[3.092s] Total Test time (real) =   3.03 sec
+[3.099s] Invoked command in '/home/mscrobotics2425laptop7/openCV_ros2/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/home/mscrobotics2425laptop7/openCV_ros2/install/image_geometry:/home/mscrobotics2425laptop7/openCV_ros2/install/vision_opencv:/home/mscrobotics2425laptop7/openCV_ros2/install/cv_bridge /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
