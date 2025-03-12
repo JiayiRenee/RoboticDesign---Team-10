@@ -1,0 +1,8 @@
+source;share/px150_move_group_commander/hook/cmake_prefix_path.ps1
+source;share/px150_move_group_commander/hook/cmake_prefix_path.dsv
+source;share/px150_move_group_commander/hook/cmake_prefix_path.sh
+source;share/px150_move_group_commander/local_setup.bash
+source;share/px150_move_group_commander/local_setup.dsv
+source;share/px150_move_group_commander/local_setup.ps1
+source;share/px150_move_group_commander/local_setup.sh
+source;share/px150_move_group_commander/local_setup.zsh

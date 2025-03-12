@@ -1,0 +1,4 @@
+source;share/px150_move_group_commander/local_setup.bash
+source;share/px150_move_group_commander/local_setup.dsv
+source;share/px150_move_group_commander/local_setup.sh
+source;share/px150_move_group_commander/local_setup.zsh

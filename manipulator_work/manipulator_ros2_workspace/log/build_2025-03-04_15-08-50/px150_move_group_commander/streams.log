@@ -1,0 +1,59 @@
+[0.414s] Invoking command in '/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/build/px150_move_group_commander': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_xs_modules:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_perception_modules:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_common_modules:/home/mscrobotics2425laptop27/ws_moveit2/install/moveit_configs_utils:/home/mscrobotics2425laptop27/ws_moveit2/install/launch_param_builder:/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/manipulator_package:/opt/ros/humble /usr/bin/cmake --build /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/build/px150_move_group_commander -- -j12 -l12
+[0.457s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.627s] -- Found interbotix_moveit_interface_msgs: 0.0.0 (/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake)
+[0.670s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.674s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.682s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.705s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.737s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.817s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[1.018s] -- Found moveit_ros_planning_interface: 2.5.8 (/home/mscrobotics2425laptop27/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[1.035s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.056s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.121s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.165s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.175s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.375s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.451s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.480s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.562s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.593s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.704s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.755s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.782s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.802s] -- Found moveit_visual_tools: 4.1.2 (/home/mscrobotics2425laptop27/interbotix_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake)
+[1.836s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[1.845s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.847s] -- Found OGRE
+[1.847s] --   static     : OFF
+[1.847s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.847s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.847s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.847s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.848s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.848s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.848s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.848s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.848s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.848s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.848s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.035s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.106s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.106s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include>
+[2.106s] -- Configured cppcheck exclude dirs and/or files: 
+[2.107s] -- Added test 'lint_cmake' to check CMake code style
+[2.108s] -- Added test 'uncrustify' to check C / C++ code style
+[2.108s] -- Configured uncrustify additional arguments: 
+[2.109s] -- Added test 'xmllint' to check XML markup files
+[2.110s] -- Configuring done
+[2.170s] -- Generating done
+[2.182s] -- Build files have been written to: /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/build/px150_move_group_commander
+[2.250s] [ 50%] [32mBuilding CXX object CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_node.cpp.o[0m
+[10.693s] [100%] [32m[1mLinking CXX executable px150_move_group_commander_node[0m
+[11.164s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[11.164s] (.text+0x1b): undefined reference to `main'
+[11.188s] collect2: error: ld returned 1 exit status
+[11.190s] gmake[2]: *** [CMakeFiles/px150_move_group_commander_node.dir/build.make:429: px150_move_group_commander_node] Error 1
+[11.191s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/px150_move_group_commander_node.dir/all] Error 2
+[11.191s] gmake: *** [Makefile:146: all] Error 2
+[11.193s] Invoked command in '/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/build/px150_move_group_commander' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_xs_modules:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_perception_modules:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_common_modules:/home/mscrobotics2425laptop27/ws_moveit2/install/moveit_configs_utils:/home/mscrobotics2425laptop27/ws_moveit2/install/launch_param_builder:/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/manipulator_package:/opt/ros/humble /usr/bin/cmake --build /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/build/px150_move_group_commander -- -j12 -l12

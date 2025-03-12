@@ -1,0 +1,23 @@
+[0.199s] Invoking command in '/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/build/moveit_task_constructor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mscrobotics2425laptop27/ws_moveit2/install/moveit_configs_utils:/home/mscrobotics2425laptop27/ws_moveit2/install/launch_param_builder:/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/manipulator_package:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_xs_modules:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_perception_modules:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/build/moveit_task_constructor_msgs -- -j12 -l12
+[1.235s] [  0%] Built target moveit_task_constructor_msgs__cpp
+[1.236s] [ 12%] Built target moveit_task_constructor_msgs__rosidl_generator_c
+[1.236s] [ 12%] Built target ament_cmake_python_copy_moveit_task_constructor_msgs
+[1.236s] [ 24%] Built target moveit_task_constructor_msgs__rosidl_typesupport_cpp
+[1.236s] [ 47%] Built target moveit_task_constructor_msgs__rosidl_typesupport_introspection_c
+[1.238s] [ 47%] Built target moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp
+[1.240s] [ 71%] Built target moveit_task_constructor_msgs__rosidl_typesupport_c
+[1.245s] [ 71%] Built target moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp
+[1.245s] [ 83%] Built target moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c
+[1.253s] [ 83%] Built target moveit_task_constructor_msgs
+[1.253s] [ 84%] Built target moveit_task_constructor_msgs__py
+[1.253s] [ 95%] Built target moveit_task_constructor_msgs__rosidl_generator_py
+[1.254s] [ 97%] Built target moveit_task_constructor_msgs__rosidl_typesupport_introspection_c__pyext
+[1.255s] [ 99%] Built target moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.256s] [100%] Built target moveit_task_constructor_msgs__rosidl_typesupport_c__pyext
+[1.615s] running egg_info
+[1.617s] writing moveit_task_constructor_msgs.egg-info/PKG-INFO
+[1.619s] writing dependency_links to moveit_task_constructor_msgs.egg-info/dependency_links.txt
+[1.620s] writing top-level names to moveit_task_constructor_msgs.egg-info/top_level.txt
+[1.627s] reading manifest file 'moveit_task_constructor_msgs.egg-info/SOURCES.txt'
+[1.630s] writing manifest file 'moveit_task_constructor_msgs.egg-info/SOURCES.txt'
+[1.717s] [100%] Built target ament_cmake_python_build_moveit_task_constructor_msgs_egg

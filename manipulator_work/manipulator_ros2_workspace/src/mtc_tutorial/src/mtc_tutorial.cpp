@@ -45,6 +45,7 @@ rclcpp::node_interfaces::NodeBaseInterface::SharedPtr MTCTaskNode::getNodeBaseIn
 MTCTaskNode::MTCTaskNode(const rclcpp::NodeOptions& options)
   : node_{ std::make_shared<rclcpp::Node>("mtc_node", options) }
 {
+  RCLCPP_DEBUG_STREAM(node_->get_logger(), "created node" << 4);
 }
 
 void MTCTaskNode::setupPlanningScene()
@@ -103,9 +104,9 @@ mtc::Task MTCTaskNode::createTask()
   task.stages()->setName("demo task");
   task.loadRobotModel(node_);
 
-  const auto& arm_group_name = "panda_arm";
-  const auto& hand_group_name = "hand";
-  const auto& hand_frame = "panda_hand";
+  const auto& arm_group_name = "interbotix_arm";//interbotix_arm      //panda_arm
+  const auto& hand_group_name = "interbotix_gripper";//hand
+  const auto& hand_frame = "px150/ee_gripper_link";//panda_hand //ee_gripper//px150/gripper_link//
 
   // Set task properties
   task.setProperty("group", arm_group_name);
@@ -136,6 +137,24 @@ mtc::Task MTCTaskNode::createTask()
   stage_open_hand->setGoal("open");
   task.add(std::move(stage_open_hand));
 
+  auto stage_move_to_pick = std::make_unique<mtc::stages::Connect>(
+    "move to pick",
+     mtc::stages::Connect::GroupPlannerVector{ { arm_group_name, sampling_planner } });
+  stage_move_to_pick->setTimeout(5.0);
+  stage_move_to_pick->properties().configureInitFrom(mtc::Stage::PARENT);
+  task.add(std::move(stage_move_to_pick));
+
+  mtc::Stage* attach_object_stage =
+    nullptr;  // Forward attach_object_stage to place pose generator
+
+  auto grasp = std::make_unique<mtc::SerialContainer>("pick object");
+  task.properties().exposeTo(grasp->properties(), { "eef", "group", "ik_frame" });
+  grasp->properties().configureInitFrom(mtc::Stage::PARENT,
+                                        { "eef", "group", "ik_frame" });
+  
+
+
+                                        
   return task;
 }
 

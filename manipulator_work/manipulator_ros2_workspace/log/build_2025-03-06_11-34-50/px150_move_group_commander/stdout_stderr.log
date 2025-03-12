@@ -1,0 +1,8 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/px150_move_group_commander_node.dir/src/moveit_interface_obj.cpp.o[0m
+[01m[K/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:[m[K In member function ‘[01m[Kbool interbotix::InterbotixMoveItInterface::moveit_plan_ee_position(double, double, double)[m[K’:
+[01m[K/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:146:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class moveit::planning_interface::MoveGroupInterface[m[K’ {aka ‘[01m[Kclass moveit::planning_interface::MoveGroupInterface[m[K’} has no member named ‘[01m[Kset[m[K’
+  146 |   move_group->[01;31m[Kset[m[K
+      |               [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/px150_move_group_commander_node.dir/build.make:90: CMakeFiles/px150_move_group_commander_node.dir/src/moveit_interface_obj.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/px150_move_group_commander_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

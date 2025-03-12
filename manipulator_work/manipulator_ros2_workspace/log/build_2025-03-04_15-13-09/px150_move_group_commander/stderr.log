@@ -1,0 +1,8 @@
+/usr/bin/ld: CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_node.cpp.o: in function `void __gnu_cxx::new_allocator<interbotix::InterbotixMoveItInterface>::construct<interbotix::InterbotixMoveItInterface, std::shared_ptr<rclcpp::Node>&>(interbotix::InterbotixMoveItInterface*, std::shared_ptr<rclcpp::Node>&)':
+px150_move_group_commander_node.cpp:(.text._ZN9__gnu_cxx13new_allocatorIN10interbotix25InterbotixMoveItInterfaceEE9constructIS2_JRSt10shared_ptrIN6rclcpp4NodeEEEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorIN10interbotix25InterbotixMoveItInterfaceEE9constructIS2_JRSt10shared_ptrIN6rclcpp4NodeEEEEEvPT_DpOT0_]+0x47): undefined reference to `interbotix::InterbotixMoveItInterface::InterbotixMoveItInterface(std::shared_ptr<rclcpp::Node>&)'
+/usr/bin/ld: CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_node.cpp.o: in function `void __gnu_cxx::new_allocator<interbotix::InterbotixMoveItInterface>::destroy<interbotix::InterbotixMoveItInterface>(interbotix::InterbotixMoveItInterface*)':
+px150_move_group_commander_node.cpp:(.text._ZN9__gnu_cxx13new_allocatorIN10interbotix25InterbotixMoveItInterfaceEE7destroyIS2_EEvPT_[_ZN9__gnu_cxx13new_allocatorIN10interbotix25InterbotixMoveItInterfaceEE7destroyIS2_EEvPT_]+0x1c): undefined reference to `interbotix::InterbotixMoveItInterface::~InterbotixMoveItInterface()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/px150_move_group_commander_node.dir/build.make:429: px150_move_group_commander_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/px150_move_group_commander_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
