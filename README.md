@@ -30,3 +30,28 @@ Listening to the /block_pose topic to receive the coordinates of the target obje
 Listening to the /bin_pose topic to receive the position of the trash cans.
 subscribing to /color_detection to get color information about the target object
 
+
+team10 Package Instructions for Use
+1) The sim package is used to simulate the simulation environment.
+2) The node package is used to simulate the robot and the environment.
+3) The nav package is used for autonomous navigation and mapping.
+    simulation: ros2 launch nav nav_demo.launch.py
+    reality:ros2 launch node rover.launch.py use_sim_time:=false
+            ros2 launch nav nav_demo.launch.py use_sim_time:=false
+
+Subscribed Topics
+sim: /clock /cmd_vel /odom /imu/data_raw /scan
+node: /joint_states /imu/data_raw /odom /imu/data
+nav: /tf /odom /goal_pose /map
+
+Published Topics
+sim: /clock /cmd_vel /odom /imu/data_raw /scan /world/empty/model/tb3/joint_state
+node: /tf /imu/data /odometry/filtered
+nav: /cmd_vel /plan /global_plan 
+
+Service Servers
+node: /set_pose
+nav: /compute_path_to_pose /compute_velocity_commands
+
+Action servers
+nav: /navigate_to_pose /navigate_through_poses
