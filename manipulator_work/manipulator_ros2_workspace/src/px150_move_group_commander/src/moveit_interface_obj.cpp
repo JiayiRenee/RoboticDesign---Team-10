@@ -147,8 +147,7 @@ bool InterbotixMoveItInterface::moveit_plan_ee_position(double x, double y, doub
 {
  
   //move_group->setPlannerId("PRM");
-  planning_pipeline::PlanningPipelinePtr planning_pipeline(
-    new planning_pipeline::PlanningPipeline(robot_model, node, "ompl"));
+  
   visual_tools->deleteAllMarkers();
   move_group->setPositionTarget(x, y, z);
 
