@@ -82,7 +82,7 @@ def launch_setup(context, *args, **kwargs):
         'config',
     ])
 
-    robot_description_semantic = construct_interbotix_xsarm_semantic_robot_description_command(
+    robot_description_semantic = construct_interbotix_xsarm_semantic_robot_description_command( # E: find out if you can remove this later
         robot_model=robot_model_launch_arg.perform(context),
         config_path=config_path,
     )
