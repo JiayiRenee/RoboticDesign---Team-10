@@ -82,7 +82,7 @@ def launch_setup(context, *args, **kwargs):
         'config',
     ])
 
-    robot_description_semantic = construct_interbotix_xsarm_semantic_robot_description_command(
+    robot_description_semantic = construct_interbotix_xsarm_semantic_robot_description_command( # E: find out if you can remove this later
         robot_model=robot_model_launch_arg.perform(context),
         config_path=config_path,
     )
@@ -93,9 +93,9 @@ def launch_setup(context, *args, **kwargs):
     xsarm_moveit_launch_include = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             PathJoinSubstitution([
-                FindPackageShare('interbotix_xsarm_moveit'),
+                FindPackageShare('px150_move_group_commander'),
                 'launch',
-                'xsarm_moveit.launch.py'
+                'move_group_px150_launch.launch.py'
             ])
         ]),
         launch_arguments={

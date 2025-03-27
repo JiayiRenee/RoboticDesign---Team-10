@@ -117,12 +117,13 @@ bool InterbotixMoveItInterface::moveit_plan_joint_positions(
 bool InterbotixMoveItInterface::moveit_plan_ee_pose(const geometry_msgs::msg::Pose pose)
 {
   visual_tools->deleteAllMarkers();
-  move_group->setPoseTarget(pose);
+  move_group->setPoseTarget(pose,"px150/ee_gripper_link");
 
-  move_group->setGoalPositionTolerance(0.01);
-  move_group->setGoalOrientationTolerance(0.1);
-  move_group->setNumPlanningAttempts(50);
-  move_group->setPlanningTime(60);
+  // move_group->setGoalPositionTolerance(0.01);
+  // move_group->setGoalOrientationTolerance(0.1);
+  // move_group->setNumPlanningAttempts(50);
+  // move_group->setPlanningTime(60);
+  
 
   bool success = (move_group->plan(saved_plan) == MoveItErrorCode::SUCCESS);
 
@@ -147,16 +148,14 @@ bool InterbotixMoveItInterface::moveit_plan_ee_position(double x, double y, doub
 {
  
   //move_group->setPlannerId("PRM");
-  planning_pipeline::PlanningPipelinePtr planning_pipeline(
-    new planning_pipeline::PlanningPipeline(robot_model, node, "ompl"));
+  
   visual_tools->deleteAllMarkers();
   move_group->setPositionTarget(x, y, z);
 
-  move_group->setGoalPositionTolerance(0.1);
+  move_group->setGoalPositionTolerance(0.001);
   move_group->setGoalOrientationTolerance(0.1);
   move_group->setNumPlanningAttempts(50);
-  move_group->setPlanningTime(60);
-  //move_group->setRandomTarget(); // Elliot: test to see if planning to a random point works- IT DOES!!! Works because no IK?
+  move_group->setPlanningTime(15);
   
 
   geometry_msgs::msg::Pose pose;

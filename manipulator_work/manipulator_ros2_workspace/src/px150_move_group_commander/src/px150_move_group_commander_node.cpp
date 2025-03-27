@@ -40,22 +40,27 @@ int main(int argc, char ** argv)
   auto moveit_interface = std::make_shared<interbotix::InterbotixMoveItInterface>(node);
 
 
-  geometry_msgs::msg::Pose target_pose1;
-  target_pose1.orientation.x = 1e-6;
-  target_pose1.orientation.y = 1e-6;
-  target_pose1.orientation.z = 1e-6;
-  target_pose1.orientation.w = 1.0;
-  target_pose1.position.x = 0.28;
-  target_pose1.position.y = -0.2;
-  target_pose1.position.z = 0.1;
+  // geometry_msgs::msg::Pose target_pose1;
+  // target_pose1.orientation.x = 1e-6;
+  // target_pose1.orientation.y = 1e-6;
+  // target_pose1.orientation.z = 1e-6;
+  // target_pose1.orientation.w = 1.0;
+  // target_pose1.position.x = 0.28;
+  // target_pose1.position.y = -0.2;
+  // target_pose1.position.z = 0.1;
 
-  moveit_interface->moveit_plan_ee_pose(target_pose1);
+  geometry_msgs::msg::Quaternion orientation_constraint;
+  orientation_constraint.x= 1e-6;
+  orientation_constraint.y= 1e-6;
+  orientation_constraint.z= 1e-6;
+  orientation_constraint.w= 1;
 
-  //moveit_interface->moveit_plan_ee_position(0.3,0.1,0.1);
+  // moveit_interface->moveit_plan_ee_pose(target_pose1);
+  moveit_interface->moveit_plan_ee_position(0.2,0.2,0.2); //xyz
+  moveit_interface->moveit_execute_plan();
   moveit_interface->moveit_execute_plan();
 
-
-
+  
 
   auto executor = std::make_shared<rclcpp::executors::MultiThreadedExecutor>();
 
