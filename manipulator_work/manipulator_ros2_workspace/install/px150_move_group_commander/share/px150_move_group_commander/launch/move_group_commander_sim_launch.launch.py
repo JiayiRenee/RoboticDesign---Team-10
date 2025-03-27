@@ -93,9 +93,9 @@ def launch_setup(context, *args, **kwargs):
     xsarm_moveit_launch_include = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             PathJoinSubstitution([
-                FindPackageShare('interbotix_xsarm_moveit'),
+                FindPackageShare('px150_move_group_commander'),
                 'launch',
-                'xsarm_moveit.launch.py'
+                'move_group_px150_launch.launch.py'
             ])
         ]),
         launch_arguments={
