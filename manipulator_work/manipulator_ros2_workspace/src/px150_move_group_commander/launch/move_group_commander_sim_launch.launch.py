@@ -195,9 +195,9 @@ def generate_launch_description():
         DeclareLaunchArgument(
             'world_filepath',
             default_value=PathJoinSubstitution([
-                FindPackageShare('interbotix_common_sim'),
-                'worlds',
-                'interbotix.world',
+                FindPackageShare('px150_move_group_commander'),
+                'include',
+                'leo_test_world.world',
             ]),
             description="the file path to the Gazebo 'world' file to load.",
         )

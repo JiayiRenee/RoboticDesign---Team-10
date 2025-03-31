@@ -268,9 +268,9 @@ def launch_setup(context, *args, **kwargs):
     xsarm_gz_classic_launch_include = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
             PathJoinSubstitution([
-                FindPackageShare('interbotix_xsarm_sim'),
+                FindPackageShare('px150_move_group_commander'),
                 'launch',
-                'xsarm_gz_classic.launch.py'
+                'move_group_commander_gzclassic.launch.py'
             ])
         ]),
         launch_arguments={
@@ -382,9 +382,9 @@ def generate_launch_description():
         DeclareLaunchArgument(
             'world_filepath',
             default_value=PathJoinSubstitution([
-                FindPackageShare('interbotix_common_sim'),
-                'worlds',
-                'interbotix.world',
+                FindPackageShare('px150_move_group_commander'),
+                'include',
+                'leo_test_world.world',
             ]),
             description="the file path to the Gazebo 'world' file to load.",
         )
