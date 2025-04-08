@@ -27,10 +27,12 @@
 // POSSIBILITY OF SUCH DAMAGE.
 
 #include "interbotix_moveit_interface/moveit_interface_obj.hpp"
-
+#include <std_srvs/std_srvs/srv/trigger.hpp>
 #include <memory>
 #include <string>
 #include <vector>
+using std::placeholders::_1;
+using std::placeholders::_2;
 
 namespace interbotix
 {
@@ -87,7 +89,40 @@ InterbotixMoveItInterface::InterbotixMoveItInterface(
   // Stop executor and remove node from it so exec_ can be used later
   exec_temp->cancel();
   exec_temp->remove_node(node_);
+
+
+//------------------------------------------------------------------------- Elliot added 
+  subscription_ = node_->create_subscription<geometry_msgs::msg::Pose>(
+    "topic", 10, std::bind(&InterbotixMoveItInterface::block_position_subscriber_callback, this, _1));
+
+  arm_move_service = node_->create_service<std_srvs::srv::Trigger>(
+      "move_arm_to_position", std::bind(&InterbotixMoveItInterface::move_arm_to_position_callback, this, _1,_2));
 }
+
+void  InterbotixMoveItInterface::block_position_subscriber_callback(const geometry_msgs::msg::Pose & msg) 
+{
+  RCLCPP_INFO(node_->get_logger(), "[HEARD] object location at:  x= %f, y= %f, z = %f", msg.position.x,msg.position.y,msg.position.z);
+  block_pose.position.x = msg.position.x;
+  block_pose.position.y = msg.position.y;
+  block_pose.position.z = msg.position.z;
+
+}
+
+void InterbotixMoveItInterface::move_arm_to_position_callback(const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+  std::shared_ptr<std_srvs::srv::Trigger::Response> response){
+    try{
+      bool plan_outcome = InterbotixMoveItInterface::moveit_plan_ee_position(block_pose.position.x,block_pose.position.y, block_pose.position.z);
+      bool execute_outcome =  InterbotixMoveItInterface::moveit_execute_plan();
+      throw(plan_outcome);
+      response->success = 1;
+    }
+    catch(bool outcome)
+    {
+      response->success = 0;
+    }
+}
+//------------------------------------------------------------------------- Elliot added 
+
 
 InterbotixMoveItInterface::~InterbotixMoveItInterface()
 {
@@ -351,6 +386,37 @@ bool InterbotixMoveItInterface::clear_markers(
   visual_tools->trigger();
   RCLCPP_DEBUG(node_->get_logger(), "Cleared markers.");
   return true;
+}
+
+// Elliot added moveit based functions
+bool InterbotixMoveItInterface::moveit_add_collision_box(geometry_msgs::msg::Pose pose, float box_x_dimension,float box_y_dimension,float box_z_dimension)
+{
+  auto const collision_object = [frame_id = move_group->getPlanningFrame(),pose,box_x_dimension,box_y_dimension,box_z_dimension]
+  {
+    moveit_msgs::msg::CollisionObject  collision_object;
+    collision_object.header.frame_id = frame_id;
+
+  
+    shape_msgs::msg::SolidPrimitive primitive;
+    primitive.type = primitive.BOX;
+    primitive.dimensions.resize(3); // This line is absolutely essential do not remove, move, or change it in any way (not even the number)
+    primitive.dimensions[primitive.BOX_X] = box_x_dimension;
+    primitive.dimensions[primitive.BOX_Y] = box_y_dimension;
+    primitive.dimensions[primitive.BOX_Z] = box_z_dimension;
+
+   collision_object.primitives.push_back(primitive);
+   collision_object.primitive_poses.push_back(pose);
+   collision_object.operation = collision_object.ADD;
+   return collision_object;
+  }();
+
+  
+  bool success = (InterbotixMoveItInterface::planning_scene_interface.applyCollisionObject(collision_object) == MoveItErrorCode::SUCCESS);
+
+  RCLCPP_INFO(
+    node_->get_logger(),
+    "Plan success: %d", success);
+  return success;
 }
 
 }  // namespace interbotix

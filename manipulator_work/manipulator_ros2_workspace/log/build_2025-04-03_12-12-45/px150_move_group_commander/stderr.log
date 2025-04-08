@@ -1,0 +1,4 @@
+gmake[2]: *** [CMakeFiles/px150_move_group_commander_node.dir/build.make:76: CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_node.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/px150_move_group_commander_node.dir/build.make:90: CMakeFiles/px150_move_group_commander_node.dir/src/moveit_interface_obj.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/px150_move_group_commander_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

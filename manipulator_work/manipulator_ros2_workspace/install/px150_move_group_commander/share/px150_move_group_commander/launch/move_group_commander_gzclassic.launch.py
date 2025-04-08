@@ -127,17 +127,6 @@ def launch_setup(context, *args, **kwargs):
         }.items(),
     )
 
-    spawn_box_node = Node(
-        package='gazebo_ros',
-        executable='spawn_entity.py',
-        name=f'spawn_leo_box',
-        arguments=
-        [
-            'entity',''
-        ]
-
-
-    )
 
     spawn_robot_node = Node(
         package='gazebo_ros',

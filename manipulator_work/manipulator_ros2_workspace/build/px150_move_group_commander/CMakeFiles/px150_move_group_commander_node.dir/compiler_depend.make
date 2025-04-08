@@ -2072,12 +2072,54 @@ CMakeFiles/px150_move_group_commander_node.dir/src/moveit_interface_obj.cpp.o: /
   /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/empty__traits.hpp \
   /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/empty__type_support.hpp \
   /opt/ros/humble/include/std_srvs/std_srvs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /home/mscrobotics2425laptop27/ws_moveit2/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h \
+  /home/mscrobotics2425laptop27/ws_moveit2/install/moveit_core/include/moveit/controller_manager/controller_manager.h \
+  /opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
+  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/visibility_control.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/humble/include/pluginlib/pluginlib/class_desc.hpp \
+  /opt/ros/humble/include/pluginlib/pluginlib/class_loader_base.hpp \
+  /opt/ros/humble/include/pluginlib/pluginlib/exceptions.hpp \
+  /opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp \
+  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp \
+  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
+  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_resource.hpp \
+  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_resources.hpp \
+  /opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp \
+  /opt/ros/humble/include/pluginlib/pluginlib/impl/split.hpp \
+  /usr/include/c++/11/regex \
+  /usr/include/c++/11/bits/regex_constants.h \
+  /usr/include/c++/11/bits/regex_error.h \
+  /usr/include/c++/11/bits/regex_automaton.h \
+  /usr/include/c++/11/bits/regex_automaton.tcc \
+  /usr/include/c++/11/bits/regex_scanner.h \
+  /usr/include/c++/11/bits/regex_scanner.tcc \
+  /usr/include/c++/11/bits/regex_compiler.h \
+  /usr/include/c++/11/bits/regex_compiler.tcc \
+  /usr/include/c++/11/bits/regex.h \
+  /usr/include/c++/11/bits/regex.tcc \
+  /usr/include/c++/11/bits/regex_executor.h \
+  /usr/include/c++/11/bits/regex_executor.tcc \
+  /home/mscrobotics2425laptop27/ws_moveit2/install/moveit_ros_planning/include/moveit_trajectory_execution_manager_export.h \
   /home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/move_it_plan.hpp \
   /home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__struct.hpp \
   /home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__builder.hpp \
   /home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__traits.hpp \
   /home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__type_support.hpp \
-  /home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+  /home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/std_srvs/std_srvs/srv/trigger.hpp \
+  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__struct.hpp \
+  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__builder.hpp \
+  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__traits.hpp \
+  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__type_support.hpp
 
 CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_node.cpp.o: /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/px150_move_group_commander_node.cpp \
   /usr/include/stdc-predef.h \
@@ -4150,15 +4192,99 @@ CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_no
   /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/empty__traits.hpp \
   /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/empty__type_support.hpp \
   /opt/ros/humble/include/std_srvs/std_srvs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /home/mscrobotics2425laptop27/ws_moveit2/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h \
+  /home/mscrobotics2425laptop27/ws_moveit2/install/moveit_core/include/moveit/controller_manager/controller_manager.h \
+  /opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
+  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/visibility_control.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/humble/include/pluginlib/pluginlib/class_desc.hpp \
+  /opt/ros/humble/include/pluginlib/pluginlib/class_loader_base.hpp \
+  /opt/ros/humble/include/pluginlib/pluginlib/exceptions.hpp \
+  /opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp \
+  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp \
+  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
+  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_resource.hpp \
+  /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_resources.hpp \
+  /opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp \
+  /opt/ros/humble/include/pluginlib/pluginlib/impl/split.hpp \
+  /usr/include/c++/11/regex \
+  /usr/include/c++/11/bits/regex_constants.h \
+  /usr/include/c++/11/bits/regex_error.h \
+  /usr/include/c++/11/bits/regex_automaton.h \
+  /usr/include/c++/11/bits/regex_automaton.tcc \
+  /usr/include/c++/11/bits/regex_scanner.h \
+  /usr/include/c++/11/bits/regex_scanner.tcc \
+  /usr/include/c++/11/bits/regex_compiler.h \
+  /usr/include/c++/11/bits/regex_compiler.tcc \
+  /usr/include/c++/11/bits/regex.h \
+  /usr/include/c++/11/bits/regex.tcc \
+  /usr/include/c++/11/bits/regex_executor.h \
+  /usr/include/c++/11/bits/regex_executor.tcc \
+  /home/mscrobotics2425laptop27/ws_moveit2/install/moveit_ros_planning/include/moveit_trajectory_execution_manager_export.h \
   /home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/move_it_plan.hpp \
   /home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__struct.hpp \
   /home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__builder.hpp \
   /home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__traits.hpp \
   /home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__type_support.hpp \
-  /home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+  /home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/std_srvs/std_srvs/srv/trigger.hpp \
+  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__struct.hpp \
+  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__builder.hpp \
+  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__traits.hpp \
+  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__type_support.hpp \
+  /opt/ros/humble/include/shape_msgs/shape_msgs/msg/solid_primitive.hpp \
+  /opt/ros/humble/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__builder.hpp \
+  /opt/ros/humble/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.hpp \
+  /opt/ros/humble/include/std_srvs/std_srvs/srv/trigger.hpp
 
+
+/opt/ros/humble/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.hpp:
+
+/opt/ros/humble/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__builder.hpp:
+
+/opt/ros/humble/include/shape_msgs/shape_msgs/msg/solid_primitive.hpp:
+
+/opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__struct.hpp:
+
+/opt/ros/humble/include/std_srvs/std_srvs/srv/trigger.hpp:
 
 /home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__struct.hpp:
+
+/usr/include/c++/11/bits/regex_executor.h:
+
+/usr/include/c++/11/bits/regex.tcc:
+
+/usr/include/c++/11/bits/regex_scanner.h:
+
+/usr/include/c++/11/bits/regex_automaton.tcc:
+
+/usr/include/c++/11/bits/regex_automaton.h:
+
+/usr/include/c++/11/bits/regex_error.h:
+
+/usr/include/c++/11/bits/regex_constants.h:
+
+/opt/ros/humble/include/pluginlib/pluginlib/impl/split.hpp:
+
+/opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_resource.hpp:
+
+/opt/ros/humble/include/ament_index_cpp/ament_index_cpp/visibility_control.h:
+
+/opt/ros/humble/include/pluginlib/pluginlib/class_loader_base.hpp:
+
+/opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__traits.hpp:
+
+/opt/ros/humble/include/class_loader/class_loader/exceptions.hpp:
+
+/opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:
 
 /opt/ros/humble/include/std_srvs/std_srvs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
@@ -4184,9 +4310,13 @@ CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_no
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/srv/detail/get_planning_scene__builder.hpp:
 
+/home/mscrobotics2425laptop27/ws_moveit2/install/moveit_core/include/moveit/controller_manager/controller_manager.h:
+
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/srv/detail/get_planning_scene__struct.hpp:
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/srv/get_planning_scene.hpp:
+
+/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:
 
 /home/mscrobotics2425laptop27/ws_moveit2/install/moveit_ros_planning/include/moveit/collision_plugin_loader/collision_plugin_loader.h:
 
@@ -4301,6 +4431,8 @@ CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_no
 /usr/include/boost/type_traits/same_traits.hpp:
 
 /usr/include/boost/mpl/aux_/largest_int.hpp:
+
+/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:
 
 /usr/include/boost/mpl/plus.hpp:
 
@@ -4796,6 +4928,8 @@ CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_no
 
 /usr/include/c++/11/tr1/unordered_set.h:
 
+/usr/include/c++/11/bits/regex_compiler.h:
+
 /usr/include/c++/11/tr1/hashtable_policy.h:
 
 /usr/include/c++/11/tr1/type_traits:
@@ -4902,6 +5036,8 @@ CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_no
 
 /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__struct.hpp:
 
+/opt/ros/humble/include/class_loader/class_loader/register_macro.hpp:
+
 /opt/ros/humble/include/geometric_shapes/geometric_shapes/aabb.h:
 
 /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/tf_message.hpp:
@@ -4937,6 +5073,8 @@ CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_no
 /opt/ros/humble/include/shape_msgs/shape_msgs/msg/mesh.hpp:
 
 /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.hpp:
+
+/home/mscrobotics2425laptop27/ws_moveit2/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:
 
 /usr/include/boost/parameter/aux_/has_nested_template_fn.hpp:
 
@@ -4997,6 +5135,8 @@ CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_no
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/object_color__type_support.hpp:
 
 /home/mscrobotics2425laptop27/ws_moveit2/install/moveit_ros_planning_interface/include/moveit/planning_scene_interface/planning_scene_interface.h:
+
+/opt/ros/humble/include/pluginlib/pluginlib/exceptions.hpp:
 
 /home/mscrobotics2425laptop27/ws_moveit2/install/moveit_ros_planning_interface/include/moveit_move_group_interface_export.h:
 
@@ -5214,6 +5354,8 @@ CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_no
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/allowed_collision_matrix__struct.hpp:
 
+/usr/include/c++/11/bits/regex_executor.tcc:
+
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__struct.hpp:
 
 /usr/include/boost/mpl/list/aux_/clear.hpp:
@@ -5243,6 +5385,8 @@ CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_no
 /usr/include/boost/preprocessor/iteration/detail/bounds/upper1.hpp:
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/grasp__struct.hpp:
+
+/opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__builder.hpp:
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/grasp.hpp:
 
@@ -5372,6 +5516,8 @@ CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_no
 
 /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp:
 
+/opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp:
+
 /usr/include/boost/type_traits/enable_if.hpp:
 
 /opt/ros/humble/include/tf2_ros/tf2_ros/visibility_control.h:
@@ -5381,6 +5527,8 @@ CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_no
 /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp:
 
 /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp:
+
+/home/mscrobotics2425laptop27/ws_moveit2/install/moveit_ros_planning/include/moveit_trajectory_execution_manager_export.h:
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/srv/detail/load_map__builder.hpp:
 
@@ -5822,6 +5970,8 @@ CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_no
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h:
 
+/usr/include/c++/11/regex:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
 /usr/include/boost/mpl/logical.hpp:
@@ -5995,6 +6145,8 @@ CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_no
 /opt/ros/humble/include/rcl/rcl/log_level.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
+
+/opt/ros/humble/include/class_loader/class_loader/visibility_control.hpp:
 
 /usr/include/c++/11/bits/streambuf_iterator.h:
 
@@ -6352,6 +6504,8 @@ CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_no
 
 /usr/include/boost/preprocessor/control/expr_iif.hpp:
 
+/usr/include/c++/11/bits/regex_compiler.tcc:
+
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
 
 /usr/include/eigen3/Eigen/src/SVD/JacobiSVD.h:
@@ -6397,6 +6551,8 @@ CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_no
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/c++/11/bits/regex_scanner.tcc:
 
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/cartesian_trajectory_point__struct.hpp:
 
@@ -6447,6 +6603,8 @@ CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_no
 /usr/include/c++/11/bits/stl_iterator.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/console_bridge_export.h:
 
 /usr/include/boost/preprocessor/arithmetic/inc.hpp:
 
@@ -6567,6 +6725,8 @@ CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_no
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
 /usr/include/boost/mpl/aux_/arity.hpp:
+
+/opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp:
 
 /usr/include/stdc-predef.h:
 
@@ -7048,6 +7208,8 @@ CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_no
 
 /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h:
 
+/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:
+
 /usr/include/c++/11/bits/unique_lock.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
@@ -7061,6 +7223,8 @@ CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_no
 /usr/include/c++/11/ratio:
 
 /usr/include/boost/random/detail/integer_log2.hpp:
+
+/opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_resources.hpp:
 
 /usr/include/boost/core/no_exceptions_support.hpp:
 
@@ -7530,6 +7694,8 @@ CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_no
 
 /usr/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h:
 
+/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:
+
 /opt/ros/humble/include/urdfdom_headers/urdf_model/joint.h:
 
 /opt/ros/humble/include/urdfdom_headers/urdf_exception/exception.h:
@@ -7582,6 +7748,8 @@ CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_no
 
 /home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__type_support.hpp:
 
+/opt/ros/humble/include/pluginlib/pluginlib/class_desc.hpp:
+
 /usr/include/boost/mpl/list/list0.hpp:
 
 /usr/include/boost/preprocessor/stringize.hpp:
@@ -7629,6 +7797,8 @@ CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_no
 /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/constraints__struct.hpp:
 
 /usr/include/boost/type_traits/is_integral.hpp:
+
+/usr/include/c++/11/bits/regex.h:
 
 /usr/include/boost/type_traits/integral_constant.hpp:
 
@@ -7739,6 +7909,8 @@ CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_no
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp:
 
 /usr/include/boost/mpl/int_fwd.hpp:
+
+/opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__type_support.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/SelfAdjointView.h:
 
@@ -7921,6 +8093,8 @@ CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_no
 /usr/include/eigen3/Eigen/Geometry:
 
 /usr/include/eigen3/Eigen/Core:
+
+/usr/include/console_bridge/console.h:
 
 /usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:
 
@@ -8121,6 +8295,8 @@ CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_no
 /usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:
 
 /usr/include/eigen3/Eigen/src/Core/DiagonalProduct.h:
+
+/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/Redux.h:
 

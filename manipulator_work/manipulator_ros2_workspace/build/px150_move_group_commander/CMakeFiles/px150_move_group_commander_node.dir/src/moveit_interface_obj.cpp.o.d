@@ -1955,9 +1955,49 @@ CMakeFiles/px150_move_group_commander_node.dir/src/moveit_interface_obj.cpp.o: \
  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/empty__traits.hpp \
  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/empty__type_support.hpp \
  /opt/ros/humble/include/std_srvs/std_srvs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/mscrobotics2425laptop27/ws_moveit2/install/moveit_ros_planning/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h \
+ /home/mscrobotics2425laptop27/ws_moveit2/install/moveit_core/include/moveit/controller_manager/controller_manager.h \
+ /opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp \
+ /opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp \
+ /usr/include/console_bridge/console.h \
+ /usr/include/console_bridge_export.h \
+ /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
+ /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp \
+ /opt/ros/humble/include/class_loader/class_loader/exceptions.hpp \
+ /opt/ros/humble/include/class_loader/class_loader/visibility_control.hpp \
+ /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp \
+ /opt/ros/humble/include/class_loader/class_loader/register_macro.hpp \
+ /opt/ros/humble/include/pluginlib/pluginlib/class_desc.hpp \
+ /opt/ros/humble/include/pluginlib/pluginlib/class_loader_base.hpp \
+ /opt/ros/humble/include/pluginlib/pluginlib/exceptions.hpp \
+ /opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp \
+ /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_prefix.hpp \
+ /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/visibility_control.h \
+ /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_package_share_directory.hpp \
+ /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_resource.hpp \
+ /opt/ros/humble/include/ament_index_cpp/ament_index_cpp/get_resources.hpp \
+ /opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp \
+ /opt/ros/humble/include/pluginlib/pluginlib/impl/split.hpp \
+ /usr/include/c++/11/regex /usr/include/c++/11/bits/regex_constants.h \
+ /usr/include/c++/11/bits/regex_error.h \
+ /usr/include/c++/11/bits/regex_automaton.h \
+ /usr/include/c++/11/bits/regex_automaton.tcc \
+ /usr/include/c++/11/bits/regex_scanner.h \
+ /usr/include/c++/11/bits/regex_scanner.tcc \
+ /usr/include/c++/11/bits/regex_compiler.h \
+ /usr/include/c++/11/bits/regex_compiler.tcc \
+ /usr/include/c++/11/bits/regex.h /usr/include/c++/11/bits/regex.tcc \
+ /usr/include/c++/11/bits/regex_executor.h \
+ /usr/include/c++/11/bits/regex_executor.tcc \
+ /home/mscrobotics2425laptop27/ws_moveit2/install/moveit_ros_planning/include/moveit_trajectory_execution_manager_export.h \
  /home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/move_it_plan.hpp \
  /home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__struct.hpp \
  /home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__builder.hpp \
  /home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__traits.hpp \
  /home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__type_support.hpp \
- /home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+ /home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/include/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/humble/include/std_srvs/std_srvs/srv/trigger.hpp \
+ /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__struct.hpp \
+ /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__builder.hpp \
+ /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__traits.hpp \
+ /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/trigger__type_support.hpp

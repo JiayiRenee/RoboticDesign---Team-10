@@ -30,43 +30,46 @@
 #include "geometry_msgs/msg/pose.hpp"
 #include "geometry_msgs/msg/quaternion.hpp"
 #include <memory>
+#include "shape_msgs/msg/solid_primitive.hpp"
+
+#include <memory>
+
+
+#include "rclcpp/rclcpp.hpp"
+
+#include "std_srvs/srv/trigger.hpp"
+using std::placeholders::_1;
+
+
+
+
+
 
 int main(int argc, char ** argv)
 {
+  geometry_msgs::msg::Pose box_pose;
+  box_pose.position.x = 0;
+  box_pose.position.y = 0;
+  box_pose.position.z = -0.320/2;
+  box_pose.orientation.x = 0;
+  box_pose.orientation.y = 0;
+  box_pose.orientation.z = 0;
+  box_pose.orientation.w = 1;
+ 
   rclcpp::init(argc, argv);
   rclcpp::NodeOptions node_options;
   node_options.automatically_declare_parameters_from_overrides(true);
   auto node = std::make_shared<rclcpp::Node>("px150_move_group_commander_node", node_options);
   auto moveit_interface = std::make_shared<interbotix::InterbotixMoveItInterface>(node);
-
-
-  // geometry_msgs::msg::Pose target_pose1;
-  // target_pose1.orientation.x = 1e-6;
-  // target_pose1.orientation.y = 1e-6;
-  // target_pose1.orientation.z = 1e-6;
-  // target_pose1.orientation.w = 1.0;
-  // target_pose1.position.x = 0.28;
-  // target_pose1.position.y = -0.2;
-  // target_pose1.position.z = 0.1;
-
-  geometry_msgs::msg::Quaternion orientation_constraint;
-  orientation_constraint.x= 1e-6;
-  orientation_constraint.y= 1e-6;
-  orientation_constraint.z= 1e-6;
-  orientation_constraint.w= 1;
-
-  // moveit_interface->moveit_plan_ee_pose(target_pose1);
-  moveit_interface->moveit_plan_ee_position(0.2,0.2,0.2); //xyz
-  moveit_interface->moveit_execute_plan();
+  moveit_interface->moveit_add_collision_box(box_pose,0.425,0.488,0.320);
+  moveit_interface->moveit_plan_ee_position(0.3,0.05,-0.128);
   moveit_interface->moveit_execute_plan();
 
-  
 
   auto executor = std::make_shared<rclcpp::executors::MultiThreadedExecutor>();
+  executor->add_node(node);
 
   
-  
-  executor->add_node(node);
 
 
   executor->spin();

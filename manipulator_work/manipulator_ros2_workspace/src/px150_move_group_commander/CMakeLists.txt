@@ -13,15 +13,20 @@ find_package(geometry_msgs REQUIRED)
 find_package(moveit_ros_planning_interface REQUIRED)
 find_package(moveit_visual_tools REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(std_srvs REQUIRED)
 
 set(
   MOVEIT_INTERFACE_DEPENDENCIES
     interbotix_moveit_interface_msgs
     moveit_msgs
     geometry_msgs
+    shape_msgs
     moveit_ros_planning_interface
     moveit_visual_tools
     rclcpp
+    std_msgs
+    std_srvs
 )
 
 include_directories(

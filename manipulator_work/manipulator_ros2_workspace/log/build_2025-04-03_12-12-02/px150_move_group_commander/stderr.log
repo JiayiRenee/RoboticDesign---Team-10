@@ -1,0 +1,758 @@
+In file included from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:137:66: error: ‘Trigger’ is not a member of ‘std_srvs::srv’
+  137 |   void move_arm_to_position(const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |                                                                  ^~~~~~~
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:137:82: error: template argument 1 is invalid
+  137 |   void move_arm_to_position(const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |                                                                                  ^
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:137:66: error: ‘Trigger’ is not a member of ‘std_srvs::srv’
+  137 |   void move_arm_to_position(const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |                                                                  ^~~~~~~
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:137:82: error: template argument 1 is invalid
+  137 |   void move_arm_to_position(const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |                                                                                  ^
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:137:66: error: ‘Trigger’ is not a member of ‘std_srvs::srv’
+  137 |   void move_arm_to_position(const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |                                                                  ^~~~~~~
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:137:82: error: template argument 1 is invalid
+  137 |   void move_arm_to_position(const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |                                                                                  ^
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:137:35: error: invalid template-id
+  137 |   void move_arm_to_position(const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |                                   ^~~
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:137:66: error: ‘std_srvs::srv::Trigger’ has not been declared
+  137 |   void move_arm_to_position(const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |                                                                  ^~~~~~~
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:137:29: error: class template placeholder ‘std::shared_ptr’ not permitted in this context
+  137 |   void move_arm_to_position(const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |                             ^~~~~
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:138:36: error: ‘Trigger’ is not a member of ‘std_srvs::srv’
+  138 |     std::shared_ptr<std_srvs::srv::Trigger::Response> response);
+      |                                    ^~~~~~~
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:138:53: error: template argument 1 is invalid
+  138 |     std::shared_ptr<std_srvs::srv::Trigger::Response> response);
+      |                                                     ^
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:138:36: error: ‘Trigger’ is not a member of ‘std_srvs::srv’
+  138 |     std::shared_ptr<std_srvs::srv::Trigger::Response> response);
+      |                                    ^~~~~~~
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:138:53: error: template argument 1 is invalid
+  138 |     std::shared_ptr<std_srvs::srv::Trigger::Response> response);
+      |                                                     ^
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:138:36: error: ‘Trigger’ is not a member of ‘std_srvs::srv’
+  138 |     std::shared_ptr<std_srvs::srv::Trigger::Response> response);
+      |                                    ^~~~~~~
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:138:53: error: template argument 1 is invalid
+  138 |     std::shared_ptr<std_srvs::srv::Trigger::Response> response);
+      |                                                     ^
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:138:5: error: invalid template-id
+  138 |     std::shared_ptr<std_srvs::srv::Trigger::Response> response);
+      |     ^~~
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:138:36: error: ‘std_srvs::srv::Trigger’ has not been declared
+  138 |     std::shared_ptr<std_srvs::srv::Trigger::Response> response);
+      |                                    ^~~~~~~
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:138:5: error: class template placeholder ‘std::shared_ptr’ not permitted in this context
+  138 |     std::shared_ptr<std_srvs::srv::Trigger::Response> response);
+      |     ^~~
+In file included from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/px150_move_group_commander_node.cpp:29:
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:137:66: error: ‘Trigger’ is not a member of ‘std_srvs::srv’
+  137 |   void move_arm_to_position(const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |                                                                  ^~~~~~~
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:137:82: error: template argument 1 is invalid
+  137 |   void move_arm_to_position(const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |                                                                                  ^
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:137:66: error: ‘Trigger’ is not a member of ‘std_srvs::srv’
+  137 |   void move_arm_to_position(const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |                                                                  ^~~~~~~
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:137:82: error: template argument 1 is invalid
+  137 |   void move_arm_to_position(const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |                                                                                  ^
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:137:66: error: ‘Trigger’ is not a member of ‘std_srvs::srv’
+  137 |   void move_arm_to_position(const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |                                                                  ^~~~~~~
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:137:82: error: template argument 1 is invalid
+  137 |   void move_arm_to_position(const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |                                                                                  ^
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:137:35: error: invalid template-id
+  137 |   void move_arm_to_position(const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |                                   ^~~
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:137:66: error: ‘std_srvs::srv::Trigger’ has not been declared
+  137 |   void move_arm_to_position(const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |                                                                  ^~~~~~~
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:137:29: error: class template placeholder ‘std::shared_ptr’ not permitted in this context
+  137 |   void move_arm_to_position(const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |                             ^~~~~
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:138:36: error: ‘Trigger’ is not a member of ‘std_srvs::srv’
+  138 |     std::shared_ptr<std_srvs::srv::Trigger::Response> response);
+      |                                    ^~~~~~~
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:138:53: error: template argument 1 is invalid
+  138 |     std::shared_ptr<std_srvs::srv::Trigger::Response> response);
+      |                                                     ^
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:138:36: error: ‘Trigger’ is not a member of ‘std_srvs::srv’
+  138 |     std::shared_ptr<std_srvs::srv::Trigger::Response> response);
+      |                                    ^~~~~~~
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:138:53: error: template argument 1 is invalid
+  138 |     std::shared_ptr<std_srvs::srv::Trigger::Response> response);
+      |                                                     ^
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:138:36: error: ‘Trigger’ is not a member of ‘std_srvs::srv’
+  138 |     std::shared_ptr<std_srvs::srv::Trigger::Response> response);
+      |                                    ^~~~~~~
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:138:53: error: template argument 1 is invalid
+  138 |     std::shared_ptr<std_srvs::srv::Trigger::Response> response);
+      |                                                     ^
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:138:5: error: invalid template-id
+  138 |     std::shared_ptr<std_srvs::srv::Trigger::Response> response);
+      |     ^~~
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:138:36: error: ‘std_srvs::srv::Trigger’ has not been declared
+  138 |     std::shared_ptr<std_srvs::srv::Trigger::Response> response);
+      |                                    ^~~~~~~
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:138:5: error: class template placeholder ‘std::shared_ptr’ not permitted in this context
+  138 |     std::shared_ptr<std_srvs::srv::Trigger::Response> response);
+      |     ^~~
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp: In constructor ‘interbotix::InterbotixMoveItInterface::InterbotixMoveItInterface(rclcpp::Node::SharedPtr&)’:
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:98:32: error: ISO C++ forbids taking the address of an unqualified or parenthesized non-static member function to form a pointer to member function.  Say ‘&interbotix::InterbotixMoveItInterface::move_arm_to_position’ [-fpermissive]
+   98 |       "move_arm_to_position", &move_arm_to_position);
+      |                                ^~~~~~~~~~~~~~~~~~~~
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp: At global scope:
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:110:6: error: no declaration matches ‘void interbotix::InterbotixMoveItInterface::move_arm_to_position(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)’
+  110 | void InterbotixMoveItInterface::move_arm_to_position(const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:137:8: note: candidate is: ‘void interbotix::InterbotixMoveItInterface::move_arm_to_position(...)’
+  137 |   void move_arm_to_position(const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+      |        ^~~~~~~~~~~~~~~~~~~~
+In file included from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:65:7: note: ‘class interbotix::InterbotixMoveItInterface’ defined here
+   65 | class InterbotixMoveItInterface
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:39,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp: In instantiation of ‘struct rclcpp::function_traits::function_traits<void (interbotix::InterbotixMoveItInterface::*)(...)>’:
+/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:165:8:   required from ‘struct rclcpp::function_traits::same_arguments<void (interbotix::InterbotixMoveItInterface::*)(...), std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)> >’
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:121:10:   required from ‘void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = std_srvs::srv::Trigger]’
+/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Trigger; CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Trigger; CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:97:109:   required from here
+/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:52:40: error: ‘operator()’ is not a member of ‘void (interbotix::InterbotixMoveItInterface::*)(...)’
+   52 |     typename function_traits<decltype( &FunctionT::operator())>::arguments>::type;
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:52:40: error: ‘operator()’ is not a member of ‘void (interbotix::InterbotixMoveItInterface::*)(...)’
+/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:52:40: error: ‘operator()’ is not a member of ‘void (interbotix::InterbotixMoveItInterface::*)(...)’
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp: In instantiation of ‘void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = std_srvs::srv::Trigger]’:
+/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Trigger; CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Trigger; CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:97:109:   required from here
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:121:10: error: ‘value’ is not a member of ‘rclcpp::function_traits::same_arguments<void (interbotix::InterbotixMoveItInterface::*)(...), std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)> >’
+  121 |       >::value)
+      |          ^~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:123:52: error: no matching function for call to ‘std::variant<std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)> >::emplace<rclcpp::AnyServiceCallback<std_srvs::srv::Trigger>::SharedPtrCallback>(void (interbotix::InterbotixMoveItInterface::*&)(...))’
+  123 |       callback_.template emplace<SharedPtrCallback>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/usr/include/c++/11/variant:1485:9: note: candidate: ‘template<class _Tp, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<_Types>::emplace(_Args&& ...) [with _Tp = _Tp; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+ 1485 |         emplace(_Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1485:9: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/11/bits/move.h:57,
+                 from /usr/include/c++/11/bits/stl_pair.h:59,
+                 from /usr/include/c++/11/bits/stl_algobase.h:64,
+                 from /usr/include/c++/11/memory:63,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:32,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/usr/include/c++/11/type_traits: In substitution of ‘template<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>&]’:
+/usr/include/c++/11/variant:1485:2:   required by substitution of ‘template<class _Tp, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)> >::emplace<_Tp, _Args ...>(_Args&& ...) [with _Tp = std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>; _Args = {void (interbotix::InterbotixMoveItInterface::*&)(...)}]’
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:123:52:   required from ‘void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = std_srvs::srv::Trigger]’
+/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Trigger; CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Trigger; CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:97:109:   required from here
+/usr/include/c++/11/type_traits:2579:11: error: no type named ‘type’ in ‘struct std::enable_if<false, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>&>’
+ 2579 |     using enable_if_t = typename enable_if<_Cond, _Tp>::type;
+      |           ^~~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp: In instantiation of ‘void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = std_srvs::srv::Trigger]’:
+/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Trigger; CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Trigger; CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:97:109:   required from here
+/usr/include/c++/11/variant:1495:9: note: candidate: ‘template<class _Tp, class _Up, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, std::initializer_list<_Up>&, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with _Tp = _Tp; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+ 1495 |         emplace(initializer_list<_Up> __il, _Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1495:9: note:   template argument deduction/substitution failed:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:123:52: note:   mismatched types ‘std::initializer_list<_Value>’ and ‘void (interbotix::InterbotixMoveItInterface::*)(...)’
+  123 |       callback_.template emplace<SharedPtrCallback>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/usr/include/c++/11/variant:1505:9: note: candidate: ‘template<long unsigned int _Np, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(_Args&& ...) [with long unsigned int _Np = _Np; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+ 1505 |         emplace(_Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1505:9: note:   template argument deduction/substitution failed:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:123:52: error: type/value mismatch at argument 1 in template parameter list for ‘template<long unsigned int _Np, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(_Args&& ...) [with long unsigned int _Np = _Np; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+  123 |       callback_.template emplace<SharedPtrCallback>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:123:52: note:   expected a constant of type ‘long unsigned int’, got ‘rclcpp::AnyServiceCallback<std_srvs::srv::Trigger>::SharedPtrCallback’ {aka ‘std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>’}
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/usr/include/c++/11/variant:1551:9: note: candidate: ‘template<long unsigned int _Np, class _Up, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, std::initializer_list<_Up>&, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with long unsigned int _Np = _Np; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+ 1551 |         emplace(initializer_list<_Up> __il, _Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1551:9: note:   template argument deduction/substitution failed:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:123:52: error: type/value mismatch at argument 1 in template parameter list for ‘template<long unsigned int _Np, class _Up, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, std::initializer_list<_Up>&, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with long unsigned int _Np = _Np; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+  123 |       callback_.template emplace<SharedPtrCallback>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:123:52: note:   expected a constant of type ‘long unsigned int’, got ‘rclcpp::AnyServiceCallback<std_srvs::srv::Trigger>::SharedPtrCallback’ {aka ‘std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>’}
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:128:10: error: ‘value’ is not a member of ‘rclcpp::function_traits::same_arguments<void (interbotix::InterbotixMoveItInterface::*)(...), std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)> >’
+  128 |       >::value)
+      |          ^~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:130:69: error: no matching function for call to ‘std::variant<std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)> >::emplace<rclcpp::AnyServiceCallback<std_srvs::srv::Trigger>::SharedPtrWithRequestHeaderCallback>(void (interbotix::InterbotixMoveItInterface::*&)(...))’
+  130 |       callback_.template emplace<SharedPtrWithRequestHeaderCallback>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/usr/include/c++/11/variant:1485:9: note: candidate: ‘template<class _Tp, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<_Types>::emplace(_Args&& ...) [with _Tp = _Tp; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+ 1485 |         emplace(_Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1485:9: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/11/bits/move.h:57,
+                 from /usr/include/c++/11/bits/stl_pair.h:59,
+                 from /usr/include/c++/11/bits/stl_algobase.h:64,
+                 from /usr/include/c++/11/memory:63,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:32,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/usr/include/c++/11/type_traits: In substitution of ‘template<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>&]’:
+/usr/include/c++/11/variant:1485:2:   required by substitution of ‘template<class _Tp, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)> >::emplace<_Tp, _Args ...>(_Args&& ...) [with _Tp = std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>; _Args = {void (interbotix::InterbotixMoveItInterface::*&)(...)}]’
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:130:69:   required from ‘void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = std_srvs::srv::Trigger]’
+/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Trigger; CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Trigger; CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:97:109:   required from here
+/usr/include/c++/11/type_traits:2579:11: error: no type named ‘type’ in ‘struct std::enable_if<false, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>&>’
+ 2579 |     using enable_if_t = typename enable_if<_Cond, _Tp>::type;
+      |           ^~~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp: In instantiation of ‘void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = std_srvs::srv::Trigger]’:
+/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Trigger; CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Trigger; CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:97:109:   required from here
+/usr/include/c++/11/variant:1495:9: note: candidate: ‘template<class _Tp, class _Up, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, std::initializer_list<_Up>&, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with _Tp = _Tp; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+ 1495 |         emplace(initializer_list<_Up> __il, _Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1495:9: note:   template argument deduction/substitution failed:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:130:69: note:   mismatched types ‘std::initializer_list<_Value>’ and ‘void (interbotix::InterbotixMoveItInterface::*)(...)’
+  130 |       callback_.template emplace<SharedPtrWithRequestHeaderCallback>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/usr/include/c++/11/variant:1505:9: note: candidate: ‘template<long unsigned int _Np, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(_Args&& ...) [with long unsigned int _Np = _Np; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+ 1505 |         emplace(_Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1505:9: note:   template argument deduction/substitution failed:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:130:69: error: type/value mismatch at argument 1 in template parameter list for ‘template<long unsigned int _Np, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(_Args&& ...) [with long unsigned int _Np = _Np; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+  130 |       callback_.template emplace<SharedPtrWithRequestHeaderCallback>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:130:69: note:   expected a constant of type ‘long unsigned int’, got ‘rclcpp::AnyServiceCallback<std_srvs::srv::Trigger>::SharedPtrWithRequestHeaderCallback’ {aka ‘std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>’}
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/usr/include/c++/11/variant:1551:9: note: candidate: ‘template<long unsigned int _Np, class _Up, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, std::initializer_list<_Up>&, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with long unsigned int _Np = _Np; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+ 1551 |         emplace(initializer_list<_Up> __il, _Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1551:9: note:   template argument deduction/substitution failed:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:130:69: error: type/value mismatch at argument 1 in template parameter list for ‘template<long unsigned int _Np, class _Up, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, std::initializer_list<_Up>&, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with long unsigned int _Np = _Np; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+  130 |       callback_.template emplace<SharedPtrWithRequestHeaderCallback>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:130:69: note:   expected a constant of type ‘long unsigned int’, got ‘rclcpp::AnyServiceCallback<std_srvs::srv::Trigger>::SharedPtrWithRequestHeaderCallback’ {aka ‘std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>’}
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:135:10: error: ‘value’ is not a member of ‘rclcpp::function_traits::same_arguments<void (interbotix::InterbotixMoveItInterface::*)(...), std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)> >’
+  135 |       >::value)
+      |          ^~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:137:65: error: no matching function for call to ‘std::variant<std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)> >::emplace<rclcpp::AnyServiceCallback<std_srvs::srv::Trigger>::SharedPtrDeferResponseCallback>(void (interbotix::InterbotixMoveItInterface::*&)(...))’
+  137 |       callback_.template emplace<SharedPtrDeferResponseCallback>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/usr/include/c++/11/variant:1485:9: note: candidate: ‘template<class _Tp, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<_Types>::emplace(_Args&& ...) [with _Tp = _Tp; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+ 1485 |         emplace(_Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1485:9: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/11/bits/move.h:57,
+                 from /usr/include/c++/11/bits/stl_pair.h:59,
+                 from /usr/include/c++/11/bits/stl_algobase.h:64,
+                 from /usr/include/c++/11/memory:63,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:32,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/usr/include/c++/11/type_traits: In substitution of ‘template<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>&]’:
+/usr/include/c++/11/variant:1485:2:   required by substitution of ‘template<class _Tp, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)> >::emplace<_Tp, _Args ...>(_Args&& ...) [with _Tp = std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>; _Args = {void (interbotix::InterbotixMoveItInterface::*&)(...)}]’
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:137:65:   required from ‘void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = std_srvs::srv::Trigger]’
+/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Trigger; CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Trigger; CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:97:109:   required from here
+/usr/include/c++/11/type_traits:2579:11: error: no type named ‘type’ in ‘struct std::enable_if<false, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>&>’
+ 2579 |     using enable_if_t = typename enable_if<_Cond, _Tp>::type;
+      |           ^~~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp: In instantiation of ‘void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = std_srvs::srv::Trigger]’:
+/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Trigger; CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Trigger; CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:97:109:   required from here
+/usr/include/c++/11/variant:1495:9: note: candidate: ‘template<class _Tp, class _Up, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, std::initializer_list<_Up>&, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with _Tp = _Tp; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+ 1495 |         emplace(initializer_list<_Up> __il, _Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1495:9: note:   template argument deduction/substitution failed:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:137:65: note:   mismatched types ‘std::initializer_list<_Value>’ and ‘void (interbotix::InterbotixMoveItInterface::*)(...)’
+  137 |       callback_.template emplace<SharedPtrDeferResponseCallback>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/usr/include/c++/11/variant:1505:9: note: candidate: ‘template<long unsigned int _Np, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(_Args&& ...) [with long unsigned int _Np = _Np; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+ 1505 |         emplace(_Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1505:9: note:   template argument deduction/substitution failed:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:137:65: error: type/value mismatch at argument 1 in template parameter list for ‘template<long unsigned int _Np, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(_Args&& ...) [with long unsigned int _Np = _Np; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+  137 |       callback_.template emplace<SharedPtrDeferResponseCallback>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:137:65: note:   expected a constant of type ‘long unsigned int’, got ‘rclcpp::AnyServiceCallback<std_srvs::srv::Trigger>::SharedPtrDeferResponseCallback’ {aka ‘std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>’}
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/usr/include/c++/11/variant:1551:9: note: candidate: ‘template<long unsigned int _Np, class _Up, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, std::initializer_list<_Up>&, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with long unsigned int _Np = _Np; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+ 1551 |         emplace(initializer_list<_Up> __il, _Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1551:9: note:   template argument deduction/substitution failed:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:137:65: error: type/value mismatch at argument 1 in template parameter list for ‘template<long unsigned int _Np, class _Up, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, std::initializer_list<_Up>&, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with long unsigned int _Np = _Np; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+  137 |       callback_.template emplace<SharedPtrDeferResponseCallback>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:137:65: note:   expected a constant of type ‘long unsigned int’, got ‘rclcpp::AnyServiceCallback<std_srvs::srv::Trigger>::SharedPtrDeferResponseCallback’ {aka ‘std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>’}
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:142:10: error: ‘value’ is not a member of ‘rclcpp::function_traits::same_arguments<void (interbotix::InterbotixMoveItInterface::*)(...), std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)> >’
+  142 |       >::value)
+      |          ^~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:144:82: error: no matching function for call to ‘std::variant<std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)> >::emplace<rclcpp::AnyServiceCallback<std_srvs::srv::Trigger>::SharedPtrDeferResponseCallbackWithServiceHandle>(void (interbotix::InterbotixMoveItInterface::*&)(...))’
+  144 |       callback_.template emplace<SharedPtrDeferResponseCallbackWithServiceHandle>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/usr/include/c++/11/variant:1485:9: note: candidate: ‘template<class _Tp, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<_Types>::emplace(_Args&& ...) [with _Tp = _Tp; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+ 1485 |         emplace(_Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1485:9: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/11/bits/move.h:57,
+                 from /usr/include/c++/11/bits/stl_pair.h:59,
+                 from /usr/include/c++/11/bits/stl_algobase.h:64,
+                 from /usr/include/c++/11/memory:63,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:32,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/usr/include/c++/11/type_traits: In substitution of ‘template<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>&]’:
+/usr/include/c++/11/variant:1485:2:   required by substitution of ‘template<class _Tp, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)> >::emplace<_Tp, _Args ...>(_Args&& ...) [with _Tp = std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>; _Args = {void (interbotix::InterbotixMoveItInterface::*&)(...)}]’
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:144:82:   required from ‘void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = std_srvs::srv::Trigger]’
+/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Trigger; CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Trigger; CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:97:109:   required from here
+/usr/include/c++/11/type_traits:2579:11: error: no type named ‘type’ in ‘struct std::enable_if<false, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>&>’
+ 2579 |     using enable_if_t = typename enable_if<_Cond, _Tp>::type;
+      |           ^~~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp: In instantiation of ‘void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = std_srvs::srv::Trigger]’:
+/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Trigger; CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Trigger; CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:97:109:   required from here
+/usr/include/c++/11/variant:1495:9: note: candidate: ‘template<class _Tp, class _Up, class ... _Args> std::enable_if_t<(is_constructible_v<_Tp, std::initializer_list<_Up>&, _Args ...> && __exactly_once<_Tp>), _Tp&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with _Tp = _Tp; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+ 1495 |         emplace(initializer_list<_Up> __il, _Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1495:9: note:   template argument deduction/substitution failed:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:144:82: note:   mismatched types ‘std::initializer_list<_Value>’ and ‘void (interbotix::InterbotixMoveItInterface::*)(...)’
+  144 |       callback_.template emplace<SharedPtrDeferResponseCallbackWithServiceHandle>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/usr/include/c++/11/variant:1505:9: note: candidate: ‘template<long unsigned int _Np, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(_Args&& ...) [with long unsigned int _Np = _Np; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+ 1505 |         emplace(_Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1505:9: note:   template argument deduction/substitution failed:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:144:82: error: type/value mismatch at argument 1 in template parameter list for ‘template<long unsigned int _Np, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(_Args&& ...) [with long unsigned int _Np = _Np; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+  144 |       callback_.template emplace<SharedPtrDeferResponseCallbackWithServiceHandle>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:144:82: note:   expected a constant of type ‘long unsigned int’, got ‘rclcpp::AnyServiceCallback<std_srvs::srv::Trigger>::SharedPtrDeferResponseCallbackWithServiceHandle’ {aka ‘std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>’}
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/usr/include/c++/11/variant:1551:9: note: candidate: ‘template<long unsigned int _Np, class _Up, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, std::initializer_list<_Up>&, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with long unsigned int _Np = _Np; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+ 1551 |         emplace(initializer_list<_Up> __il, _Args&&... __args)
+      |         ^~~~~~~
+/usr/include/c++/11/variant:1551:9: note:   template argument deduction/substitution failed:
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/service.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:144:82: error: type/value mismatch at argument 1 in template parameter list for ‘template<long unsigned int _Np, class _Up, class ... _Args> std::enable_if_t<is_constructible_v<typename std::variant_alternative<_Np, std::variant<_Types> >::type, std::initializer_list<_Up>&, _Args ...>, typename std::variant_alternative<_Np, std::variant<_Types> >::type&> std::variant<_Types>::emplace(std::initializer_list<_Up>, _Args&& ...) [with long unsigned int _Np = _Np; _Up = _Up; _Args = {_Args ...}; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+  144 |       callback_.template emplace<SharedPtrDeferResponseCallbackWithServiceHandle>(callback);
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:144:82: note:   expected a constant of type ‘long unsigned int’, got ‘rclcpp::AnyServiceCallback<std_srvs::srv::Trigger>::SharedPtrDeferResponseCallbackWithServiceHandle’ {aka ‘std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>’}
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:148:17: error: no match for ‘operator=’ (operand types are ‘std::variant<std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)> >’ and ‘void (interbotix::InterbotixMoveItInterface::*)(...)’)
+  148 |       callback_ = std::forward<CallbackT>(callback);
+      |       ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include/interbotix_moveit_interface/moveit_interface_obj.hpp:36,
+                 from /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:29:
+/usr/include/c++/11/variant:1461:9: note: candidate: ‘template<class _Tp> std::enable_if_t<((__exactly_once<std::variant<_Types>::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type> > && is_constructible_v<std::variant<_Types>::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>, _Tp>) && is_assignable_v<std::variant<_Types>::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>&, _Tp>), std::variant<_Types>&> std::variant<_Types>::operator=(_Tp&&) [with _Tp = _Tp; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+ 1461 |         operator=(_Tp&& __rhs)
+      |         ^~~~~~~~
+/usr/include/c++/11/variant:1461:9: note:   template argument deduction/substitution failed:
+/usr/include/c++/11/variant: In substitution of ‘template<class ... _Types> template<class _Tp, class> using __accepted_type = std::variant<_Types>::__to_type<__accepted_index<_Tp> > [with _Tp = void (interbotix::InterbotixMoveItInterface::*&&)(...); <template-parameter-2-2> = void; _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’:
+/usr/include/c++/11/variant:1457:14:   required by substitution of ‘template<class _Tp> std::enable_if_t<((__exactly_once<std::variant<std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)> >::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type> > && is_constructible_v<std::variant<std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)> >::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>, _Tp>) && is_assignable_v<std::variant<std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)> >::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>&, _Tp>), std::variant<std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)> >&> std::variant<std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)> >::operator=<_Tp>(_Tp&&) [with _Tp = void (interbotix::InterbotixMoveItInterface::*)(...)]’
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:148:17:   required from ‘void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = std_srvs::srv::Trigger]’
+/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Trigger; CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Trigger; CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:97:109:   required from here
+/usr/include/c++/11/variant:1375:15: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’
+ 1375 |         using __accepted_type = __to_type<__accepted_index<_Tp>>;
+      |               ^~~~~~~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp: In instantiation of ‘void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = std_srvs::srv::Trigger]’:
+/opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:43:27:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Trigger; CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:147:53:   required from ‘typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = std_srvs::srv::Trigger; CallbackT = void (interbotix::InterbotixMoveItInterface::*)(...); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]’
+/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:97:109:   required from here
+/usr/include/c++/11/variant:1398:16: note: candidate: ‘std::variant<_Types>& std::variant<_Types>::operator=(const std::variant<_Types>&) [with _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+ 1398 |       variant& operator=(const variant&) = default;
+      |                ^~~~~~~~
+/usr/include/c++/11/variant:1398:26: note:   no known conversion for argument 1 from ‘void (interbotix::InterbotixMoveItInterface::*)(...)’ to ‘const std::variant<std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)> >&’
+ 1398 |       variant& operator=(const variant&) = default;
+      |                          ^~~~~~~~~~~~~~
+/usr/include/c++/11/variant:1399:16: note: candidate: ‘std::variant<_Types>& std::variant<_Types>::operator=(std::variant<_Types>&&) [with _Types = {std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>}]’
+ 1399 |       variant& operator=(variant&&) = default;
+      |                ^~~~~~~~
+/usr/include/c++/11/variant:1399:26: note:   no known conversion for argument 1 from ‘void (interbotix::InterbotixMoveItInterface::*)(...)’ to ‘std::variant<std::monostate, std::function<void(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<std_srvs::srv::Trigger> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >)> >&&’
+ 1399 |       variant& operator=(variant&&) = default;
+      |                          ^~~~~~~~~
+gmake[2]: *** [CMakeFiles/px150_move_group_commander_node.dir/build.make:76: CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_node.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/px150_move_group_commander_node.dir/build.make:90: CMakeFiles/px150_move_group_commander_node.dir/src/moveit_interface_obj.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/px150_move_group_commander_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

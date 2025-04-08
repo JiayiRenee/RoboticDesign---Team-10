@@ -45,8 +45,9 @@
 #include "geometry_msgs/msg/pose.hpp"
 #include "geometry_msgs/msg/quaternion.hpp"
 #include "std_srvs/srv/empty.hpp"
-
+#include "moveit/trajectory_execution_manager/trajectory_execution_manager.h" // Elliot added
 #include "interbotix_moveit_interface_msgs/srv/move_it_plan.hpp"
+#include <std_srvs/std_srvs/srv/trigger.hpp>
 
 namespace interbotix
 {
@@ -127,6 +128,20 @@ public:
   ///   model
   /// @param factor a double between 0 and 1.
   void moveit_scale_ee_velocity(const double factor);
+
+  // ELLIOT ADDED 
+  
+  bool moveit_add_collision_box(geometry_msgs::msg::Pose pose, float box_x_dimension,float box_y_dimension,float box_z_dimension);
+  void block_position_subscriber_callback(const geometry_msgs::msg::Pose & msg);
+  
+  void move_arm_to_position_callback(const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
+    std::shared_ptr<std_srvs::srv::Trigger::Response> response);
+
+  geometry_msgs::msg::Pose block_pose;
+
+  rclcpp::Subscription<geometry_msgs::msg::Pose>::SharedPtr subscription_;
+
+  rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr arm_move_service;
 
 private:
   // ROS Node

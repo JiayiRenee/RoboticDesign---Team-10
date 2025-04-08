@@ -1,1 +1,1 @@
-interbotix_moveit_interface:interbotix_xsarm_moveit:moveit_ros_planning_interface:rclcpp
+interbotix_moveit_interface:interbotix_xsarm_moveit:moveit_ros_planning_interface:rclcpp:std_srvs
