@@ -1,8 +1,0 @@
-[ 33%] [32mBuilding CXX object CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_node.cpp.o[0m
-[01m[K/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/px150_move_group_commander_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/px150_move_group_commander_node.cpp:41:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<interbotix::InterbotixMoveItInterface>[m[K’ has no member named ‘[01m[Kmoveit_plan_ee_position[m[K’
-   41 |   moveit_interface.[01;31m[Kmoveit_plan_ee_position[m[K(1,1,1);
-      |                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/px150_move_group_commander_node.dir/build.make:76: CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_node.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/px150_move_group_commander_node.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

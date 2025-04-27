@@ -61,9 +61,22 @@ int main(int argc, char ** argv)
   node_options.automatically_declare_parameters_from_overrides(true);
   auto node = std::make_shared<rclcpp::Node>("px150_move_group_commander_node", node_options);
   auto moveit_interface = std::make_shared<interbotix::InterbotixMoveItInterface>(node);
+
+
   moveit_interface->moveit_add_collision_box(box_pose,0.425,0.488,0.320);
-  moveit_interface->moveit_plan_ee_position(0.3,0.05,-0.128);
+
+  moveit_interface->moveit_open_gripper(); // plan with open gripper
   moveit_interface->moveit_execute_plan();
+  moveit_interface->moveit_plan_ee_position(0.3,0.0,0.1);
+
+
+  
+  moveit_interface->moveit_execute_plan();
+
+  moveit_interface->moveit_close_gripper();
+
+  moveit_interface->moveit_execute_plan();
+
 
 
   auto executor = std::make_shared<rclcpp::executors::MultiThreadedExecutor>();

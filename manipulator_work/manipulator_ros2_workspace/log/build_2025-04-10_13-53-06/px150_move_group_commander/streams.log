@@ -1,0 +1,123 @@
+[0.071s] Invoking command in '/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/build/px150_move_group_commander': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_xs_modules:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_perception_modules:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_common_modules:/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/manipulator_package:/home/mscrobotics2425laptop27/ws_moveit2/install/moveit_configs_utils:/home/mscrobotics2425laptop27/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander -DCMAKE_INSTALL_PREFIX=/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/px150_move_group_commander
+[0.265s] -- The C compiler identification is GNU 11.4.0
+[0.456s] -- The CXX compiler identification is GNU 11.4.0
+[0.486s] -- Detecting C compiler ABI info
+[0.691s] -- Detecting C compiler ABI info - done
+[0.709s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.710s] -- Detecting C compile features
+[0.710s] -- Detecting C compile features - done
+[0.717s] -- Detecting CXX compiler ABI info
+[0.964s] -- Detecting CXX compiler ABI info - done
+[0.989s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.990s] -- Detecting CXX compile features
+[0.991s] -- Detecting CXX compile features - done
+[1.017s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.403s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.829s] -- Found interbotix_moveit_interface_msgs: 0.0.0 (/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/share/interbotix_moveit_interface_msgs/cmake)
+[2.070s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.127s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.189s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.272s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.372s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.546s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[2.894s] -- Found moveit_ros_planning_interface: 2.5.8 (/home/mscrobotics2425laptop27/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[3.193s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[3.289s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.580s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.765s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.791s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.071s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.123s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.226s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.270s] -- Found Threads: TRUE  
+[4.362s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.374s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.429s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[4.665s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.733s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.059s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[5.107s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[5.143s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[5.193s] -- Found moveit_visual_tools: 4.1.2 (/home/mscrobotics2425laptop27/interbotix_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake)
+[5.326s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[5.355s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[5.358s] -- Found OGRE
+[5.358s] --   static     : OFF
+[5.358s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[5.358s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[5.359s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[5.359s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[5.359s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[5.359s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[5.359s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[5.359s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[5.359s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[5.360s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[5.360s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[5.418s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[5.436s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[5.726s] -- Found X11: /usr/include   
+[5.727s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[5.883s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[5.883s] -- Looking for gethostbyname
+[6.055s] -- Looking for gethostbyname - found
+[6.055s] -- Looking for connect
+[6.246s] -- Looking for connect - found
+[6.246s] -- Looking for remove
+[6.443s] -- Looking for remove - found
+[6.444s] -- Looking for shmat
+[6.643s] -- Looking for shmat - found
+[6.643s] -- Looking for IceConnectionNumber in ICE
+[6.841s] -- Looking for IceConnectionNumber in ICE - found
+[7.240s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.500s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.501s] -- Configured cppcheck include dirs: /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include;$<BUILD_INTERFACE:/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/include>
+[7.501s] -- Configured cppcheck exclude dirs and/or files: 
+[7.506s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.512s] -- Added test 'lint_cmake' to check CMake code style
+[7.516s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.521s] -- Added test 'uncrustify' to check C / C++ code style
+[7.522s] -- Configured uncrustify additional arguments: 
+[7.526s] -- Added test 'xmllint' to check XML markup files
+[7.535s] -- Configuring done
+[7.635s] -- Generating done
+[7.669s] -- Build files have been written to: /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/build/px150_move_group_commander
+[7.719s] Invoked command in '/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/build/px150_move_group_commander' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_xs_modules:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_perception_modules:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_common_modules:/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/manipulator_package:/home/mscrobotics2425laptop27/ws_moveit2/install/moveit_configs_utils:/home/mscrobotics2425laptop27/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander -DCMAKE_INSTALL_PREFIX=/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/px150_move_group_commander
+[7.723s] Invoking command in '/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/build/px150_move_group_commander': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_xs_modules:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_perception_modules:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_common_modules:/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/manipulator_package:/home/mscrobotics2425laptop27/ws_moveit2/install/moveit_configs_utils:/home/mscrobotics2425laptop27/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/build/px150_move_group_commander -- -j12 -l12
+[7.850s] [ 66%] [32mBuilding CXX object CMakeFiles/px150_move_group_commander_node.dir/src/px150_move_group_commander_node.cpp.o[0m
+[7.850s] [ 66%] [32mBuilding CXX object CMakeFiles/px150_move_group_commander_node.dir/src/moveit_interface_obj.cpp.o[0m
+[19.844s] [01m[K/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:[m[K In member function ‘[01m[Kvoid interbotix::InterbotixMoveItInterface::move_arm_to_position_callback(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[19.844s] [01m[K/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:122:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kexecute_outcome[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[19.845s]   122 |       bool [01;35m[Kexecute_outcome[m[K =  InterbotixMoveItInterface::moveit_execute_plan();
+[19.845s]       |            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[19.845s] [01m[K/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:118:118:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[19.845s]   118 | void InterbotixMoveItInterface::move_arm_to_position_callback([01;35m[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> request[m[K,
+[19.845s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[37.376s] [100%] [32m[1mLinking CXX executable px150_move_group_commander_node[0m
+[39.396s] [100%] Built target px150_move_group_commander_node
+[39.410s] Invoked command in '/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/build/px150_move_group_commander' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_xs_modules:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_perception_modules:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_common_modules:/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/manipulator_package:/home/mscrobotics2425laptop27/ws_moveit2/install/moveit_configs_utils:/home/mscrobotics2425laptop27/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/build/px150_move_group_commander -- -j12 -l12
+[39.413s] Invoking command in '/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/build/px150_move_group_commander': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_xs_modules:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_perception_modules:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_common_modules:/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/manipulator_package:/home/mscrobotics2425laptop27/ws_moveit2/install/moveit_configs_utils:/home/mscrobotics2425laptop27/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/build/px150_move_group_commander
+[39.423s] -- Install configuration: ""
+[39.424s] -- Installing: /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/px150_move_group_commander/share/px150_move_group_commander//launch
+[39.424s] -- Installing: /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/px150_move_group_commander/share/px150_move_group_commander//launch/move_group_commander_sim_launch.launch.py
+[39.425s] -- Installing: /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/px150_move_group_commander/share/px150_move_group_commander//launch/move_group_commander_launch.launch.py
+[39.426s] -- Installing: /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/px150_move_group_commander/share/px150_move_group_commander//launch/move_group_commander_gzclassic.launch.py
+[39.426s] -- Installing: /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/px150_move_group_commander/share/px150_move_group_commander//launch/move_group_px150_launch.launch.py
+[39.427s] -- Installing: /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/px150_move_group_commander/lib/px150_move_group_commander/px150_move_group_commander_node
+[39.443s] -- Set runtime path of "/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/px150_move_group_commander/lib/px150_move_group_commander/px150_move_group_commander_node" to ""
+[39.443s] -- Installing: /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/px150_move_group_commander/share/ament_index/resource_index/package_run_dependencies/px150_move_group_commander
+[39.444s] -- Installing: /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/px150_move_group_commander/share/ament_index/resource_index/parent_prefix_path/px150_move_group_commander
+[39.444s] -- Installing: /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/px150_move_group_commander/share/px150_move_group_commander/environment/ament_prefix_path.sh
+[39.445s] -- Installing: /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/px150_move_group_commander/share/px150_move_group_commander/environment/ament_prefix_path.dsv
+[39.445s] -- Installing: /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/px150_move_group_commander/share/px150_move_group_commander/environment/path.sh
+[39.445s] -- Installing: /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/px150_move_group_commander/share/px150_move_group_commander/environment/path.dsv
+[39.446s] -- Installing: /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/px150_move_group_commander/share/px150_move_group_commander/local_setup.bash
+[39.447s] -- Installing: /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/px150_move_group_commander/share/px150_move_group_commander/local_setup.sh
+[39.447s] -- Installing: /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/px150_move_group_commander/share/px150_move_group_commander/local_setup.zsh
+[39.447s] -- Installing: /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/px150_move_group_commander/share/px150_move_group_commander/local_setup.dsv
+[39.448s] -- Installing: /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/px150_move_group_commander/share/px150_move_group_commander/package.dsv
+[39.448s] -- Installing: /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/px150_move_group_commander/share/ament_index/resource_index/packages/px150_move_group_commander
+[39.449s] -- Installing: /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/px150_move_group_commander/share/px150_move_group_commander/cmake/px150_move_group_commanderConfig.cmake
+[39.449s] -- Installing: /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/px150_move_group_commander/share/px150_move_group_commander/cmake/px150_move_group_commanderConfig-version.cmake
+[39.449s] -- Installing: /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/px150_move_group_commander/share/px150_move_group_commander/package.xml
+[39.455s] Invoked command in '/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/build/px150_move_group_commander' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_xs_modules:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_perception_modules:/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_common_modules:/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/install/manipulator_package:/home/mscrobotics2425laptop27/ws_moveit2/install/moveit_configs_utils:/home/mscrobotics2425laptop27/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/build/px150_move_group_commander

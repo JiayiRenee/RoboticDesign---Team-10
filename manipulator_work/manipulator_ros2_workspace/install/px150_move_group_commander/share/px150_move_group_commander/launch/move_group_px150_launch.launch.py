@@ -126,10 +126,21 @@ def launch_setup(context, *args, **kwargs):
         }
     }
 
+    chomp_planning_pipeline_config = {
+        'move_group' : {}
+    }
+
     ompl_planning_pipeline_yaml_file = load_yaml(
         'interbotix_xsarm_moveit', 'config/ompl_planning.yaml' # Elliot changed should be ompl
     )
+
+    chomp_planning_pipeline_yaml_file = load_yaml(
+        'interbotix_xsarm_moveit', 'config/chomp_planning.yaml'
+    )
+
     ompl_planning_pipeline_config['move_group'].update(ompl_planning_pipeline_yaml_file)
+
+    ompl_planning_pipeline_config['move_group'].update(chomp_planning_pipeline_yaml_file)
 
     controllers_config = load_yaml(
         'interbotix_xsarm_moveit',
@@ -202,7 +213,7 @@ def launch_setup(context, *args, **kwargs):
             robot_description,
             robot_description_semantic,
             kinematics_config,
-            ompl_planning_pipeline_config,
+            ompl_planning_pipeline_config,#ompl_planning_pipeline_config,
             trajectory_execution_parameters,
             moveit_controllers,
             planning_scene_monitor_parameters,

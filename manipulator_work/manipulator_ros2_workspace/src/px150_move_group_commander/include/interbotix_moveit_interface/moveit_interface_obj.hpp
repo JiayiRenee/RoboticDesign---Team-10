@@ -61,6 +61,7 @@ inline static const std::string PLANNING_GROUP = "interbotix_arm";
 inline static const std::string EE_LINK = "ee_gripper_link";
 inline static const std::string VT_FRAME_NAME = "ee_pose";
 
+inline static const std::string GRIPPER_PLANNING_GROUP = "interbotix_gripper"; // Elliot added
 
 class InterbotixMoveItInterface
 {
@@ -143,6 +144,10 @@ public:
 
   rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr arm_move_service;
 
+  bool moveit_open_gripper();
+  bool moveit_close_gripper();
+  
+
 private:
   // ROS Node
   rclcpp::Node::SharedPtr node_;
@@ -158,6 +163,7 @@ private:
 
   // Holds the joints in the 'interbotix_arm' group
   const moveit::core::JointModelGroup * joint_model_group;
+  const moveit::core::JointModelGroup * gripper_joint_model_group;
 
   // Used to display text and other markers in RViz
   moveit_visual_tools::MoveItVisualToolsPtr visual_tools;
@@ -188,6 +194,10 @@ private:
     std::shared_ptr<rmw_request_id_t> request_header,
     std::shared_ptr<Empty::Request> req,
     std::shared_ptr<Empty::Response> res);
+  // Elliot added 
+  std::shared_ptr<moveit::planning_interface::MoveGroupInterface> gripper_move_group;
+
+  
 };
 
 }  // namespace interbotix

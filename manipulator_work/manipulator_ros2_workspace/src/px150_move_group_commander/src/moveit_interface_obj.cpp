@@ -51,6 +51,13 @@ InterbotixMoveItInterface::InterbotixMoveItInterface(
     PLANNING_GROUP);
   joint_model_group = move_group->getCurrentState(2.0)->getJointModelGroup(PLANNING_GROUP);
 
+
+  gripper_move_group = std::make_shared<moveit::planning_interface::MoveGroupInterface>(
+    node_,
+    GRIPPER_PLANNING_GROUP);
+  gripper_joint_model_group = move_group->getCurrentState(2.0)->getJointModelGroup(GRIPPER_PLANNING_GROUP);
+  
+
   srv_moveit_plan = node_->create_service<MoveItPlan>(
     "moveit_plan",
     std::bind(
@@ -127,6 +134,7 @@ void InterbotixMoveItInterface::move_arm_to_position_callback(const std::shared_
 InterbotixMoveItInterface::~InterbotixMoveItInterface()
 {
   delete joint_model_group;
+  delete gripper_joint_model_group;
 }
 
 bool InterbotixMoveItInterface::moveit_plan_joint_positions(
@@ -145,9 +153,51 @@ bool InterbotixMoveItInterface::moveit_plan_joint_positions(
     saved_plan.trajectory_,
     joint_model_group);
   visual_tools->trigger();
+  geometry_msgs::msg::Pose ee_pose =  moveit_get_ee_pose();
 
   return success;
 }
+
+bool InterbotixMoveItInterface::moveit_open_gripper()
+{
+  std::vector<double> gripper_group_positions = {120};
+  visual_tools->deleteAllMarkers();
+  gripper_move_group->setJointValueTarget(gripper_group_positions);
+  bool success = (gripper_move_group->plan(saved_plan) == MoveItErrorCode::SUCCESS);
+
+  // visual_tools->publishText(
+  //   text_pose,
+  //   "Joint Space gripper Goal",
+  //   rviz_visual_tools::WHITE,
+  //   rviz_visual_tools::XLARGE);
+  // visual_tools->publishTrajectoryLine(
+  //   saved_plan.trajectory_,
+  //   gripper_joint_model_group);
+  // visual_tools->trigger();
+
+  return success;
+}
+
+bool InterbotixMoveItInterface::moveit_close_gripper()
+{
+  std::vector<double> gripper_group_positions = {0,0};
+  visual_tools->deleteAllMarkers();
+  gripper_move_group->setJointValueTarget(gripper_group_positions);
+  bool success = (gripper_move_group->plan(saved_plan) == MoveItErrorCode::SUCCESS);
+
+  // visual_tools->publishText(
+  //   text_pose,
+  //   "Joint Space gripper Goal",
+  //   rviz_visual_tools::WHITE,
+  //   rviz_visual_tools::XLARGE);
+  // visual_tools->publishTrajectoryLine(
+  //   saved_plan.trajectory_,
+  //   gripper_joint_model_group);
+  // visual_tools->trigger();
+
+  return success;
+}
+
 
 bool InterbotixMoveItInterface::moveit_plan_ee_pose(const geometry_msgs::msg::Pose pose)
 {
@@ -183,14 +233,13 @@ bool InterbotixMoveItInterface::moveit_plan_ee_position(double x, double y, doub
 {
  
   //move_group->setPlannerId("PRM");
-  
   visual_tools->deleteAllMarkers();
   move_group->setPositionTarget(x, y, z);
 
-  move_group->setGoalPositionTolerance(0.001);
-  move_group->setGoalOrientationTolerance(0.1);
-  move_group->setNumPlanningAttempts(50);
-  move_group->setPlanningTime(15);
+  move_group->setGoalPositionTolerance(0.01);
+  move_group->setGoalOrientationTolerance(0.9);
+  move_group->setNumPlanningAttempts(100);
+  move_group->setPlanningTime(30);
   
 
   geometry_msgs::msg::Pose pose;

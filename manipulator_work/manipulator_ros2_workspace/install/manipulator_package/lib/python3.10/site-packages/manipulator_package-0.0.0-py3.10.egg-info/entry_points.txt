@@ -1,3 +1,0 @@
-[console_scripts]
-moveit_control_node = manipulator_package.moveit_control_node:main
-
