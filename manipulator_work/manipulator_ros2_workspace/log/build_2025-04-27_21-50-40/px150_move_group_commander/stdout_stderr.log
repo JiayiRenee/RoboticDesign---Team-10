@@ -1,0 +1,17 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/px150_move_group_commander_node.dir/src/moveit_interface_obj.cpp.o[0m
+[01m[K/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:[m[K In member function ‘[01m[Kvoid interbotix::InterbotixMoveItInterface::move_arm_to_position_callback(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:133:8:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kbool open_gripper_outcome[m[K’
+  133 |   bool [01;31m[Kopen_gripper_outcome[m[K = InterbotixMoveItInterface::moveit_open_gripper();
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:132:8:[m[K [01;36m[Knote: [m[K‘[01m[Kbool open_gripper_outcome[m[K’ previously declared here
+  132 |   bool [01;36m[Kopen_gripper_outcome[m[K = InterbotixMoveItInterface::moveit_close_gripper();
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:138:56:[m[K [01;35m[Kwarning: [m[K‘[01m[K*[m[K’ in boolean context, suggest ‘[01m[K&&[m[K’ instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-in-bool-context-Wint-in-bool-context]8;;[m[K]
+  138 |   response->success = [01;35m[Kopen_gripper_outcome*plan_outcome*execute_outcome[m[K;
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:129:118:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  129 | void InterbotixMoveItInterface::move_arm_to_position_callback([01;35m[Kconst std::shared_ptr<std_srvs::srv::Trigger::Request> request[m[K,
+      |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/px150_move_group_commander_node.dir/build.make:90: CMakeFiles/px150_move_group_commander_node.dir/src/moveit_interface_obj.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/px150_move_group_commander_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

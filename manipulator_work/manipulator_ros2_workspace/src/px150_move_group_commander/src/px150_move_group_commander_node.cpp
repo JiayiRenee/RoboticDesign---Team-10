@@ -47,6 +47,8 @@ using std::placeholders::_1;
 
 int main(int argc, char ** argv)
 {
+
+  
   geometry_msgs::msg::Pose box_pose;
   box_pose.position.x = 0;
   box_pose.position.y = 0;
@@ -58,34 +60,15 @@ int main(int argc, char ** argv)
  
   rclcpp::init(argc, argv);
   rclcpp::NodeOptions node_options;
-  node_options.automatically_declare_parameters_from_overrides(true);
+  node_options.use_clock_thread(true);
   auto node = std::make_shared<rclcpp::Node>("px150_move_group_commander_node", node_options);
   auto moveit_interface = std::make_shared<interbotix::InterbotixMoveItInterface>(node);
 
-
-  moveit_interface->moveit_add_collision_box(box_pose,0.425,0.488,0.320);
-
-  moveit_interface->moveit_open_gripper(); // plan with open gripper
-  moveit_interface->moveit_execute_plan();
-  moveit_interface->moveit_plan_ee_position(0.3,0.0,0.1);
-
-
-  
-  moveit_interface->moveit_execute_plan();
-
-  moveit_interface->moveit_close_gripper();
-
-  moveit_interface->moveit_execute_plan();
-
-
-
   auto executor = std::make_shared<rclcpp::executors::MultiThreadedExecutor>();
   executor->add_node(node);
-
-  
-
-
   executor->spin();
+
+ 
 
   
 

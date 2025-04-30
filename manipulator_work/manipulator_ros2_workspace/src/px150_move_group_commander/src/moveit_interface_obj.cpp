@@ -100,15 +100,26 @@ InterbotixMoveItInterface::InterbotixMoveItInterface(
 
 //------------------------------------------------------------------------- Elliot added 
   subscription_ = node_->create_subscription<geometry_msgs::msg::Pose>(
-    "topic", 10, std::bind(&InterbotixMoveItInterface::block_position_subscriber_callback, this, _1));
+    "/arm_control/goal_pose", 10, std::bind(&InterbotixMoveItInterface::block_position_subscriber_callback, this, _1));
 
   arm_move_service = node_->create_service<std_srvs::srv::Trigger>(
-      "move_arm_to_position", std::bind(&InterbotixMoveItInterface::move_arm_to_position_callback, this, _1,_2));
+      "/move_arm_to_position", std::bind(&InterbotixMoveItInterface::move_arm_to_position_callback, this, _1,_2));
+
+
+  geometry_msgs::msg::Pose box_pose;
+  box_pose.position.x = 0;
+  box_pose.position.y = 0;
+  box_pose.position.z = -0.320/2;
+  box_pose.orientation.x = 0;
+  box_pose.orientation.y = 0;
+  box_pose.orientation.z = 0;
+  box_pose.orientation.w = 1;
+  moveit_add_collision_box(box_pose,0.425,0.488,0.320);//,0.425,0.488,0.320
 }
 
 void  InterbotixMoveItInterface::block_position_subscriber_callback(const geometry_msgs::msg::Pose & msg) 
 {
-  RCLCPP_INFO(node_->get_logger(), "[HEARD] object location at:  x= %f, y= %f, z = %f", msg.position.x,msg.position.y,msg.position.z);
+  //RCLCPP_INFO(node_->get_logger(), "[HEARD] object location at:  x= %f, y= %f, z = %f", msg.position.x,msg.position.y,msg.position.z);
   block_pose.position.x = msg.position.x;
   block_pose.position.y = msg.position.y;
   block_pose.position.z = msg.position.z;
@@ -117,16 +128,81 @@ void  InterbotixMoveItInterface::block_position_subscriber_callback(const geomet
 
 void InterbotixMoveItInterface::move_arm_to_position_callback(const std::shared_ptr<std_srvs::srv::Trigger::Request> request,
   std::shared_ptr<std_srvs::srv::Trigger::Response> response){
-    try{
-      bool plan_outcome = InterbotixMoveItInterface::moveit_plan_ee_position(block_pose.position.x,block_pose.position.y, block_pose.position.z);
-      bool execute_outcome =  InterbotixMoveItInterface::moveit_execute_plan();
-      throw(plan_outcome);
-      response->success = 1;
-    }
-    catch(bool outcome)
-    {
-      response->success = 0;
-    }
+
+  
+  geometry_msgs::msg::Quaternion constraint_q;
+  constraint_q.w = 1.0;
+  constraint_q.x = 0.0;
+  constraint_q.y = 0.0;
+  constraint_q.z = 0.0;
+  
+  //bool close_gripper_outcome = InterbotixMoveItInterface::moveit_close_gripper();
+  bool open_gripper_outcome = InterbotixMoveItInterface::moveit_open_gripper();
+  RCLCPP_INFO(
+    node_->get_logger(),
+    "open_gripper_outcome: %d", open_gripper_outcome);
+
+
+  bool open_gripper_execute_outcome =  InterbotixMoveItInterface::moveit_execute_plan();
+  RCLCPP_INFO(
+    node_->get_logger(),
+    "open_gripper_execute_outcome: %d", open_gripper_execute_outcome);
+
+  
+
+  sleep(2); // takes two seconds to open gripper
+
+  // extra bit to get it to move in front of block
+  bool plan_outcome = InterbotixMoveItInterface::moveit_plan_ee_position(block_pose.position.x,block_pose.position.y, block_pose.position.z+0.10);
+  RCLCPP_INFO(
+    node_->get_logger(),
+    "plan_outcome: %d", plan_outcome);
+
+  bool execute_outcome =  InterbotixMoveItInterface::moveit_execute_plan();
+
+  RCLCPP_INFO(
+    node_->get_logger(),
+    "execute_outcome: %d", execute_outcome);
+
+
+
+  //InterbotixMoveItInterface::moveit_set_path_constraint(EE_LINK,"base",constraint_q,0.4);
+  bool plan_grab_outcome = InterbotixMoveItInterface::moveit_plan_ee_position(block_pose.position.x+0.025,block_pose.position.y, block_pose.position.z);
+  execute_outcome = InterbotixMoveItInterface::moveit_execute_plan();
+  //InterbotixMoveItInterface::moveit_clear_path_constraints();
+  
+  bool close_gripper_outcome = InterbotixMoveItInterface::moveit_close_gripper();
+  RCLCPP_INFO(
+    node_->get_logger(),
+    "close_gripper_outcome: %d", close_gripper_outcome);
+
+  bool close_gripper_execute_outcome =  InterbotixMoveItInterface::moveit_execute_plan();
+  RCLCPP_INFO(
+    node_->get_logger(),
+    "close_gripper_execute_outcome: %d", close_gripper_execute_outcome);
+
+  bool arm_return_outcome = InterbotixMoveItInterface::moveit_plan_ee_position(-0.2,0,0.2);
+  RCLCPP_INFO(
+    node_->get_logger(),
+    "arm_return_outcome: %d", arm_return_outcome);
+
+  bool arm_return_execute_outcome =  InterbotixMoveItInterface::moveit_execute_plan();
+  RCLCPP_INFO(
+    node_->get_logger(),
+    "arm_return_execute_outcome: %d", arm_return_execute_outcome);
+
+  bool open_gripper_outcome2 = InterbotixMoveItInterface::moveit_open_gripper();
+  RCLCPP_INFO(
+    node_->get_logger(),
+    "open_gripper_outcome2: %d", open_gripper_outcome2);
+
+  bool open_gripper_execute_outcome2 =  InterbotixMoveItInterface::moveit_execute_plan();
+  RCLCPP_INFO(
+    node_->get_logger(),
+    "open_gripper_execute_outcome2: %d", open_gripper_execute_outcome2);
+
+  response->success = open_gripper_outcome/*plan_outcome*/*execute_outcome*open_gripper_execute_outcome*close_gripper_outcome*close_gripper_execute_outcome*arm_return_outcome*arm_return_execute_outcome*open_gripper_outcome2*open_gripper_execute_outcome2;
+    
 }
 //------------------------------------------------------------------------- Elliot added 
 
@@ -153,18 +229,17 @@ bool InterbotixMoveItInterface::moveit_plan_joint_positions(
     saved_plan.trajectory_,
     joint_model_group);
   visual_tools->trigger();
-  geometry_msgs::msg::Pose ee_pose =  moveit_get_ee_pose();
 
   return success;
 }
 
 bool InterbotixMoveItInterface::moveit_open_gripper()
 {
-  std::vector<double> gripper_group_positions = {120};
+  std::vector<double> gripper_group_positions = {120,0};
   visual_tools->deleteAllMarkers();
   gripper_move_group->setJointValueTarget(gripper_group_positions);
-  bool success = (gripper_move_group->plan(saved_plan) == MoveItErrorCode::SUCCESS);
-
+  
+  bool plan_success = (gripper_move_group->plan(saved_plan) == MoveItErrorCode::SUCCESS);
   // visual_tools->publishText(
   //   text_pose,
   //   "Joint Space gripper Goal",
@@ -175,7 +250,7 @@ bool InterbotixMoveItInterface::moveit_open_gripper()
   //   gripper_joint_model_group);
   // visual_tools->trigger();
 
-  return success;
+  return plan_success;
 }
 
 bool InterbotixMoveItInterface::moveit_close_gripper()
@@ -183,7 +258,9 @@ bool InterbotixMoveItInterface::moveit_close_gripper()
   std::vector<double> gripper_group_positions = {0,0};
   visual_tools->deleteAllMarkers();
   gripper_move_group->setJointValueTarget(gripper_group_positions);
-  bool success = (gripper_move_group->plan(saved_plan) == MoveItErrorCode::SUCCESS);
+  bool plan_success = (gripper_move_group->plan(saved_plan) == MoveItErrorCode::SUCCESS);
+
+  
 
   // visual_tools->publishText(
   //   text_pose,
@@ -195,7 +272,7 @@ bool InterbotixMoveItInterface::moveit_close_gripper()
   //   gripper_joint_model_group);
   // visual_tools->trigger();
 
-  return success;
+  return plan_success;
 }
 
 
@@ -236,10 +313,10 @@ bool InterbotixMoveItInterface::moveit_plan_ee_position(double x, double y, doub
   visual_tools->deleteAllMarkers();
   move_group->setPositionTarget(x, y, z);
 
-  move_group->setGoalPositionTolerance(0.01);
+  move_group->setGoalPositionTolerance(0.001);
   move_group->setGoalOrientationTolerance(0.9);
-  move_group->setNumPlanningAttempts(100);
-  move_group->setPlanningTime(30);
+  move_group->setNumPlanningAttempts(50);
+  move_group->setPlanningTime(10);
   
 
   geometry_msgs::msg::Pose pose;
@@ -267,6 +344,9 @@ bool InterbotixMoveItInterface::moveit_plan_ee_position(double x, double y, doub
   RCLCPP_INFO(
     node_->get_logger(),
     "Plan success: %d", success);
+  geometry_msgs::msg::Pose ee_pose_after_move;
+  ee_pose_after_move = move_group->getCurrentPose().pose;
+  visual_tools->publishAxis(ee_pose_after_move);
   return success;
 }
 
@@ -354,8 +434,8 @@ void InterbotixMoveItInterface::moveit_set_path_constraint(
   ocm.header.frame_id = reference_link;
   ocm.orientation = quat;
   ocm.absolute_x_axis_tolerance = tolerance;
-  ocm.absolute_y_axis_tolerance = tolerance;
-  ocm.absolute_z_axis_tolerance = tolerance;
+  ocm.absolute_y_axis_tolerance = 100.0;
+  ocm.absolute_z_axis_tolerance = 100.0; // really high tol to constrain only x (Maybe -E )
 
   // this parameter sets the importance of this constraint relative to other constraints that might
   // be present. Closer to '0' means less important.
@@ -376,7 +456,7 @@ void InterbotixMoveItInterface::moveit_clear_path_constraints(void)
   move_group->clearPathConstraints();
 
   // Now that there are no constraints, reduce the planning time to the default
-  move_group->setPlanningTime(5.0);
+  move_group->setPlanningTime(30.0);
 }
 
 geometry_msgs::msg::Pose InterbotixMoveItInterface::moveit_get_ee_pose(void)
@@ -442,7 +522,7 @@ bool InterbotixMoveItInterface::moveit_add_collision_box(geometry_msgs::msg::Pos
 {
   auto const collision_object = [frame_id = move_group->getPlanningFrame(),pose,box_x_dimension,box_y_dimension,box_z_dimension]
   {
-    moveit_msgs::msg::CollisionObject  collision_object;
+    moveit_msgs::msg::CollisionObject collision_object;
     collision_object.header.frame_id = frame_id;
 
   

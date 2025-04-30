@@ -1,0 +1,12 @@
+[01m[K/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:[m[K In member function ‘[01m[Kvoid interbotix::InterbotixMoveItInterface::move_arm_to_position_callback(std::shared_ptr<std_srvs::srv::Trigger_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Trigger_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:203:221:[m[K [01;35m[Kwarning: [m[K‘[01m[K*[m[K’ in boolean context, suggest ‘[01m[K&&[m[K’ instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-in-bool-context-Wint-in-bool-context]8;;[m[K]
+  203 | [01;35m[Kurn_execute_outcome*open_gripper_outcome2*open_gripper_execute_outcome2[m[K;
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:169:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kplan_grab_outcome[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  169 |   bool [01;35m[Kplan_grab_outcome[m[K = InterbotixMoveItInterface::moveit_plan_ee_position(block_pose.position.x,block_pose.position.y, block_pose.position.z);
+      |        [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mscrobotics2425laptop27/Documents/University/robotic_systems_design_project/RoboticDesign---Team-10/manipulator_work/manipulator_ros2_workspace/src/px150_move_group_commander/src/moveit_interface_obj.cpp:129:118:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  129 | [01;35m[Kshared_ptr<std_srvs::srv::Trigger::Request> request[m[K,
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+
