@@ -1,0 +1,3 @@
+[console_scripts]
+move_group_commander_interfaces_tester_node = move_group_commander_interfaces_tester.move_group_commander_interfaces_tester_node:main
+

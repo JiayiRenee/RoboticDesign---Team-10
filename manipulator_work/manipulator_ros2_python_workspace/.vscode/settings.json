@@ -1,0 +1,35 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages",
+        "/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages",
+        "/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages",
+        "/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages",
+        "/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages",
+        "/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages",
+        "/home/mscrobotics2425laptop27/ws_moveit2/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages",
+        "/home/mscrobotics2425laptop27/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages",
+        "/home/mscrobotics2425laptop27/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages",
+        "/home/mscrobotics2425laptop27/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages",
+        "/home/mscrobotics2425laptop27/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages",
+        "/home/mscrobotics2425laptop27/apriltag_ws/install/apriltag_ros/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages",
+        "/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages",
+        "/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages",
+        "/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages",
+        "/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages",
+        "/home/mscrobotics2425laptop27/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages",
+        "/home/mscrobotics2425laptop27/ws_moveit2/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages",
+        "/home/mscrobotics2425laptop27/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages",
+        "/home/mscrobotics2425laptop27/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages",
+        "/home/mscrobotics2425laptop27/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages",
+        "/home/mscrobotics2425laptop27/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages",
+        "/home/mscrobotics2425laptop27/apriltag_ws/install/apriltag_ros/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "ros.distro": "humble"
+}
